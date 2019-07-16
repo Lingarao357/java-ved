@@ -1,0 +1,1104 @@
+﻿1
+00:00:05,010 --> 00:00:07,570
+In the previous video we looked at the
+
+2
+00:00:07,570 --> 00:00:10,350
+'char' and also the 'boolean' data type,
+
+3
+00:00:10,350 --> 00:00:13,360
+which was the 7th and 8th data types that we've
+
+4
+00:00:13,360 --> 00:00:15,120
+covered so far in the course.
+
+5
+00:00:15,120 --> 00:00:17,500
+It's now time to have a bit of recap of where we're at
+
+6
+00:00:17,500 --> 00:00:18,620
+with those data types.
+
+7
+00:00:18,620 --> 00:00:20,880
+And to also discuss a very important ninth
+
+8
+00:00:20,880 --> 00:00:22,880
+data type, that you're probably going to be working with
+
+9
+00:00:22,880 --> 00:00:24,980
+quite a bit in your Java programming.
+
+10
+00:00:24,980 --> 00:00:27,330
+So the eight data types that we've covered to date
+
+11
+00:00:27,330 --> 00:00:32,310
+are as follows, in order:
+
+12
+00:00:33,970 --> 00:00:38,310
+So we have 'byte', 'short', 'int', 'long', 'float',
+
+13
+00:00:38,310 --> 00:00:40,600
+'double', 'char' and 'boolean'.
+
+14
+00:00:40,600 --> 00:00:43,370
+So these eight data types, they're actually what's called
+
+15
+00:00:43,370 --> 00:00:45,370
+'primitive types' in Java.
+
+16
+00:00:45,370 --> 00:00:47,480
+Now when I say 'primitive' type, that's actually
+
+17
+00:00:47,480 --> 00:00:49,900
+something that's defined by the Java language
+
+18
+00:00:49,900 --> 00:00:52,270
+and is named by special reserved keyword
+
+19
+00:00:52,270 --> 00:00:54,410
+as you've seen. For example, the keyword
+
+20
+00:00:54,410 --> 00:00:57,200
+'byte - short - int - long' and so on and so forth.
+
+21
+00:00:57,200 --> 00:00:59,830
+So each of the 'primitive' types as you've found out
+
+22
+00:00:59,830 --> 00:01:01,920
+as you've seen has it's own style and is used
+
+23
+00:01:01,920 --> 00:01:02,960
+for different purposes.
+
+24
+00:01:02,960 --> 00:01:05,040
+The 'byte' as we found out can only hold
+
+25
+00:01:05,040 --> 00:01:07,830
+a number in the range of -128
+
+26
+00:01:07,830 --> 00:01:09,520
+to +127.
+
+27
+00:01:09,520 --> 00:01:11,560
+And as another example, the 'boolean' can be
+
+28
+00:01:11,560 --> 00:01:12,560
+'true' or 'false' only.
+
+29
+00:01:12,560 --> 00:01:14,750
+As you get more experienced in Java,
+
+30
+00:01:14,750 --> 00:01:17,280
+you'll learn to use the right 'primitive' type
+
+31
+00:01:17,280 --> 00:01:19,230
+data type for a given computing
+
+32
+00:01:19,230 --> 00:01:20,570
+problem. And that's actually all part of
+
+33
+00:01:20,570 --> 00:01:21,650
+becoming a programmer.
+
+34
+00:01:21,650 --> 00:01:24,060
+And I'm going to be teaching that as we go through this course.
+
+35
+00:01:24,060 --> 00:01:26,240
+So again just to re-enforce, those eight
+
+36
+00:01:26,250 --> 00:01:28,860
+data types we've looked at are 'primitive' types
+
+37
+00:01:28,860 --> 00:01:31,190
+in Java, and are built-in to the language.
+
+38
+00:01:31,190 --> 00:01:33,340
+As we go further through the course, you'll find
+
+39
+00:01:33,340 --> 00:01:35,820
+there's a way to create your own data types
+
+40
+00:01:35,820 --> 00:01:38,200
+also known as 'objects'. The interesting thing about
+
+41
+00:01:38,200 --> 00:01:39,770
+doing that in the future is you can actually
+
+42
+00:01:39,770 --> 00:01:41,870
+combine data types. For example,
+
+43
+00:01:41,870 --> 00:01:44,610
+if you create sort of like a 'super' data type,
+
+44
+00:01:44,610 --> 00:01:47,380
+that contains maybe a 'byte' and 'int'eger and a 'double'.
+
+45
+00:01:47,380 --> 00:01:49,890
+But we're going to be talking more about that in the future
+
+46
+00:01:49,890 --> 00:01:52,000
+because we're going to be getting into the concepts of creating
+
+47
+00:01:52,000 --> 00:01:54,000
+classes, and that's actually an entire
+
+48
+00:01:54,000 --> 00:01:56,200
+section of the course in it's own right, just to do that.
+
+49
+00:01:56,200 --> 00:01:58,720
+For now it's enough to know that these are the eight
+
+50
+00:01:58,720 --> 00:02:00,820
+basic types that are built-in to Java;
+
+51
+00:02:00,820 --> 00:02:03,550
+and that there is the ability for you to create your own
+
+52
+00:02:03,550 --> 00:02:05,550
+as we go further into the course.
+
+53
+00:02:05,550 --> 00:02:08,320
+Now just to be clear before we continue any further,
+
+54
+00:02:08,320 --> 00:02:10,480
+I did create a new project. You can see on the
+
+55
+00:02:10,480 --> 00:02:12,160
+screen, it's called 'Strings'.
+
+56
+00:02:12,160 --> 00:02:13,680
+We've created a number of projects
+
+57
+00:02:13,680 --> 00:02:15,180
+each time, so I'm going to assume you're pretty
+
+58
+00:02:15,180 --> 00:02:17,940
+familiar now with the process of creating a new project.
+
+59
+00:02:17,940 --> 00:02:19,620
+So just call it 'Strings', and the package
+
+60
+00:02:19,620 --> 00:02:21,290
+as normal can be whatever you like.
+
+61
+00:02:21,290 --> 00:02:23,460
+So they are the eight 'primitive' types
+
+62
+00:02:23,460 --> 00:02:25,390
+built into Java. But there is actually a
+
+63
+00:02:25,390 --> 00:02:28,800
+special ninth type, that whilst you can't say that it's a
+
+64
+00:02:28,800 --> 00:02:30,880
+'primitive' type. It's actually
+
+65
+00:02:30,880 --> 00:02:32,880
+something that's going to be used so commonly,
+
+66
+00:02:32,880 --> 00:02:35,300
+and it's been so integrated into the language
+
+67
+00:02:35,300 --> 00:02:37,980
+it really comes across as a ninth data type.
+
+68
+00:02:37,980 --> 00:02:40,710
+So I'm talking about something called a 'String'.
+
+69
+00:02:40,710 --> 00:02:42,240
+So firstly, what is a String?
+
+70
+00:02:42,240 --> 00:02:44,850
+Well a 'String' is a sequence of characters.
+
+71
+00:02:44,850 --> 00:02:47,050
+In the case of the 'char' which you saw,
+
+72
+00:02:47,050 --> 00:02:49,050
+that could contain just one character
+
+73
+00:02:49,050 --> 00:02:51,050
+and the 'char' could also contain
+
+74
+00:02:51,050 --> 00:02:53,050
+a 'Unicode' character as we showed.
+
+75
+00:02:53,050 --> 00:02:56,000
+Well a 'String' can contain a sequence of characters, so
+
+76
+00:02:56,000 --> 00:02:58,300
+any number, a much larger number of characters
+
+77
+00:02:58,300 --> 00:03:01,060
+than the 'char' which of course is limited to one.
+
+78
+00:03:01,060 --> 00:03:03,860
+So to define one, it's a simple case.
+
+79
+00:03:03,860 --> 00:03:12,250
+Just type 'String myString = "This is a string"'
+
+80
+00:03:12,250 --> 00:03:14,780
+So we're using double quotes this time. Remember with a
+
+81
+00:03:14,780 --> 00:03:17,440
+'char' we used a single quote around the
+
+82
+00:03:17,440 --> 00:03:19,760
+character we wanted. In this case with a 'String'
+
+83
+00:03:19,760 --> 00:03:22,340
+we use the double quote around the sequence of
+
+84
+00:03:22,340 --> 00:03:24,600
+characters that we want to represent as a string.
+
+85
+00:03:24,600 --> 00:03:26,700
+And just to ensure that that's printing out,
+
+86
+00:03:26,700 --> 00:03:34,720
+we can actually just print it out to the console
+
+87
+00:03:34,720 --> 00:03:37,020
+'myString', like so.
+
+88
+00:03:37,020 --> 00:03:38,430
+And incidentally, another way of running it
+
+89
+00:03:38,430 --> 00:03:40,030
+if you don't want to right-click all the time like I've
+
+90
+00:03:40,030 --> 00:03:41,360
+been doing. You can just come up here and
+
+91
+00:03:41,360 --> 00:03:44,120
+click on the 'green arrow' and that will 'Run' it as well.
+
+92
+00:03:44,120 --> 00:03:46,400
+And I'll just pull that over a little bit so there's a bit more
+
+93
+00:03:46,400 --> 00:03:48,590
+space there, we can see things a bit more clearly.
+
+94
+00:03:48,590 --> 00:03:51,320
+And you can see that 'myString is equal to This is a string'.
+
+95
+00:03:51,320 --> 00:03:54,040
+But we can also append to that string automatically,
+
+96
+00:03:54,040 --> 00:03:56,040
+by using the 'plus' operator.
+
+97
+00:03:56,040 --> 00:03:58,710
+So what we can do is we can put something like
+
+98
+00:03:58,710 --> 00:04:07,550
+myString = myString + ", and this is more.";
+
+99
+00:04:08,120 --> 00:04:10,040
+So what that's doing here, that's going to
+
+100
+00:04:10,040 --> 00:04:12,720
+append this text in this double quote
+
+101
+00:04:12,720 --> 00:04:15,560
+to what 'myString' really is. So what we're saying is
+
+102
+00:04:15,560 --> 00:04:17,940
+make 'myString' equal to
+
+103
+00:04:17,940 --> 00:04:19,580
+Whatever it currently is,
+
+104
+00:04:19,580 --> 00:04:22,180
+when the program gets to this point
+
+105
+00:04:22,180 --> 00:04:24,300
+So 'myString' is currently set
+
+106
+00:04:24,300 --> 00:04:26,550
+to 'This is a string' and then plus
+
+107
+00:04:26,550 --> 00:04:28,890
+to add this text on the end of it. So sort of to
+
+108
+00:04:28,890 --> 00:04:29,960
+append it to the string.
+
+109
+00:04:29,960 --> 00:04:32,770
+And if we just do a copy and we'll print that out again.
+
+110
+00:04:32,770 --> 00:04:35,750
+And we'll 'Run' it again.
+
+111
+00:04:35,750 --> 00:04:38,500
+You can see the first time, it's still showing the first
+
+112
+00:04:38,500 --> 00:04:42,640
+print output which is 'myString is equal to This is a string'.
+
+113
+00:04:42,640 --> 00:04:46,180
+The second time it's 'myString is equal to This is a string,
+
+114
+00:04:46,180 --> 00:04:48,990
+and this is more.' So it's added that to the end of the String.
+
+115
+00:04:48,990 --> 00:04:51,340
+So there are other ways to
+
+116
+00:04:51,340 --> 00:04:54,220
+add two strings. To put something like 'myString'
+
+117
+00:04:54,220 --> 00:05:02,390
+'= myString + " [we'll put a space there] \u00A9 [2015]"
+
+118
+00:05:02,390 --> 00:05:04,280
+You remember that from the previous video
+
+119
+00:05:04,280 --> 00:05:07,290
+that was the copyright (©) sign, it should be.
+
+120
+00:05:07,290 --> 00:05:10,540
+So if we do that, and do another print.
+
+121
+00:05:11,350 --> 00:05:13,740
+We'll 'Run' that!
+
+122
+00:05:13,740 --> 00:05:17,000
+'myString is equal to This is a string, and this is more.'
+
+123
+00:05:17,000 --> 00:05:19,000
+([full stop (period[.]) and the copyright (©) symbol as you
+
+124
+00:05:19,000 --> 00:05:21,000
+can see there '2015'.
+
+125
+00:05:21,000 --> 00:05:22,340
+So that's just appended at
+
+126
+00:05:22,340 --> 00:05:25,020
+using 'Unicode' characters. So you can do that as well.
+
+127
+00:05:25,020 --> 00:05:27,020
+But let's try something different.
+
+128
+00:05:27,020 --> 00:05:29,040
+Let's type a new string. We'll create a new
+
+129
+00:05:29,040 --> 00:05:31,040
+String called 'numberString'
+
+130
+00:05:33,840 --> 00:05:37,560
+and we can put a number in the double quotes.
+
+131
+00:05:37,560 --> 00:05:39,500
+And what we're going to do is add something
+
+132
+00:05:39,500 --> 00:05:43,300
+to it. numberString = numberString +
+
+133
+00:05:43,850 --> 00:05:48,310
+'49.95'.
+
+134
+00:05:48,310 --> 00:05:51,410
+So my question to you is 'What will happen there?'
+
+135
+00:05:51,410 --> 00:05:54,180
+Will this automatically, because they're numbers
+
+136
+00:05:54,180 --> 00:05:58,930
+Will that up and say 250.55 + 49.95
+
+137
+00:05:58,930 --> 00:06:02,290
+That would equal 300.00 normally if my math is correct.
+
+138
+00:06:02,450 --> 00:06:04,980
+So what will happen in this scenario if we go to
+
+139
+00:06:04,980 --> 00:06:07,700
+print this out?
+
+140
+00:06:08,260 --> 00:06:12,940
+"The result is " + numberString
+
+141
+00:06:12,940 --> 00:06:16,000
+So what's going to happen to that? Do you think the answer's going to be 300?
+
+142
+00:06:16,000 --> 00:06:20,980
+Let's 'Run' it and just see what the answer is, what it comes back with.
+
+143
+00:06:20,980 --> 00:06:23,440
+And can you see up here what it's done?
+
+144
+00:06:23,440 --> 00:06:25,070
+So it's taken the first value
+
+145
+00:06:25,070 --> 00:06:29,120
+250.55 and it's looked at the next bit and added
+
+146
+00:06:29,120 --> 00:06:31,990
+49.95 on it. However, it hasn't treated
+
+147
+00:06:31,990 --> 00:06:35,380
+it like a number, it's treated it as text only.
+
+148
+00:06:35,630 --> 00:06:38,100
+So it hasn't done any calculations on it.
+
+149
+00:06:38,100 --> 00:06:39,500
+And the reason it hasn't done any
+
+150
+00:06:39,500 --> 00:06:42,720
+calculations is we haven't used a data type
+
+151
+00:06:42,720 --> 00:06:45,070
+that supports numeric operations.
+
+152
+00:06:45,070 --> 00:06:47,170
+In other words we haven't used one of the primitive
+
+153
+00:06:47,170 --> 00:06:51,150
+types like a 'short', 'integer', a 'float', 'double' and so on
+
+154
+00:06:51,150 --> 00:06:52,920
+that actually allows you to
+
+155
+00:06:52,920 --> 00:06:54,750
+add numbers together. In this case,
+
+156
+00:06:54,750 --> 00:06:57,810
+because we specified the data type to be a 'String',
+
+157
+00:06:57,810 --> 00:07:00,230
+we are dealing with textual data only
+
+158
+00:07:00,230 --> 00:07:02,190
+and we're not dealing with anything
+
+159
+00:07:02,190 --> 00:07:04,190
+of a numeric capability.
+
+160
+00:07:04,430 --> 00:07:06,120
+So in other words it won't do those numeric
+
+161
+00:07:06,120 --> 00:07:08,100
+calculations. Later in the course I'll
+
+162
+00:07:08,100 --> 00:07:09,750
+show you how you can convert
+
+163
+00:07:09,750 --> 00:07:11,920
+what you think is a number from a String to a Number.
+
+164
+00:07:11,920 --> 00:07:14,850
+But as far as the default operations for a 'String' are,
+
+165
+00:07:14,850 --> 00:07:17,710
+it's going to treat something as a String every time.
+
+166
+00:07:17,710 --> 00:07:19,670
+So let's now look at another example.
+
+167
+00:07:19,670 --> 00:07:24,560
+'String [and we'll call this one] lastString = ""'
+
+168
+00:07:24,560 --> 00:07:27,210
+And here's another example. And let's actually
+
+169
+00:07:27,210 --> 00:07:32,530
+create an 'int[eger]' myInt =  [I'll make that] 50;
+
+170
+00:07:32,530 --> 00:07:34,230
+So what do you think is going to happen if we
+
+171
+00:07:34,230 --> 00:07:38,790
+put lastString = lastString + myInt?
+
+172
+00:07:38,790 --> 00:07:41,790
+Well it turns out that's valid Java code,
+
+173
+00:07:41,790 --> 00:07:43,500
+because we haven't got an error there.
+
+174
+00:07:43,500 --> 00:07:44,820
+So something has happened.
+
+175
+00:07:44,820 --> 00:07:56,460
+So what do you think is going to happen when we go to print this out?
+
+176
+00:07:56,460 --> 00:08:01,010
+Let's 'Run' it and see what it comes back with.
+
+177
+00:08:01,010 --> 00:08:03,740
+So what's happened there is we had 'lastString'
+
+178
+00:08:03,740 --> 00:08:05,570
+was initially set to '10'
+
+179
+00:08:05,570 --> 00:08:08,260
+integer which is a number was set to '50'
+
+180
+00:08:08,260 --> 00:08:10,660
+but in this line here where we've added
+
+181
+00:08:10,660 --> 00:08:12,660
+myInt[eger] to the 'String'
+
+182
+00:08:12,660 --> 00:08:15,120
+Because we're using a 'String' on the left hand side,
+
+183
+00:08:15,120 --> 00:08:17,120
+and there's an integer on the right hand side,
+
+184
+00:08:17,120 --> 00:08:19,050
+so what's happened here us we've
+
+185
+00:08:19,050 --> 00:08:20,380
+started off with a 'String'.
+
+186
+00:08:20,380 --> 00:08:22,690
+We've defined a 'String' and we know that the 'String'
+
+187
+00:08:22,690 --> 00:08:25,460
+isn't manipulated like a number in any way shape or form.
+
+188
+00:08:25,460 --> 00:08:27,870
+It can be alpha-numeric, it can be letters or numbers
+
+189
+00:08:27,870 --> 00:08:29,770
+or Unicode characters or whatever.
+
+190
+00:08:29,770 --> 00:08:32,080
+So it isn't treated like a number.
+
+191
+00:08:32,080 --> 00:08:34,680
+But then if we go and try to add a number to that,
+
+192
+00:08:34,680 --> 00:08:36,900
+Java is actually smart enough to say,
+
+193
+00:08:36,900 --> 00:08:40,000
+Okay, I note the 'int' you've defined as 'myInt'
+
+194
+00:08:40,000 --> 00:08:42,360
+is an 'integer' but I also know that you're trying to
+
+195
+00:08:42,360 --> 00:08:44,560
+add it to a string. So what Java does
+
+196
+00:08:44,560 --> 00:08:46,990
+it actually converts or effectively looks at
+
+197
+00:08:46,990 --> 00:08:50,750
+the contents of myInt[eger] and converts that into a 'String'
+
+198
+00:08:50,750 --> 00:08:52,880
+to add to the end. So you can see
+
+199
+00:08:52,880 --> 00:08:54,490
+what happened was, it appended
+
+200
+00:08:54,490 --> 00:08:57,230
+the number '50' to the end of the
+
+201
+00:08:57,230 --> 00:08:58,940
+first part which was the number '10'
+
+202
+00:08:58,940 --> 00:09:01,050
+So consequently, we've got still a 'String'
+
+203
+00:09:01,050 --> 00:09:03,360
+that just happens to contain the numbers 1050.
+
+204
+00:09:03,360 --> 00:09:05,360
+But it isn't a number in the true sense
+
+205
+00:09:05,360 --> 00:09:08,150
+it's treated purely as text by the computer.
+
+206
+00:09:08,150 --> 00:09:10,370
+And that holds true for other data types as
+
+207
+00:09:10,370 --> 00:09:12,370
+well. So we can do a 'double'
+
+208
+00:09:12,370 --> 00:09:17,690
+'doubleNumber = 120.47'
+
+209
+00:09:17,690 --> 00:09:20,850
+and we can put 'lastString =
+
+210
+00:09:20,850 --> 00:09:24,490
+'lastString + doubleNumber'
+
+211
+00:09:24,490 --> 00:09:33,140
+And print out
+
+212
+00:09:33,140 --> 00:09:36,450
+You can probably guess what's going to happen here.
+
+213
+00:09:36,450 --> 00:09:39,820
+Let's 'Run' it and see.
+
+214
+00:09:39,820 --> 00:09:41,900
+And as expected, it added
+
+215
+00:09:41,900 --> 00:09:43,800
+this bit here, the 120.47
+
+216
+00:09:43,800 --> 00:09:45,800
+again it converted to text
+
+217
+00:09:45,800 --> 00:09:48,560
+and got added into the 'String' as text.
+
+218
+00:09:48,560 --> 00:09:51,200
+Now this is only a very elementary way of
+
+219
+00:09:51,200 --> 00:09:53,200
+dealing with 'Strings' and adding to 'Strings'
+
+220
+00:09:53,200 --> 00:09:55,080
+In later lessons, we're going to go through
+
+221
+00:09:55,080 --> 00:09:56,760
+this and look at some of the more advanced
+
+222
+00:09:56,760 --> 00:09:58,860
+features of a 'String', because we can do all sorts
+
+223
+00:09:58,860 --> 00:10:01,460
+of things. We can delete characters out of it.
+
+224
+00:10:01,460 --> 00:10:04,100
+We can append characters which you've seen.
+
+225
+00:10:04,100 --> 00:10:06,050
+We can insert characters at specific
+
+226
+00:10:06,050 --> 00:10:08,850
+positions. There's lots of flexibility with 'Strings'.
+
+227
+00:10:08,850 --> 00:10:10,940
+But we need to know a little bit more about 'classes'
+
+228
+00:10:10,940 --> 00:10:12,940
+before we can get into that in too much detail.
+
+229
+00:10:12,940 --> 00:10:15,290
+Just want to make it clear that what I'm showing you today,
+
+230
+00:10:15,290 --> 00:10:17,510
+is plus something along these lines
+
+231
+00:10:17,510 --> 00:10:19,340
+you wouldn't normally do something like that in your
+
+232
+00:10:19,340 --> 00:10:21,370
+programming. You'd use other functions
+
+233
+00:10:21,370 --> 00:10:23,500
+to make it a bit more clear what you're trying to achieve.
+
+234
+00:10:23,500 --> 00:10:25,970
+By this stage we just wanted an introduction to this
+
+235
+00:10:25,970 --> 00:10:28,670
+'String' class, and that's where we've started, and just
+
+236
+00:10:28,670 --> 00:10:31,460
+to make that a little bit clearer, we know that the
+
+237
+00:10:31,460 --> 00:10:34,130
+eight (8) data types that we've explored
+
+238
+00:10:34,130 --> 00:10:36,240
+prior to the 'String' were 'primitive' types.
+
+239
+00:10:36,240 --> 00:10:38,240
+The ninth one, even though it looks
+
+240
+00:10:38,240 --> 00:10:41,700
+looks like it's the same, it's got its own keyword
+
+241
+00:10:41,700 --> 00:10:44,100
+and it's got an assignment and it's got
+
+242
+00:10:44,100 --> 00:10:46,200
+literal you can add to the right hand side,
+
+243
+00:10:46,200 --> 00:10:48,350
+It's actually not a 'primitive' type, it's actually
+
+244
+00:10:48,350 --> 00:10:50,860
+called a 'class' and it's treated differently.
+
+245
+00:10:50,860 --> 00:10:53,420
+But the Java syntax for this have made it
+
+246
+00:10:53,420 --> 00:10:55,420
+easy for us to use a 'String' class.
+
+247
+00:10:55,420 --> 00:10:57,210
+So from your point of view you'll be able to
+
+248
+00:10:57,210 --> 00:10:59,870
+treat it more or less as a ninth 'primitive' type.
+
+249
+00:10:59,870 --> 00:11:02,010
+So the bottom line here is, 'Strings'
+
+250
+00:11:02,010 --> 00:11:03,680
+are extremely powerful and we're going to
+
+251
+00:11:03,680 --> 00:11:05,410
+be using a lot of 'Strings' as we progress
+
+252
+00:11:05,410 --> 00:11:06,180
+through the course.
+
+253
+00:11:06,180 --> 00:11:07,870
+That's it! So hopefully, you've got a good
+
+254
+00:11:07,870 --> 00:11:09,910
+understanding of what a 'primitive' type is.
+
+255
+00:11:09,910 --> 00:11:11,910
+You now understand what the 'String' class,
+
+256
+00:11:11,910 --> 00:11:14,660
+and how even though it's not a 'primitive' type
+
+257
+00:11:14,660 --> 00:11:16,660
+you can more or less treat it as one
+
+258
+00:11:16,660 --> 00:11:17,810
+when you're using one.
+
+259
+00:11:17,810 --> 00:11:19,660
+So, in the next video we're going to start
+
+260
+00:11:19,660 --> 00:11:21,560
+talking about 'Operators'.
+
+261
+00:11:21,560 --> 00:11:23,270
+Now you've already seen some 'Operators', but
+
+262
+00:11:23,270 --> 00:11:25,270
+perhaps you didn't realize that's what they're called.
+
+263
+00:11:25,270 --> 00:11:27,270
+'Operators' are these things here.
+
+264
+00:11:27,270 --> 00:11:29,990
+And some of the 'Operators' you've already seen are the plus (+),
+
+265
+00:11:29,990 --> 00:11:32,720
+divided by (/), multiplication (*).
+
+266
+00:11:32,720 --> 00:11:34,720
+That's just a couple you've seen, so
+
+267
+00:11:34,720 --> 00:11:37,520
+and they actually deal with 'primitive' types.
+
+268
+00:11:37,520 --> 00:11:39,410
+And as you saw with the 'String' class,
+
+269
+00:11:39,410 --> 00:11:41,200
+and they're used much as you think they would be used
+
+270
+00:11:41,200 --> 00:11:43,200
+with for example as in the case of a
+
+271
+00:11:43,200 --> 00:11:45,410
+'long' we can use the plus (+) operator
+
+272
+00:11:45,410 --> 00:11:47,180
+to add two 'long' values together.
+
+273
+00:11:47,180 --> 00:11:48,950
+We're going to go through, because there's also some
+
+274
+00:11:48,950 --> 00:11:51,110
+extra 'Operators' that perhaps you're not aware of;
+
+275
+00:11:51,110 --> 00:11:53,610
+but we'll be talking more about 'Operators' in detail
+
+276
+00:11:53,610 --> 00:11:55,610
+in the next lesson.
+

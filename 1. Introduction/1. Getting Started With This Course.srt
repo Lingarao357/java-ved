@@ -1,0 +1,796 @@
+﻿1
+00:00:06,630 --> 00:00:09,270
+it is tim buchalka here again I'd like
+
+2
+00:00:09,270 --> 00:00:11,130
+to thank you for your investment in this
+
+3
+00:00:11,130 --> 00:00:12,710
+course i'm going to do absolutely
+
+4
+00:00:12,710 --> 00:00:15,660
+everything in my power to help you get
+
+5
+00:00:15,660 --> 00:00:17,490
+up to speed to become a great java
+
+6
+00:00:17,490 --> 00:00:19,740
+programming programmers I should say as
+
+7
+00:00:19,740 --> 00:00:22,560
+quickly as possible before you get started
+
+8
+00:00:22,560 --> 00:00:24,410
+the code theirs a few very important things
+
+9
+00:00:24,410 --> 00:00:26,660
+that just wanna go through with you look
+
+10
+00:00:26,660 --> 00:00:27,960
+they'll only take a few minutes so
+
+11
+00:00:27,960 --> 00:00:28,910
+please bear with me
+
+12
+00:00:29,060 --> 00:00:30,210
+this will help you really
+
+13
+00:00:30,210 --> 00:00:32,640
+maximize your experience getting the
+
+14
+00:00:32,640 --> 00:00:34,010
+most out of this course
+
+15
+00:00:34,010 --> 00:00:37,560
+firstly high-definition content and this
+
+16
+00:00:37,560 --> 00:00:39,290
+video player does allow you to play
+
+17
+00:00:39,290 --> 00:00:42,590
+videos in different resolutions so what
+
+18
+00:00:42,590 --> 00:00:43,770
+you want to do is make sure you've
+
+19
+00:00:43,770 --> 00:00:46,290
+chosen the highest available resolution
+
+20
+00:00:46,290 --> 00:00:48,290
+via the gear icon which you can see
+
+21
+00:00:48,290 --> 00:00:49,560
+in the bottom right-hand corner of the
+
+22
+00:00:49,560 --> 00:00:51,650
+screen and essentially the higher the
+
+23
+00:00:51,750 --> 00:00:55,080
+number the better the quality now we'll
+
+24
+00:00:55,080 --> 00:00:59,000
+play up to 1080p videos so 1080p is the
+
+25
+00:00:59,000 --> 00:01:01,070
+quality of video that I've uploaded for
+
+26
+00:01:01,070 --> 00:01:03,810
+every video in this course the dates and if the
+
+27
+00:01:03,810 --> 00:01:06,180
+video to look low quality to you you
+
+28
+00:01:06,180 --> 00:01:07,910
+want to check while the video is playing and
+
+29
+00:01:07,910 --> 00:01:09,720
+make sure that you click on the gear icon
+
+30
+00:01:09,720 --> 00:01:11,580
+and make sure you have selected the
+
+31
+00:01:11,580 --> 00:01:14,220
+highest quality and do note that
+
+32
+00:01:14,220 --> 00:01:17,250
+depending on your internet speed the 1080p
+
+33
+00:01:17,250 --> 00:01:22,290
+option may not be available to 1080p
+
+34
+00:01:22,290 --> 00:01:24,570
+if you want to changed the speed of a video
+
+35
+00:01:24,570 --> 00:01:27,620
+in other words how fast it plays you can do
+
+36
+00:01:27,620 --> 00:01:29,870
+that by hovering over the 1x icon
+
+37
+00:01:29,870 --> 00:01:31,200
+as you can see on the screen they're
+
+38
+00:01:31,200 --> 00:01:34,740
+choosing a speed you want here is a close
+
+39
+00:01:34,740 --> 00:01:39,730
+up of that
+
+40
+00:01:39,730 --> 00:01:42,150
+now all videos have got close
+
+41
+00:01:42,150 --> 00:01:44,730
+captions on them to enable closed captions just
+
+42
+00:01:44,730 --> 00:01:46,710
+hover your mouse over the captions icon that
+
+43
+00:01:46,710 --> 00:01:48,360
+you can see pointing to the screen
+
+44
+00:01:48,360 --> 00:01:51,330
+there and click on English us that turns
+
+45
+00:01:51,330 --> 00:01:53,430
+the captions on
+
+46
+00:01:53,430 --> 00:01:55,890
+and once you've selected closed captions
+
+47
+00:01:55,890 --> 00:01:58,230
+on a single video all other videos in
+
+48
+00:01:58,230 --> 00:02:00,210
+the course will play with captions on
+
+49
+00:02:00,210 --> 00:02:06,330
+until you turn off that option so one of
+
+50
+00:02:06,330 --> 00:02:07,760
+the things you may need to do from time
+
+51
+00:02:07,760 --> 00:02:09,870
+to time is search for specific lecture
+
+52
+00:02:09,870 --> 00:02:12,600
+I do recommend that you start this
+
+53
+00:02:12,600 --> 00:02:14,400
+course in order and go to each
+
+54
+00:02:14,400 --> 00:02:16,410
+video in order but it can be a good
+
+55
+00:02:16,410 --> 00:02:19,460
+idea sometimes to do a search and
+
+56
+00:02:19,460 --> 00:02:21,330
+you can see that the main course
+
+57
+00:02:21,330 --> 00:02:23,940
+dashboard the course content tab has
+
+58
+00:02:23,940 --> 00:02:27,060
+got a lecture search box and in that box
+
+59
+00:02:27,060 --> 00:02:29,370
+you can actually type in a keyword or
+
+60
+00:02:29,370 --> 00:02:31,350
+different words you're looking for and
+
+61
+00:02:31,350 --> 00:02:32,880
+udemy will display a list of all the
+
+62
+00:02:32,880 --> 00:02:34,880
+lectures in these course that have those
+
+63
+00:02:34,880 --> 00:02:36,990
+words in the title for example you could
+
+64
+00:02:36,990 --> 00:02:40,680
+do a search for jdk and all the videos
+
+65
+00:02:40,680 --> 00:02:43,230
+in this course with lecture with that word
+
+66
+00:02:43,230 --> 00:02:45,180
+in the title will appear for you just an easy way to
+
+67
+00:02:45,180 --> 00:02:49,380
+find a particular lectures
+
+68
+00:02:49,380 --> 00:02:51,330
+now another very important thing for
+
+69
+00:02:51,330 --> 00:02:53,960
+programmers is to be able to search for
+
+70
+00:02:53,960 --> 00:02:56,370
+questions and answers you can do that by
+
+71
+00:02:56,370 --> 00:03:00,020
+going to the Q&A tab in udemy and once
+
+72
+00:03:00,020 --> 00:03:01,100
+you click on that you'll see that
+
+73
+00:03:01,100 --> 00:03:03,940
+there's a search box
+
+74
+00:03:03,940 --> 00:03:05,680
+and from there you can type in a
+
+75
+00:03:05,680 --> 00:03:08,050
+question or some keywords and
+
+76
+00:03:08,050 --> 00:03:10,080
+udemy will automatically find previous
+
+77
+00:03:10,080 --> 00:03:11,940
+questions and answers have been ask
+
+78
+00:03:11,940 --> 00:03:14,080
+that a similar to what you're searching for
+
+79
+00:03:14,080 --> 00:03:15,790
+so can be a good way just to find some
+
+80
+00:03:15,790 --> 00:03:21,400
+information immediately and then you
+
+81
+00:03:21,400 --> 00:03:22,630
+just click on the thread to read the
+
+82
+00:03:22,630 --> 00:03:23,970
+questions and all the answers that were
+
+83
+00:03:23,970 --> 00:03:28,930
+made for that particular post
+
+84
+00:03:28,930 --> 00:03:31,070
+if you can't find answers to your question
+
+85
+00:03:31,070 --> 00:03:33,230
+bearing in mind there are thousands
+
+86
+00:03:33,230 --> 00:03:34,880
+of questions and answers in the course so
+
+87
+00:03:34,880 --> 00:03:37,070
+it is definitely worth while you researching
+
+88
+00:03:37,070 --> 00:03:39,530
+first but if you can't find an answer you
+
+89
+00:03:39,530 --> 00:03:41,600
+can create a new question by clicking on
+
+90
+00:03:41,600 --> 00:03:44,060
+the ask a new question button just note
+
+91
+00:03:44,060 --> 00:03:45,650
+there that sometimes you may have to type
+
+92
+00:03:45,650 --> 00:03:47,750
+something in the box to the left before
+
+93
+00:03:47,750 --> 00:03:51,020
+the button becomes active enabled to
+
+94
+00:03:51,020 --> 00:03:52,670
+enable you to actually click it
+
+95
+00:03:52,670 --> 00:03:56,630
+so after pressing that button you'll be
+
+96
+00:03:56,630 --> 00:03:58,940
+taken to the question editor where you can
+
+97
+00:03:58,940 --> 00:04:01,100
+edit your question and post information
+
+98
+00:04:01,100 --> 00:04:07,040
+the question that your looking to get answered
+
+99
+00:04:07,040 --> 00:04:09,020
+a quick note a screenshot is
+
+100
+00:04:09,020 --> 00:04:11,350
+often recommended now rather than just
+
+101
+00:04:11,350 --> 00:04:12,940
+sort of saying that you got an error it
+
+102
+00:04:12,940 --> 00:04:16,070
+can often be really helpful to create a
+
+103
+00:04:16,070 --> 00:04:18,320
+screenshot of the problem on your screen and
+
+104
+00:04:18,320 --> 00:04:20,060
+using the mechanism that I got on the screen
+
+105
+00:04:20,060 --> 00:04:22,370
+here to upload that screenshot directly
+
+106
+00:04:22,370 --> 00:04:23,090
+to udemy
+
+107
+00:04:23,090 --> 00:04:24,880
+it's going to prompt you to drag and
+
+108
+00:04:24,880 --> 00:04:26,660
+drop an image or click it on the or
+
+109
+00:04:26,660 --> 00:04:29,030
+click on the choose file button once you
+
+110
+00:04:29,030 --> 00:04:30,440
+do that you can add the image to your
+
+111
+00:04:30,440 --> 00:04:34,010
+questions and the images will appear in
+
+112
+00:04:34,010 --> 00:04:35,360
+the Box similar to like you can see
+
+113
+00:04:35,360 --> 00:04:36,860
+there so you put the cursor where you
+
+114
+00:04:36,860 --> 00:04:39,800
+want the image to appear and i'll put
+
+115
+00:04:39,800 --> 00:04:43,730
+in it for you automatically
+
+116
+00:04:43,730 --> 00:04:45,650
+another really cool thing you can do is
+
+117
+00:04:45,650 --> 00:04:48,320
+you can also directly paste source code
+
+118
+00:04:48,320 --> 00:04:50,510
+into your question by just copying the
+
+119
+00:04:50,510 --> 00:04:53,000
+source code from your editor and pasting it
+
+120
+00:04:53,000 --> 00:04:55,310
+right in the box once you do that it
+
+121
+00:04:55,310 --> 00:04:56,990
+will show the source box in a box similar
+
+122
+00:04:56,990 --> 00:04:59,450
+to what you can see on the screen until your
+
+123
+00:04:59,450 --> 00:05:02,270
+questions actually save or posted and
+
+124
+00:05:02,270 --> 00:05:04,730
+once you do that you'll actually see
+
+125
+00:05:04,730 --> 00:05:06,950
+here that actually formats the code
+
+126
+00:05:06,950 --> 00:05:09,680
+and also nicely color codes as well so
+
+127
+00:05:09,680 --> 00:05:11,840
+this could be a really good way to
+
+128
+00:05:11,840 --> 00:05:13,550
+show the code that you're working on
+
+129
+00:05:13,550 --> 00:05:16,130
+and perhaps any errors so that myself or
+
+130
+00:05:16,130 --> 00:05:20,520
+other students can help you with
+
+131
+00:05:20,520 --> 00:05:23,030
+once you completed entering your question just
+
+132
+00:05:23,030 --> 00:05:25,110
+click on the post question button and
+
+133
+00:05:25,110 --> 00:05:26,730
+your questions are then posted to the course
+
+134
+00:05:26,730 --> 00:05:28,860
+and i actually get notified but also
+
+135
+00:05:28,860 --> 00:05:31,440
+other students will be able to see that and
+
+136
+00:05:31,440 --> 00:05:36,320
+chime in and answer it
+
+137
+00:05:36,320 --> 00:05:38,010
+one other thing I recommend you
+
+138
+00:05:38,010 --> 00:05:39,510
+do is when your question has been
+
+139
+00:05:39,510 --> 00:05:42,270
+solved by either myself or another student or
+
+140
+00:05:42,270 --> 00:05:43,680
+even yourself for that matter
+
+141
+00:05:43,680 --> 00:05:46,560
+it's a great idea to mark it as solved so
+
+142
+00:05:46,560 --> 00:05:48,870
+put two left square bracket and the word
+
+143
+00:05:48,870 --> 00:05:51,720
+solved into the title so this shows up in
+
+144
+00:05:51,720 --> 00:05:53,910
+the future searches and help other
+
+145
+00:05:53,910 --> 00:05:55,320
+students looking for help on that topic
+
+146
+00:05:55,320 --> 00:05:56,970
+because you know if you can see the
+
+147
+00:05:56,970 --> 00:05:58,590
+word solved you know that has
+
+148
+00:05:58,590 --> 00:06:00,690
+been a resolution to that problem and
+
+149
+00:06:00,690 --> 00:06:04,080
+directs people to that specific answer so
+
+150
+00:06:04,080 --> 00:06:05,610
+to do its quite simple you can edit
+
+151
+00:06:05,610 --> 00:06:07,860
+your question title and contents by
+
+152
+00:06:07,860 --> 00:06:09,360
+clicking on the question and then
+
+153
+00:06:09,360 --> 00:06:11,100
+clicking those three vertical dots you
+
+154
+00:06:11,100 --> 00:06:13,830
+can see to the top right of the image and
+
+155
+00:06:13,830 --> 00:06:18,900
+clicking on edit after clicking on edit
+
+156
+00:06:18,900 --> 00:06:21,120
+you now are able to edit the title and
+
+157
+00:06:21,120 --> 00:06:22,590
+content for that matter of your question
+
+158
+00:06:22,590 --> 00:06:25,050
+so you can now add the solved term on the
+
+159
+00:06:25,050 --> 00:06:26,760
+question title to mark it as solved and
+
+160
+00:06:26,760 --> 00:06:28,560
+once you've done that click on the save'
+
+161
+00:06:28,560 --> 00:06:33,930
+button once you done that that the question is
+
+162
+00:06:33,930 --> 00:06:35,520
+then updated you can see the title is
+
+163
+00:06:35,520 --> 00:06:37,920
+updated with the word solved in
+
+164
+00:06:37,920 --> 00:06:41,620
+square brackets
+
+165
+00:06:41,620 --> 00:06:44,530
+now something that you may want is the
+
+166
+00:06:44,530 --> 00:06:47,230
+source code so every single lecture in
+
+167
+00:06:47,230 --> 00:06:49,150
+this course has got its own source code
+
+168
+00:06:49,150 --> 00:06:51,670
+and also other resources such as links
+
+169
+00:06:51,670 --> 00:06:53,650
+etc that have been discussed in that
+
+170
+00:06:53,650 --> 00:06:55,840
+lecture now you will know that a lecture has
+
+171
+00:06:55,840 --> 00:06:57,580
+got resources because when you're
+
+172
+00:06:57,580 --> 00:06:59,350
+playing it and you move your mouse you
+
+173
+00:06:59,350 --> 00:07:00,760
+can see in the top left of the video
+
+174
+00:07:00,760 --> 00:07:05,000
+a little blue box
+
+175
+00:07:05,000 --> 00:07:07,520
+click on that box that opens up the
+
+176
+00:07:07,520 --> 00:07:09,800
+resources and from their you can click on to
+
+177
+00:07:09,800 --> 00:07:11,630
+download the source code or get access
+
+178
+00:07:11,630 --> 00:07:13,580
+to the various links if there are any
+
+179
+00:07:13,580 --> 00:07:16,700
+for that specific lecture
+
+180
+00:07:16,700 --> 00:07:18,590
+alternatively you can actually go down
+
+181
+00:07:18,590 --> 00:07:21,200
+to the bottom of the course in the source
+
+182
+00:07:21,200 --> 00:07:23,090
+code for all programs lecture which is in
+
+183
+00:07:23,090 --> 00:07:25,240
+the extra section and from there you can
+
+184
+00:07:25,240 --> 00:07:26,740
+also download the source code if you
+
+185
+00:07:26,740 --> 00:07:31,730
+want
+
+186
+00:07:31,730 --> 00:07:34,490
+and finally you find course news in the
+
+187
+00:07:34,490 --> 00:07:35,900
+announcement tab can be a good idea
+
+188
+00:07:35,900 --> 00:07:38,530
+to a click on that and check that
+
+189
+00:07:38,530 --> 00:07:39,980
+section out it will just keep you updated
+
+190
+00:07:39,980 --> 00:07:42,080
+on what's happening with this course you
+
+191
+00:07:42,080 --> 00:07:43,700
+should also get an email from me every
+
+192
+00:07:43,700 --> 00:07:45,230
+time that I do post an announcement
+
+193
+00:07:45,230 --> 00:07:46,610
+that's just another way for you to get
+
+194
+00:07:46,610 --> 00:07:47,710
+access to it
+
+195
+00:07:47,710 --> 00:07:49,550
+alright so that's all I wanted to say
+
+196
+00:07:49,550 --> 00:07:51,110
+about that let's now get cracking into
+
+197
+00:07:51,110 --> 00:07:53,180
+downloading and installing the necessary
+
+198
+00:07:53,180 --> 00:07:55,550
+tools so that we can start our java
+
+199
+00:07:55,550 --> 00:07:58,830
+programming see you in the next video
+

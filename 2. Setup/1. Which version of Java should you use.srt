@@ -1,0 +1,548 @@
+﻿1
+00:00:04,730 --> 00:00:07,189
+So in this section of the course,
+
+2
+00:00:07,189 --> 00:00:09,080
+we're going to download and install the right
+
+3
+00:00:09,080 --> 00:00:11,959
+version of the JDK and that's the job of
+
+4
+00:00:11,959 --> 00:00:13,940
+a developer's kit and then the program
+
+5
+00:00:13,940 --> 00:00:16,219
+we're going to use to write out Java
+
+6
+00:00:16,219 --> 00:00:19,759
+programs which is IntelliJ IDEA.
+
+7
+00:00:19,759 --> 00:00:21,559
+Now downloading and installing the right
+
+8
+00:00:21,559 --> 00:00:23,480
+version of Java has become a little more
+
+9
+00:00:23,480 --> 00:00:26,869
+complicated due to Oracle now releasing
+
+10
+00:00:26,869 --> 00:00:29,059
+new versions of Java every six months
+
+11
+00:00:29,059 --> 00:00:31,460
+instead of what used to happen when the
+
+12
+00:00:31,460 --> 00:00:33,050
+new version only came up once every two
+
+13
+00:00:33,050 --> 00:00:35,090
+to three years, but don't worry because
+
+14
+00:00:35,090 --> 00:00:36,530
+I'm going to make this as painless as
+
+15
+00:00:36,530 --> 00:00:39,650
+possible for you as we move forward,
+
+16
+00:00:39,650 --> 00:00:42,050
+so which version of Java or the JDK should
+
+17
+00:00:42,050 --> 00:00:44,600
+you install. Well, in general my advice is
+
+18
+00:00:44,600 --> 00:00:46,610
+to download the most recent version of
+
+19
+00:00:46,610 --> 00:00:50,090
+Java. As you can see on this page the
+
+20
+00:00:50,090 --> 00:00:52,100
+most current version of Java available
+
+21
+00:00:52,100 --> 00:00:55,370
+is Java 10 I recommend you download and
+
+22
+00:00:55,370 --> 00:00:57,980
+use that version of Java but note that
+
+23
+00:00:57,980 --> 00:01:00,440
+two other versions of Java are available
+
+24
+00:01:00,440 --> 00:01:03,739
+to download on this page Java 9 and Java 8.
+
+25
+00:01:03,739 --> 00:01:06,680
+So firstly Java 9 is not
+
+26
+00:01:06,680 --> 00:01:09,079
+recommended to use since Oracle I know
+
+27
+00:01:09,079 --> 00:01:11,060
+now are no longer providing support for
+
+28
+00:01:11,060 --> 00:01:13,490
+it but what about Java 8? Why is that
+
+29
+00:01:13,490 --> 00:01:16,369
+also an option for you to download?
+
+30
+00:01:16,369 --> 00:01:18,679
+Now the reason for this is that Java 8 is
+
+31
+00:01:18,679 --> 00:01:22,249
+the current LTS version of Java and LTS
+
+32
+00:01:22,249 --> 00:01:24,499
+stands for long-term support, so Oracle
+
+33
+00:01:24,499 --> 00:01:26,810
+who are the owners of Java are providing
+
+34
+00:01:26,810 --> 00:01:29,090
+updates to this version until at least
+
+35
+00:01:29,090 --> 00:01:33,590
+January 2019. Now on the other hand, Java 9
+
+36
+00:01:33,590 --> 00:01:35,630
+well it's already had its final
+
+37
+00:01:35,630 --> 00:01:38,959
+release in January 2018 and has now been
+
+38
+00:01:38,959 --> 00:01:41,329
+retired and will not be updated any
+
+39
+00:01:41,329 --> 00:01:44,389
+further, so Java 10 will then itself be
+
+40
+00:01:44,389 --> 00:01:47,029
+replaced by the next long-term support
+
+41
+00:01:47,029 --> 00:01:50,179
+version of Java which is Java 11 coming
+
+42
+00:01:50,179 --> 00:01:53,599
+out in September 2018. So as you can see
+
+43
+00:01:53,599 --> 00:01:55,700
+most versions of Java will be retired
+
+44
+00:01:55,700 --> 00:01:58,670
+within six months of their release with
+
+45
+00:01:58,670 --> 00:02:01,249
+the exception being the LTS or long term
+
+46
+00:02:01,249 --> 00:02:03,560
+support versions. The currently Java 8
+
+47
+00:02:03,560 --> 00:02:06,709
+has long term support and Java 11 is
+
+48
+00:02:06,709 --> 00:02:09,170
+proposed to have LTS when it comes out
+
+49
+00:02:09,170 --> 00:02:11,780
+later in the year. Now if all this sounds
+
+50
+00:02:11,780 --> 00:02:14,599
+confusing. blame Oracle. Seriously though,
+
+51
+00:02:14,599 --> 00:02:16,610
+well in doubt just download the latest
+
+52
+00:02:16,610 --> 00:02:17,960
+version of Java
+
+53
+00:02:17,960 --> 00:02:20,090
+that you see on this page when you visit.
+
+54
+00:02:20,090 --> 00:02:21,860
+Now the installation videos we'll go
+
+55
+00:02:21,860 --> 00:02:23,330
+through this in detail, so don't think
+
+56
+00:02:23,330 --> 00:02:25,040
+you need to install that now how do you
+
+57
+00:02:25,040 --> 00:02:26,570
+suggest you watch the installation
+
+58
+00:02:26,570 --> 00:02:28,430
+videos for your operating system
+
+59
+00:02:28,430 --> 00:02:30,680
+in this section of the course.
+
+60
+00:02:30,680 --> 00:02:32,360
+Now speaking of those installation videos
+
+61
+00:02:32,360 --> 00:02:35,210
+you'll actually see Java 8 referred to
+
+62
+00:02:35,210 --> 00:02:37,790
+in those videos but in general again my
+
+63
+00:02:37,790 --> 00:02:40,010
+recommendation is to install the very
+
+64
+00:02:40,010 --> 00:02:42,620
+latest version of Java you see on the
+
+65
+00:02:42,620 --> 00:02:45,350
+page when you go and visit and something
+
+66
+00:02:45,350 --> 00:02:47,390
+else to blame Oracle 4 here is that
+
+67
+00:02:47,390 --> 00:02:49,430
+there is an exception to this, if you've
+
+68
+00:02:49,430 --> 00:02:51,710
+got a 32-bit version of Windows or Linux.
+
+69
+00:02:51,710 --> 00:02:54,440
+Now, in your situation you'll have to
+
+70
+00:02:54,440 --> 00:02:56,660
+download and use the 32-bit version of
+
+71
+00:02:56,660 --> 00:02:59,660
+Java 8. Now the reason for that is the
+
+72
+00:02:59,660 --> 00:03:02,930
+newer Java versions do not have a 32-bit
+
+73
+00:03:02,930 --> 00:03:04,760
+version available for download and
+
+74
+00:03:04,760 --> 00:03:06,020
+apparently Oracle in their infinite
+
+75
+00:03:06,020 --> 00:03:08,330
+wisdom have decided not to offer that
+
+76
+00:03:08,330 --> 00:03:11,030
+from any version of Java from Java 9
+
+77
+00:03:11,030 --> 00:03:13,220
+onwards but that's the only exception in
+
+78
+00:03:13,220 --> 00:03:15,920
+in all other cases just go ahead and
+
+79
+00:03:15,920 --> 00:03:17,330
+download the very latest version of Java.
+
+80
+00:03:17,330 --> 00:03:20,630
+Now this video will be updated as needed
+
+81
+00:03:20,630 --> 00:03:22,160
+when Oracle changes anything and
+
+82
+00:03:22,160 --> 00:03:23,270
+hopefully that won't change anything
+
+83
+00:03:23,270 --> 00:03:26,750
+else now, but do note though irrespective
+
+84
+00:03:26,750 --> 00:03:28,850
+of what version of Java you download and
+
+85
+00:03:28,850 --> 00:03:30,770
+use you can follow along and get the
+
+86
+00:03:30,770 --> 00:03:32,350
+maximum value from this course.
+
+87
+00:03:32,350 --> 00:03:34,910
+Every thing's going to work fine, you
+
+88
+00:03:34,910 --> 00:03:36,110
+won't have a problem with your version
+
+89
+00:03:36,110 --> 00:03:39,080
+of Java and in addition, as new versions
+
+90
+00:03:39,080 --> 00:03:41,120
+of Java come out I'll actually be adding
+
+91
+00:03:41,120 --> 00:03:43,700
+a section dealing with the changes
+
+92
+00:03:43,700 --> 00:03:46,040
+specific to that version of Java and the
+
+93
+00:03:46,040 --> 00:03:47,330
+changes made to it
+
+94
+00:03:47,330 --> 00:03:49,370
+for those of you who want to know what
+
+95
+00:03:49,370 --> 00:03:51,290
+has changed and be able to take
+
+96
+00:03:51,290 --> 00:03:52,250
+advantage of some of the features
+
+97
+00:03:52,250 --> 00:03:55,190
+available in those new versions. So in
+
+98
+00:03:55,190 --> 00:03:57,740
+summary, so pick the very latest version
+
+99
+00:03:57,740 --> 00:04:00,260
+of Java that's available for you when
+
+100
+00:04:00,260 --> 00:04:01,730
+you get through to that download page
+
+101
+00:04:01,730 --> 00:04:04,070
+and refer to the installation videos in
+
+102
+00:04:04,070 --> 00:04:05,420
+this section for more details.
+
+103
+00:04:05,420 --> 00:04:07,910
+The only exception again is Windows and
+
+104
+00:04:07,910 --> 00:04:10,100
+Linux users if you've got a 32-bit
+
+105
+00:04:10,100 --> 00:04:11,960
+version of your operating system you'll
+
+106
+00:04:11,960 --> 00:04:14,840
+need to download Java 8 only but
+
+107
+00:04:14,840 --> 00:04:16,489
+again refer to your installation videos
+
+108
+00:04:16,489 --> 00:04:17,980
+for more details and finally
+
+109
+00:04:17,980 --> 00:04:20,420
+irrespective of the version of Java that
+
+110
+00:04:20,420 --> 00:04:22,670
+you download install, you still will be
+
+111
+00:04:22,670 --> 00:04:24,560
+able to make full use of all videos in
+
+112
+00:04:24,560 --> 00:04:27,290
+this course. So it's now time to move on,
+
+113
+00:04:27,290 --> 00:04:29,510
+your next steps now is to watch the
+
+114
+00:04:29,510 --> 00:04:31,430
+separate installation videos
+
+115
+00:04:31,430 --> 00:04:33,110
+your operating system, you know there's
+
+116
+00:04:33,110 --> 00:04:35,330
+wonderful windows another for Mac and
+
+117
+00:04:35,330 --> 00:04:37,070
+the third for Linux and you want to do
+
+118
+00:04:37,070 --> 00:04:38,720
+that for both the installation of the
+
+119
+00:04:38,720 --> 00:04:41,360
+Java development kit the JDK as well as
+
+120
+00:04:41,360 --> 00:04:43,670
+the IDE and in case you're wondering IDE
+
+121
+00:04:43,670 --> 00:04:45,140
+stands for integrated development
+
+122
+00:04:45,140 --> 00:04:46,880
+environment which is really just a fancy
+
+123
+00:04:46,880 --> 00:04:48,350
+word for the program we're going to be
+
+124
+00:04:48,350 --> 00:04:50,540
+using to write java code in this course
+
+125
+00:04:50,540 --> 00:04:53,360
+and that's IntelliJ IDEA. So once you do
+
+126
+00:04:53,360 --> 00:04:54,440
+that with both of those installations
+
+127
+00:04:54,440 --> 00:04:56,840
+follow along you'd be good to go and be
+
+128
+00:04:56,840 --> 00:04:59,120
+able to start writing some Java code.
+
+129
+00:04:59,120 --> 00:05:00,890
+So the windows installation video for the
+
+130
+00:05:00,890 --> 00:05:02,420
+Java development kit is coming up
+
+131
+00:05:02,420 --> 00:05:04,580
+immediately after this video so if
+
+132
+00:05:04,580 --> 00:05:06,230
+you're a Mac or Linux user you want to
+
+133
+00:05:06,230 --> 00:05:08,450
+skip ahead to the relevant video and get
+
+134
+00:05:08,450 --> 00:05:09,920
+in this section of the course to get
+
+135
+00:05:09,920 --> 00:05:11,110
+started for your operating system
+
+136
+00:05:11,110 --> 00:05:13,910
+otherwise, if you're a Windows user watch
+
+137
+00:05:13,910 --> 00:05:17,620
+the next video and we'll make a start.
+

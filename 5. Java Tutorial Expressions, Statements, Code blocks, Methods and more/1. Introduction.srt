@@ -1,0 +1,28 @@
+﻿1
+00:00:07,550 --> 00:00:10,950
+Welcome to Section 5 and congratulations on making it so far.
+
+2
+00:00:10,950 --> 00:00:12,570
+Tim Buchalka here again and
+
+3
+00:00:12,570 --> 00:00:16,160
+this section is dealing with four really important concepts of Java.
+
+4
+00:00:16,160 --> 00:00:21,860
+We're talking about ‘Expressions’, ‘Statements’, Code Blocks’ and ‘Methods.
+
+5
+00:00:21,860 --> 00:00:24,720
+Four really key components of Java that
+
+6
+00:00:24,720 --> 00:00:26,760
+you really need to get a good understanding of and that's
+
+7
+00:00:26,760 --> 00:00:31,000
+the goal of this section is to give you that understanding. So, let's make a start.
+

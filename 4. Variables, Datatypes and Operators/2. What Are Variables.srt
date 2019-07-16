@@ -1,0 +1,1366 @@
+﻿1
+00:00:04,150 --> 00:00:07,230
+So continuing on, what we're going to do is use
+
+2
+00:00:07,230 --> 00:00:09,790
+the 'HelloWorld' application that we
+
+3
+00:00:09,790 --> 00:00:11,470
+created in the last section.
+
+4
+00:00:11,470 --> 00:00:13,900
+So I'm just going to click in here, in 'IntelliJ'
+
+5
+00:00:13,900 --> 00:00:15,520
+and open that up.
+
+6
+00:00:15,520 --> 00:00:18,910
+And, we're going to make some changes.
+
+7
+00:00:18,910 --> 00:00:21,500
+So what I'm going to do is make a bit more room on the
+
+8
+00:00:21,500 --> 00:00:22,730
+screen so we can see what we're doing.
+
+9
+00:00:22,730 --> 00:00:25,480
+I'm going to get rid of the 'Project'.
+
+10
+00:00:25,480 --> 00:00:28,310
+The 'Project' section, because we don't need that.
+
+11
+00:00:28,310 --> 00:00:31,640
+And also, I'm going to run it once.
+
+12
+00:00:31,640 --> 00:00:35,010
+By clicking on the little green arrow that you saw me click.
+
+13
+00:00:35,010 --> 00:00:36,500
+And I'm going to make sure we've got some
+
+14
+00:00:36,500 --> 00:00:38,620
+space here so we can see what we're doing.
+
+15
+00:00:38,620 --> 00:00:40,670
+So we're going to be typing commands on the left
+
+16
+00:00:40,670 --> 00:00:42,840
+hand side, and on the right hand side
+
+17
+00:00:42,840 --> 00:00:44,250
+we're going to be able to see what the results
+
+18
+00:00:44,250 --> 00:00:45,640
+of running those commands are.
+
+19
+00:00:45,640 --> 00:00:47,940
+So if your system is compacted like this,
+
+20
+00:00:47,940 --> 00:00:49,940
+this is a feature of 'IntelliJ';
+
+21
+00:00:49,940 --> 00:00:51,940
+and if there is only one statement,
+
+22
+00:00:51,940 --> 00:00:54,610
+it does what's called 'code folding',
+
+23
+00:00:54,610 --> 00:00:56,610
+and it puts it all onto the one line.
+
+24
+00:00:56,610 --> 00:00:57,900
+So all you need to do is just click in
+
+25
+00:00:57,900 --> 00:00:59,720
+somewhere in there, in this case, I'm clicking just
+
+26
+00:00:59,720 --> 00:01:01,890
+before the word 'System', and I'm going to press
+
+27
+00:01:01,890 --> 00:01:03,760
+'Enter' or 'Return' on my computer.
+
+28
+00:01:03,760 --> 00:01:06,510
+And I've now got space to start typing my commands.
+
+29
+00:01:06,510 --> 00:01:09,670
+So let's start talking about 'variables'.
+
+30
+00:01:09,670 --> 00:01:12,270
+Now a 'variable' is something that makes
+
+31
+00:01:12,270 --> 00:01:14,270
+a computer program very useful.
+
+32
+00:01:14,270 --> 00:01:16,050
+So what is a 'variable'?
+
+33
+00:01:16,050 --> 00:01:18,970
+Well a variable is a 'place' in memory
+
+34
+00:01:18,970 --> 00:01:20,690
+think of it like a 'box' if you will
+
+35
+00:01:20,690 --> 00:01:22,520
+that you can store something in.
+
+36
+00:01:22,520 --> 00:01:24,630
+And the computer allows you to have hundreds or
+
+37
+00:01:24,630 --> 00:01:26,590
+thousands of 'boxes', each containing
+
+38
+00:01:26,590 --> 00:01:28,370
+their own pieces of information.
+
+39
+00:01:28,370 --> 00:01:29,880
+So what we do with our 'variable',
+
+40
+00:01:29,880 --> 00:01:31,880
+that's what it's called in Java, that 'box' is
+
+41
+00:01:31,880 --> 00:01:33,880
+called a 'variable', and what we can
+
+42
+00:01:33,880 --> 00:01:36,480
+do is we can assign the type of information
+
+43
+00:01:36,480 --> 00:01:38,210
+that we want to put into the 'boxes'
+
+44
+00:01:38,210 --> 00:01:40,620
+and we can also give it a name.
+
+45
+00:01:40,620 --> 00:01:42,900
+So why would we want to use variables?
+
+46
+00:01:42,900 --> 00:01:44,730
+Well the reason that we want to use them,
+
+47
+00:01:44,730 --> 00:01:47,130
+is because they make a program really useful.
+
+48
+00:01:47,130 --> 00:01:49,130
+If, for example, if there was a computer
+
+49
+00:01:49,130 --> 00:01:50,790
+program that you wanted to create
+
+50
+00:01:50,790 --> 00:01:52,790
+that helped calculate someone's
+
+51
+00:01:52,790 --> 00:01:54,790
+current age based on the date,
+
+52
+00:01:54,790 --> 00:01:56,620
+then of course you'd need to enter
+
+53
+00:01:56,620 --> 00:01:58,970
+in their birthday, and the computer would need
+
+54
+00:01:58,970 --> 00:02:00,520
+to store that somewhere, so it could then
+
+55
+00:02:00,520 --> 00:02:02,270
+calculate how old that person was.
+
+56
+00:02:02,270 --> 00:02:04,960
+Without the ability to store something,
+
+57
+00:02:04,960 --> 00:02:07,480
+the computer wouldn't be able to process anything and
+
+58
+00:02:07,480 --> 00:02:09,430
+the programs you create would be very very
+
+59
+00:02:09,430 --> 00:02:11,190
+basic and not really useful.
+
+60
+00:02:11,190 --> 00:02:13,580
+So a variable is used for that
+
+61
+00:02:13,580 --> 00:02:15,230
+purpose, to store information.
+
+62
+00:02:15,230 --> 00:02:17,440
+Now as we move forward with the course, we'll be
+
+63
+00:02:17,440 --> 00:02:19,930
+talking about lots of different types of data.
+
+64
+00:02:19,930 --> 00:02:22,150
+But we're going to start off with a really basic
+
+65
+00:02:22,150 --> 00:02:24,330
+one that's included in Java and it's
+
+66
+00:02:24,330 --> 00:02:27,430
+called the 'int' which is short for 'integer'.
+
+67
+00:02:27,430 --> 00:02:30,270
+So an integer in math terms, is
+
+68
+00:02:30,270 --> 00:02:32,730
+a whole number without any decimal points (.).
+
+69
+00:02:32,730 --> 00:02:34,860
+And, it's the same thing in Java.
+
+70
+00:02:34,860 --> 00:02:37,790
+So what we need to do if we want to use 'variables',
+
+71
+00:02:37,790 --> 00:02:41,170
+we need to define what is called the 'data type'.
+
+72
+00:02:41,170 --> 00:02:43,170
+Then we need to assign a name to it.
+
+73
+00:02:43,170 --> 00:02:45,750
+And optionally, we need to also define
+
+74
+00:02:45,750 --> 00:02:48,370
+a 'value' to it. So what we're going to do is I'm going to
+
+75
+00:02:48,370 --> 00:02:50,980
+go to the end of the line and press 'Enter'.
+
+76
+00:02:50,980 --> 00:02:54,580
+I'm going to assign a new variable, and I'm going to type
+
+77
+00:02:54,580 --> 00:02:56,960
+'int' all in lower case,
+
+78
+00:02:56,960 --> 00:03:07,560
+'int[space] [and I'm going to call it] myFirstNumber
+
+79
+00:03:07,560 --> 00:03:12,340
+[and I'll put] = 5 [and then I'm going to put]
+
+80
+00:03:12,340 --> 00:03:13,970
+[a semi-colon (;) on the end of it] ;'
+
+81
+00:03:13,970 --> 00:03:15,580
+Then once you do that, Java knows that
+
+82
+00:03:15,580 --> 00:03:17,670
+everything on that line is something that it needs to
+
+83
+00:03:17,670 --> 00:03:19,670
+process and figure out what you mean.
+
+84
+00:03:19,670 --> 00:03:21,670
+So the first part of that line,
+
+85
+00:03:21,670 --> 00:03:23,670
+(and I'll just make a bit more space here)
+
+86
+00:03:23,670 --> 00:03:26,470
+the first part here, 'int', that's what's called the
+
+87
+00:03:26,470 --> 00:03:28,470
+data type. So we're telling Java,
+
+88
+00:03:28,470 --> 00:03:31,760
+please assign a 'box' or an 'area in memory'
+
+89
+00:03:31,760 --> 00:03:35,060
+to be more precise, that will be able to store an
+
+90
+00:03:35,060 --> 00:03:38,170
+'integer', an int number, and I'm going to call that
+
+91
+00:03:38,170 --> 00:03:41,500
+'box' or that 'memory location', 'myFirstNumber'.
+
+92
+00:03:41,500 --> 00:03:43,190
+And then by using the equals (=)
+
+93
+00:03:43,190 --> 00:03:44,850
+and a number on the end, what I'm doing is
+
+94
+00:03:44,850 --> 00:03:47,680
+I'm saying, "I want you to assign the value of
+
+95
+00:03:47,680 --> 00:03:48,980
+five to it."
+
+96
+00:03:48,980 --> 00:03:51,380
+Now the good thing about a variable is that
+
+97
+00:03:52,240 --> 00:03:54,950
+because of it's very nature, it can be changed.
+
+98
+00:03:54,950 --> 00:03:56,720
+So we can assign a number to it,
+
+99
+00:03:56,720 --> 00:03:58,480
+and then we can assign another number
+
+100
+00:03:58,480 --> 00:04:01,040
+to it down the track, and we can continually change it.
+
+101
+00:04:01,040 --> 00:04:03,380
+But what we've done with this first line, is we've said
+
+102
+00:04:03,380 --> 00:04:05,940
+at the moment, I want you to assign the value
+
+103
+00:04:05,940 --> 00:04:08,830
+five to our integer which has got the name
+
+104
+00:04:08,830 --> 00:04:10,050
+'myFirstNumber'.
+
+105
+00:04:10,050 --> 00:04:12,750
+And Java has quite happily assigned that.
+
+106
+00:04:12,750 --> 00:04:15,220
+And what we can do is we can then
+
+107
+00:04:15,220 --> 00:04:17,140
+print that out if you want too, just to confirm that
+
+108
+00:04:17,140 --> 00:04:20,270
+that area that 'myFirstNumber' contains
+
+109
+00:04:20,270 --> 00:04:22,050
+the right amount. I can type
+
+110
+00:04:22,050 --> 00:04:25,940
+'[System capital 'S'] System [You notice, I made a mistake.]
+
+111
+00:04:25,940 --> 00:04:27,950
+['IntelliJ' is following along and showing us]
+
+112
+00:04:27,950 --> 00:04:30,070
+[options below what I'm typing, couldn't find]
+
+113
+00:04:30,070 --> 00:04:32,320
+[what I meant. So that's a good indication that I typed]
+
+114
+00:04:32,320 --> 00:04:34,530
+[something wrong. I'm going to press backspace]
+
+115
+00:04:34,530 --> 00:04:40,710
+[and type] System.out.println()'. Now that's
+
+116
+00:04:40,710 --> 00:04:42,000
+one way of doing it. I could have gone on
+
+117
+00:04:42,000 --> 00:04:44,380
+to all that, the entire line like that, but there is
+
+118
+00:04:44,380 --> 00:04:46,830
+actually abbreviation in 'IntelliJ', and if I type in
+
+119
+00:04:46,830 --> 00:04:49,510
+'sout'
+
+120
+00:04:49,510 --> 00:04:51,120
+and you can see what's happened there.
+
+121
+00:04:51,120 --> 00:04:53,310
+This is actually a template that's built-in to
+
+122
+00:04:53,310 --> 00:04:55,550
+'IntelliJ', and that's an abbreviation.
+
+123
+00:04:55,550 --> 00:04:58,200
+So if I now press the 'Tab' key,
+
+124
+00:04:58,200 --> 00:05:01,510
+'IntelliJ' will print the whole line out for me which is very nice.
+
+125
+00:05:01,510 --> 00:05:04,380
+So you can see in the first println
+
+126
+00:05:04,380 --> 00:05:06,630
+at the very top where it's got 'Hello Tim!',
+
+127
+00:05:06,630 --> 00:05:10,250
+that actually outputted to the right hand side
+
+128
+00:05:10,250 --> 00:05:12,760
+'Hello Tim'. What would we need to type
+
+129
+00:05:12,760 --> 00:05:15,130
+in this 'box' where the cursor is in the
+
+130
+00:05:15,130 --> 00:05:17,130
+two brackets (parentheses) in between the brackets,
+
+131
+00:05:17,130 --> 00:05:19,130
+to print out 'myFirstNumber'?
+
+132
+00:05:19,130 --> 00:05:24,340
+So pause the video here and see if you can figure out how to get the system to print that first number.
+
+133
+00:05:24,340 --> 00:05:29,660
+Come back and press 'Play' once you've done that and see what the solution was.
+PAUSE NOW - TRY TO SOLVE - THEN PRESS PLAY.
+
+134
+00:05:29,660 --> 00:05:31,660
+So, how did you go, did you figure it out?
+
+135
+00:05:31,660 --> 00:05:33,730
+Well to actually get it to print something,
+
+136
+00:05:33,730 --> 00:05:36,030
+we need to type in the name of the variable.
+
+137
+00:05:36,030 --> 00:05:37,440
+And we're saying to Java,
+
+138
+00:05:37,440 --> 00:05:40,140
+"This is the 'box' if you will, or this is the variable
+
+139
+00:05:40,140 --> 00:05:42,140
+that I want you to print the contents from."
+
+140
+00:05:42,140 --> 00:05:45,540
+So in this case I just type in 'myFirstNumber'
+
+141
+00:05:45,540 --> 00:05:47,980
+and I can just press 'Enter' if I can see that
+
+142
+00:05:47,980 --> 00:05:50,140
+the selection that 'IntelliJ' is showing me is enough
+
+143
+00:05:50,140 --> 00:05:52,290
+the press 'Enter' and you can see that's
+
+144
+00:05:52,290 --> 00:05:54,290
+accepted it. There's no errors, and I can click
+
+145
+00:05:54,290 --> 00:05:58,200
+on over here to the 'green arrow' to 'Run'
+
+146
+00:05:58,200 --> 00:06:00,690
+So you can see what's happened now is
+
+147
+00:06:00,690 --> 00:06:02,350
+Java has printed the first statement
+
+148
+00:06:02,350 --> 00:06:04,030
+the 'Hello Tim!' which was from
+
+149
+00:06:04,030 --> 00:06:06,030
+previous video when we made that change.
+
+150
+00:06:06,030 --> 00:06:08,290
+But it's also printed the number five (5).
+
+151
+00:06:08,290 --> 00:06:13,250
+So that line 'System.out.println(myFirstNumber)',
+
+152
+00:06:13,250 --> 00:06:15,950
+it didn't actually print the text 'myFirstNumber'.
+
+153
+00:06:15,950 --> 00:06:17,650
+But rather, what happened was, because we
+
+154
+00:06:17,650 --> 00:06:20,140
+put 'myFirstNumber' there, the Java knew that
+
+155
+00:06:20,140 --> 00:06:22,690
+that was a variable. and it went in and
+
+156
+00:06:22,690 --> 00:06:24,220
+figured out, at how to look at what is in that
+
+157
+00:06:24,220 --> 00:06:26,030
+memory location, or what was in that
+
+158
+00:06:26,030 --> 00:06:28,340
+'box' if you will, what was the value in that variable
+
+159
+00:06:28,340 --> 00:06:30,930
+and it printed out the value not the name.
+
+160
+00:06:30,930 --> 00:06:33,810
+So if we want back there and made a change,
+
+161
+00:06:33,810 --> 00:06:36,690
+and made the value '10' there,
+
+162
+00:06:36,690 --> 00:06:39,760
+and 'Run' the program again;
+
+163
+00:06:39,760 --> 00:06:42,250
+we actually get the value '10'.
+
+164
+00:06:42,250 --> 00:06:44,420
+So each time we use that, we
+
+165
+00:06:44,420 --> 00:06:46,530
+assign that statement if you will,
+
+166
+00:06:46,530 --> 00:06:49,750
+Java is automatically looking at the variable name,
+
+167
+00:06:49,750 --> 00:06:52,050
+and looking into the area of memory that
+
+168
+00:06:52,050 --> 00:06:54,920
+contains the value and printing out the value.
+
+169
+00:06:54,920 --> 00:06:57,860
+Now, we're not limited to just putting a
+
+170
+00:06:57,860 --> 00:07:00,180
+a number like that, we can actually put a mathematical
+
+171
+00:07:00,180 --> 00:07:02,180
+expression there. For example, we could put
+
+172
+00:07:02,180 --> 00:07:08,360
+10 and use plus (+) the plus sign (+) and say 5.
+
+173
+00:07:08,360 --> 00:07:09,810
+And you can probably guess what
+
+174
+00:07:09,810 --> 00:07:11,350
+that answer is going to be.
+
+175
+00:07:11,350 --> 00:07:13,660
+We'll 'Run' it.
+
+176
+00:07:13,660 --> 00:07:15,750
+The answer is '15', and that's because
+
+177
+00:07:15,750 --> 00:07:19,150
+Java looked at the expression 10+5
+
+178
+00:07:19,150 --> 00:07:21,870
+and said, "well that's 15." It put 15 in
+
+179
+00:07:21,870 --> 00:07:25,690
+to the variable and saved that into that memory location.
+
+180
+00:07:25,690 --> 00:07:27,890
+Now these mathematical processes
+
+181
+00:07:27,890 --> 00:07:29,840
+can get quite complex. They're literally like a
+
+182
+00:07:29,840 --> 00:07:31,750
+scientific character. We can introduce
+
+183
+00:07:31,750 --> 00:07:33,980
+brackets (parentheses) if we wanted too. We can put
+
+184
+00:07:33,980 --> 00:07:46,030
+(10 + 5) + (2 * 10)
+
+185
+00:07:46,760 --> 00:07:50,730
+So in theory that's 10 + 5 = 15 +
+
+186
+00:07:50,730 --> 00:07:53,560
+2 * 10 is 20 so it should be
+
+187
+00:07:53,560 --> 00:07:58,030
+15 + 20, so our answer should be 35 when we run it.
+
+188
+00:07:58,030 --> 00:08:02,500
+And you can see that the answer we're showing is 35.
+
+189
+00:08:02,500 --> 00:08:04,220
+Now what do you think would happen
+
+190
+00:08:04,220 --> 00:08:06,330
+if I copy this line? I'm going to copy
+
+191
+00:08:06,330 --> 00:08:08,780
+that entire line and we're going to paste it.
+
+192
+00:08:08,780 --> 00:08:13,200
+What will happen if I do this?
+
+193
+00:08:13,200 --> 00:08:16,660
+So what I've done is I've taken the variable
+
+194
+00:08:16,660 --> 00:08:18,350
+name of myFirstNumber
+
+195
+00:08:18,350 --> 00:08:20,830
+but I've surrounded it in double-quotes (").
+
+196
+00:08:20,830 --> 00:08:23,180
+And the hint there is that it changed
+
+197
+00:08:23,180 --> 00:08:25,560
+to 'green'. You know it's much like the first
+
+198
+00:08:25,560 --> 00:08:27,920
+println with 'Hello Tim!', it changed to 'green'.
+
+199
+00:08:27,920 --> 00:08:29,400
+What do you think will happen in there?
+
+200
+00:08:29,400 --> 00:08:31,760
+Do you think it will print out the number 35?
+
+201
+00:08:31,760 --> 00:08:34,150
+Or will it print out 'myFirstNumber'?
+
+202
+00:08:34,150 --> 00:08:37,400
+Let's 'Run' it and see what will happen.
+
+203
+00:08:37,400 --> 00:08:39,760
+And you can see what's happened there is
+
+204
+00:08:39,760 --> 00:08:42,440
+because we specified double-quotes ("),
+
+205
+00:08:42,440 --> 00:08:45,710
+we've told Java, "This is not a variable
+
+206
+00:08:45,710 --> 00:08:48,470
+this is actually a string, and we want you to print
+
+207
+00:08:48,470 --> 00:08:51,590
+whatever is in there and not to try and decipher that
+
+208
+00:08:51,590 --> 00:08:56,040
+as a variable, but just to print it out as it was." So this
+
+209
+00:08:56,040 --> 00:08:58,390
+case it literally, all it did was printed whatever was
+
+210
+00:08:58,390 --> 00:08:59,450
+in the double-quotes.
+
+211
+00:08:59,450 --> 00:09:01,470
+So generally speaking, if you see something in
+
+212
+00:09:01,470 --> 00:09:04,300
+double-quotes ("), that's not a variable
+
+213
+00:09:04,300 --> 00:09:06,190
+that's going to be treated by the computer
+
+214
+00:09:06,190 --> 00:09:08,470
+as just a string. As literally whatever you wanted
+
+215
+00:09:08,470 --> 00:09:11,080
+to type in there. And I could put something else in there,
+
+216
+00:09:11,080 --> 00:09:14,710
+mySecondNumber. Which obviously
+
+217
+00:09:14,710 --> 00:09:16,930
+we haven't got a variable called 'mySecondNumber'.
+
+218
+00:09:16,930 --> 00:09:18,930
+We could 'Run' that.
+
+219
+00:09:18,930 --> 00:09:21,310
+And it just prints out 'mySecondNumber'.
+
+220
+00:09:21,310 --> 00:09:23,860
+because there's no relationship to the
+
+221
+00:09:23,860 --> 00:09:27,180
+variable there and what we're typing in double-quotes.
+
+222
+00:09:27,180 --> 00:09:30,010
+So let's go ahead and create a second variable
+
+223
+00:09:30,010 --> 00:09:41,940
+We're going to call it 'int mySecondNumber = 12;'
+
+224
+00:09:41,940 --> 00:09:52,610
+and I'm going to put 'int myThirdNumber = 6;'
+
+225
+00:09:52,610 --> 00:09:55,670
+And I'm going to delete that second line there.
+
+226
+00:09:55,670 --> 00:10:03,200
+And then I"m going to put 'int myTotal =
+
+227
+00:10:03,200 --> 00:10:08,210
+And I can put 'myFirstNumber + mySecondNumber
+
+228
+00:10:08,210 --> 00:10:11,510
++ myThirdNumber
+
+229
+00:10:11,510 --> 00:10:14,120
+So what's going to happen there is,
+
+230
+00:10:14,120 --> 00:10:16,230
+the computer comes along and assigns
+
+231
+00:10:16,230 --> 00:10:18,460
+the 'myFirstNumber' the value, in this case
+
+232
+00:10:18,460 --> 00:10:21,890
+35, mySecondNumber is assigned the value of 12.
+
+233
+00:10:21,890 --> 00:10:25,170
+And myThirdNumber is assigned the value of 6.
+
+234
+00:10:25,170 --> 00:10:27,740
+And 'myTotal' is then assigned the value of
+
+235
+00:10:27,740 --> 00:10:29,740
+the first number which was 35,
+
+236
+00:10:29,740 --> 00:10:31,740
+second number which is 12,
+
+237
+00:10:31,740 --> 00:10:33,580
+third number which is 6.
+
+238
+00:10:33,580 --> 00:10:35,850
+So if we then go to print out myThirdNumber
+
+239
+00:10:35,850 --> 00:10:38,800
+and I'm just going to copy and paste that,
+
+240
+00:10:38,800 --> 00:10:42,450
+We should get the value of 35 for that line,
+
+241
+00:10:42,450 --> 00:10:48,190
++ 12 is 47 + 6 is 53. So let's 'Run' that.
+
+242
+00:10:48,190 --> 00:10:50,330
+And why did it come up with 6?
+
+243
+00:10:50,330 --> 00:10:53,030
+Well that's because I actually printed out myThirdNumber.
+
+244
+00:10:53,030 --> 00:10:55,630
+which was the value 6 and not myTotal.
+
+245
+00:10:55,630 --> 00:10:57,430
+And this is another good thing that 'IntelliJ'
+
+246
+00:10:57,430 --> 00:11:00,260
+will come up and tell you is if you see a variable
+
+247
+00:11:00,260 --> 00:11:02,100
+that's grayed out like that,
+
+248
+00:11:02,100 --> 00:11:03,760
+and if you just hover your mouse over it
+
+249
+00:11:03,760 --> 00:11:06,140
+it actually gives you a hint and says well if myTotal
+
+250
+00:11:06,140 --> 00:11:09,200
+is never used, like so. and it says
+
+251
+00:11:09,200 --> 00:11:11,810
+'Variable 'myTotal' is never used'
+
+252
+00:11:11,810 --> 00:11:13,540
+So in other words, the computer was
+
+253
+00:11:13,540 --> 00:11:15,680
+smart enough to figure out, that okay you
+
+254
+00:11:15,680 --> 00:11:18,980
+set up this variable but it hasn't been used anywhere.
+
+255
+00:11:18,980 --> 00:11:21,170
+So if I go ahead and copy that,
+
+256
+00:11:21,170 --> 00:11:25,240
+and paste that into the line to printout,
+
+257
+00:11:25,240 --> 00:11:27,160
+that isn't 'gray' anymore
+
+258
+00:11:27,490 --> 00:11:29,840
+because 'IntelliJ' has quite correctly figured out
+
+259
+00:11:29,840 --> 00:11:32,520
+okay, you're now using that. So now if we 'Run' this,
+
+260
+00:11:32,520 --> 00:11:34,520
+we should get the value of '53'.
+
+261
+00:11:34,520 --> 00:11:37,410
+So as you can see it really can be quite complex.
+
+262
+00:11:37,410 --> 00:11:40,610
+One last thing I'm going to do is change this a little bit.
+
+263
+00:11:40,610 --> 00:11:42,610
+And you can even do something like
+
+264
+00:11:42,610 --> 00:11:49,860
+myThirdNumber = myFirstNumber * 2
+
+265
+00:11:51,640 --> 00:11:55,970
+So therefore the value would be 35 for the first line
+
+266
+00:11:55,970 --> 00:11:57,970
+12 for the second line
+
+267
+00:11:57,970 --> 00:12:01,060
+but then myThirdNumber is the first lines value which is
+
+268
+00:12:01,060 --> 00:12:03,930
+we saw was 35 * 2.
+
+269
+00:12:03,930 --> 00:12:05,930
+So that line would be 70.
+
+270
+00:12:05,930 --> 00:12:10,370
+So it would be 35 + 12 is 47 + 70
+
+271
+00:12:10,370 --> 00:12:13,590
+is 117. So if we now 'Run' this we should get the value of
+
+272
+00:12:13,590 --> 00:12:16,550
+a 117.
+
+273
+00:12:16,550 --> 00:12:19,350
+And you can see we've got a value of 117.
+
+274
+00:12:19,350 --> 00:12:21,260
+So let's end with a challenge.
+
+275
+00:12:21,260 --> 00:12:23,840
+So how would you define a new variable
+
+276
+00:12:23,840 --> 00:12:26,080
+that had a difference between 1,000
+
+277
+00:12:26,080 --> 00:12:28,080
+and the current value of 'myTotal'?
+
+278
+00:12:28,080 --> 00:12:30,080
+So in other words, how would you
+
+279
+00:12:30,080 --> 00:12:32,630
+assign that variable that it figured out
+
+280
+00:12:32,630 --> 00:12:34,380
+that whatever the total was, whatever the
+
+281
+00:12:34,380 --> 00:12:37,150
+value in 'myTotal' was to take that
+
+282
+00:12:37,150 --> 00:12:40,650
+from a 1,000 and to show the value from that and then to
+
+283
+00:12:40,650 --> 00:12:42,680
+print that out on the screen.  Go ahead
+
+284
+00:12:42,680 --> 00:12:47,780
+do that. Pause the video here and then come back when your ready and we'll have a look at the solution.
+PAUSE NOW - TRY TO SOLVE - THEN PRESS PLAY.
+
+285
+00:12:47,780 --> 00:12:50,110
+So how did it go? Did you figure it out?
+
+286
+00:12:50,110 --> 00:12:51,690
+Well to actually do that,
+
+287
+00:12:51,690 --> 00:12:53,770
+you can type a new variable. You can type
+
+288
+00:12:53,770 --> 00:13:03,540
+'int myLastOne = [and it's simply a matter of putting] 1,000 - myTotal;'
+
+289
+00:13:03,540 --> 00:13:06,090
+So that will then look at the number 1,000
+
+290
+00:13:06,090 --> 00:13:07,910
+deduct from it 'myTotal'
+
+291
+00:13:07,910 --> 00:13:10,500
+and leave us a value which in this case should
+
+292
+00:13:10,500 --> 00:13:13,220
+be the difference between a 1,000 and 117
+
+293
+00:13:13,220 --> 00:13:16,440
+which is 883 if my math is correct.
+
+294
+00:13:16,440 --> 00:13:20,660
+So what we can do is we can actually change this now.
+
+295
+00:13:20,660 --> 00:13:24,430
+Paste that in there, and if you 'Run' that,
+
+296
+00:13:24,430 --> 00:13:27,410
+We'll actually 'Run' it.
+
+297
+00:13:27,410 --> 00:13:30,970
+And there we go, that's the value of 883.
+
+298
+00:13:30,970 --> 00:13:33,730
+Now just a note before I finish this video,
+
+299
+00:13:33,730 --> 00:13:36,020
+case sensitivity is very important here.
+
+300
+00:13:36,020 --> 00:13:38,590
+Now I actually made a typo there
+
+301
+00:13:38,590 --> 00:13:40,480
+Generally speaking, when you're creating new
+
+302
+00:13:40,480 --> 00:13:43,990
+Java variables, they should start with a lowercase 'm'.
+
+303
+00:13:43,990 --> 00:13:45,760
+Now the point I want to show you here is
+
+304
+00:13:45,760 --> 00:13:47,510
+by changing this variable name,
+
+305
+00:13:47,510 --> 00:13:50,010
+to what it should be which is starting with a lowercase
+
+306
+00:13:50,010 --> 00:13:52,210
+<s>number</s> letter you now get an error and that's
+
+307
+00:13:52,210 --> 00:13:54,210
+because you typed it in uppercase.
+
+308
+00:13:54,210 --> 00:13:57,700
+And that's because Java is case sensitive when it
+
+309
+00:13:57,700 --> 00:13:59,170
+comes to typing your commands.
+
+310
+00:13:59,170 --> 00:14:02,000
+That's very much a common source of problems
+
+311
+00:14:02,000 --> 00:14:03,820
+when you're learning a new language is to get
+
+312
+00:14:03,820 --> 00:14:06,500
+the syntax wrong. In other words to type a word wrong.
+
+313
+00:14:06,500 --> 00:14:09,200
+But also not type it in the right case.
+
+314
+00:14:09,200 --> 00:14:11,380
+So as you can see there, because I've changed this
+
+315
+00:14:11,380 --> 00:14:14,040
+to a lowercase 'm' now from a human perspective
+
+316
+00:14:14,040 --> 00:14:15,970
+that's so obvious, well okay, isn't that the same
+
+317
+00:14:15,970 --> 00:14:18,510
+thing, because clearly it says 'MyLastOne'?
+
+318
+00:14:18,510 --> 00:14:20,510
+No, it's not the same thing as far as the computer's
+
+319
+00:14:20,510 --> 00:14:23,490
+concerned, because the 'm' here is an uppercase 'M'
+
+320
+00:14:23,490 --> 00:14:25,670
+and that's a lowercase 'm'. So we need to go back
+
+321
+00:14:25,670 --> 00:14:27,370
+and change that to a lowercase 'm'
+
+322
+00:14:27,370 --> 00:14:29,370
+and by doing that, that fixes the error.
+
+323
+00:14:29,370 --> 00:14:30,870
+So do make sure you check that out.
+
+324
+00:14:30,870 --> 00:14:33,380
+So it's a very common cause of errors.
+
+325
+00:14:33,380 --> 00:14:38,210
+And if you see something like that highlighted in 'red',
+
+326
+00:14:38,210 --> 00:14:40,350
+that's usually a good indication
+
+327
+00:14:40,350 --> 00:14:41,750
+there's an error with your typing,
+
+328
+00:14:41,750 --> 00:14:43,750
+and you can hover your mouse over it,
+
+329
+00:14:43,750 --> 00:14:45,750
+and it will usually tell you what the error is.
+
+330
+00:14:45,750 --> 00:14:48,480
+In this case 'Cannot resolve symbol 'MyLastOne'.
+
+331
+00:14:48,480 --> 00:14:50,830
+And what that's saying is it cannot find
+
+332
+00:14:50,830 --> 00:14:53,340
+a symbol or actually a variable in this case
+
+333
+00:14:53,340 --> 00:14:56,180
+called 'MyLastOne'. We'll change it to lowercase 'm'
+
+334
+00:14:56,180 --> 00:14:58,980
+It now matches the variable name that was assigned on
+
+335
+00:14:58,980 --> 00:15:00,680
+previous line and it will work.
+
+336
+00:15:00,680 --> 00:15:02,250
+So that's the 'integer' data type.
+
+337
+00:15:02,250 --> 00:15:04,270
+We've now learnt the basics about that.
+
+338
+00:15:04,270 --> 00:15:06,350
+In the next video we're going to start looking at some
+
+339
+00:15:06,350 --> 00:15:09,330
+other data types, and how to mix and match those
+
+340
+00:15:09,330 --> 00:15:11,170
+and take our results to the next level.
+
+341
+00:15:11,170 --> 00:15:13,170
+So, I'll see you in that next video.
+

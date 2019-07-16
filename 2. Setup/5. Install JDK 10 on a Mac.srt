@@ -1,0 +1,208 @@
+﻿1
+00:00:04,430 --> 00:00:06,690
+In this video we're going to download
+
+2
+00:00:06,690 --> 00:00:08,970
+and install the Java development kit for
+
+3
+00:00:08,970 --> 00:00:11,580
+a Mac computer and if you're running on
+
+4
+00:00:11,580 --> 00:00:14,099
+Windows or a Linux machine refer to the
+
+5
+00:00:14,099 --> 00:00:16,320
+separate videos in this course for those
+
+6
+00:00:16,320 --> 00:00:18,420
+operating systems but if you're on a Mac
+
+7
+00:00:18,420 --> 00:00:25,050
+go to Java sun.com in a browser once you
+
+8
+00:00:25,050 --> 00:00:28,619
+get there select Java SE we come over
+
+9
+00:00:28,619 --> 00:00:30,660
+here and select or click Java platform
+
+10
+00:00:30,660 --> 00:00:35,489
+SDK, and click on accept license
+
+11
+00:00:35,489 --> 00:00:37,829
+agreement come over to the back version
+
+12
+00:00:37,829 --> 00:00:41,190
+click on that and select save to start
+
+13
+00:00:41,190 --> 00:00:44,309
+the download. Now the version that I will
+
+14
+00:00:44,309 --> 00:00:46,770
+show on this page may change as of the
+
+15
+00:00:46,770 --> 00:00:48,780
+time that I'm recording this video you
+
+16
+00:00:48,780 --> 00:00:50,309
+can see that it's got Java SE
+
+17
+00:00:50,309 --> 00:00:53,430
+development kit 10.0.1 so that is
+
+18
+00:00:53,430 --> 00:00:55,649
+the most current release but if you've
+
+19
+00:00:55,649 --> 00:00:57,300
+got a later version or you see a later
+
+20
+00:00:57,300 --> 00:01:00,239
+version on this page just select that
+
+21
+00:01:00,239 --> 00:01:02,760
+and download that version because things
+
+22
+00:01:02,760 --> 00:01:04,680
+will still work just fine in this course.
+
+23
+00:01:04,680 --> 00:01:06,780
+Alright so I'm going to pause now until
+
+24
+00:01:06,780 --> 00:01:08,580
+this download is complete and then we'll
+
+25
+00:01:08,580 --> 00:01:11,820
+go through the installation process.
+
+26
+00:01:11,820 --> 00:01:13,740
+Alright so the download is now complete so
+
+27
+00:01:13,740 --> 00:01:14,790
+I'm going to come down here and click on
+
+28
+00:01:14,790 --> 00:01:19,400
+the dmg file to open it
+
+29
+00:01:19,400 --> 00:01:21,270
+and then we're going to start with the
+
+30
+00:01:21,270 --> 00:01:23,040
+installation I'm gonna double click on
+
+31
+00:01:23,040 --> 00:01:26,370
+this icon to start it we click on
+
+32
+00:01:26,370 --> 00:01:30,650
+continue I'm going to click on install
+
+33
+00:01:30,650 --> 00:01:37,230
+type in my password and then start the
+
+34
+00:01:37,230 --> 00:01:40,620
+installation after I press enter.
+
+35
+00:01:40,620 --> 00:01:43,440
+I can click on close, now this option that
+
+36
+00:01:43,440 --> 00:01:46,170
+will either delete the file that you
+
+37
+00:01:46,170 --> 00:01:48,060
+download it or put it into the trash or
+
+38
+00:01:48,060 --> 00:01:50,070
+you can optionally select to I keep it
+
+39
+00:01:50,070 --> 00:01:51,600
+this can be useful to keep it if you
+
+40
+00:01:51,600 --> 00:01:53,250
+plan to install this on another computer
+
+41
+00:01:53,250 --> 00:01:55,200
+just to save you having to download it
+
+42
+00:01:55,200 --> 00:01:56,850
+in my case, I'm just going to click
+
+43
+00:01:56,850 --> 00:02:00,690
+on move to trash and installations now
+
+44
+00:02:00,690 --> 00:02:02,729
+completed I can close down that window
+
+45
+00:02:02,729 --> 00:02:05,490
+as well. So in the next video
+
+46
+00:02:05,490 --> 00:02:06,600
+now that we've installed Java
+
+47
+00:02:06,600 --> 00:02:08,399
+development kit we need to download
+
+48
+00:02:08,399 --> 00:02:11,130
+install and configure the actual program
+
+49
+00:02:11,130 --> 00:02:12,959
+we're going to be using to create Java
+
+50
+00:02:12,959 --> 00:02:14,880
+applications in this course and that's
+
+51
+00:02:14,880 --> 00:02:17,550
+called IntelliJ IDEA. So let's work on
+
+52
+00:02:17,550 --> 00:02:20,690
+that in the next video.
+

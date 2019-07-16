@@ -1,0 +1,480 @@
+﻿1
+00:00:04,710 --> 00:00:06,839
+In this video we're going to download
+
+2
+00:00:06,839 --> 00:00:09,420
+and install the Java development kit for
+
+3
+00:00:09,420 --> 00:00:11,639
+the Windows platform, so if you're on a
+
+4
+00:00:11,639 --> 00:00:14,250
+Mac or running on a Linux system refer
+
+5
+00:00:14,250 --> 00:00:16,410
+to the relevant video elsewhere in this
+
+6
+00:00:16,410 --> 00:00:18,210
+course because the steps are a little
+
+7
+00:00:18,210 --> 00:00:20,220
+bit different but if you're on Windows
+
+8
+00:00:20,220 --> 00:00:22,890
+start by going to your browser and going
+
+9
+00:00:22,890 --> 00:00:29,920
+to the website java.sun.com
+
+10
+00:00:29,920 --> 00:00:31,720
+once you get there that you see this
+
+11
+00:00:31,720 --> 00:00:33,250
+option over here for downloads you can
+
+12
+00:00:33,250 --> 00:00:36,790
+come over here and select Java SE that
+
+13
+00:00:36,790 --> 00:00:39,220
+brings you to this page here and for
+
+14
+00:00:39,220 --> 00:00:41,110
+most users you'll select this Java
+
+15
+00:00:41,110 --> 00:00:43,780
+platform JDK and currently you can see
+
+16
+00:00:43,780 --> 00:00:45,520
+as of the time of recording this video
+
+17
+00:00:45,520 --> 00:00:48,190
+is showing version 10 so if you're
+
+18
+00:00:48,190 --> 00:00:50,290
+seeing a later version then do install
+
+19
+00:00:50,290 --> 00:00:52,239
+that later version but there is one
+
+20
+00:00:52,239 --> 00:00:53,980
+caveat to that and that's if you're
+
+21
+00:00:53,980 --> 00:00:57,070
+running a 32-bit version of Windows.
+
+22
+00:00:57,070 --> 00:00:58,750
+Now if you are running a 32-bit version of
+
+23
+00:00:58,750 --> 00:01:00,400
+Windows you'll need to actually download
+
+24
+00:01:00,400 --> 00:01:04,089
+an older version of Java the JDK because
+
+25
+00:01:04,089 --> 00:01:06,520
+Oracle no longer supporting 32-bit
+
+26
+00:01:06,520 --> 00:01:08,560
+versions of Windows for our current
+
+27
+00:01:08,560 --> 00:01:11,410
+versions of Java or the JDK so to
+
+28
+00:01:11,410 --> 00:01:13,720
+determine if you're running a 32-bit or
+
+29
+00:01:13,720 --> 00:01:16,180
+a 64-bit version of Windows when it go
+
+30
+00:01:16,180 --> 00:01:18,009
+into your control panel I'm going to
+
+31
+00:01:18,009 --> 00:01:19,960
+right click the windows icon and select
+
+32
+00:01:19,960 --> 00:01:21,700
+settings that usually works for most
+
+33
+00:01:21,700 --> 00:01:24,310
+versions of Windows then you want to go
+
+34
+00:01:24,310 --> 00:01:27,550
+into system, the select system
+
+35
+00:01:27,550 --> 00:01:29,290
+already because I'm running Windows 10,
+
+36
+00:01:29,290 --> 00:01:31,210
+I can actually type system and then got an
+
+37
+00:01:31,210 --> 00:01:32,680
+option down here to click on about your
+
+38
+00:01:32,680 --> 00:01:34,990
+PC, so you may write if you're running an
+
+39
+00:01:34,990 --> 00:01:37,120
+older version of windows need to go to
+
+40
+00:01:37,120 --> 00:01:38,260
+system and then there's an option for
+
+41
+00:01:38,260 --> 00:01:40,780
+about any respective you should get
+
+42
+00:01:40,780 --> 00:01:42,040
+eventually to a screen that looks very
+
+43
+00:01:42,040 --> 00:01:44,110
+similar to this you can see it down here
+
+44
+00:01:44,110 --> 00:01:46,650
+under system type it says for me
+
+45
+00:01:46,650 --> 00:01:49,900
+64-bit operating system x64 based
+
+46
+00:01:49,900 --> 00:01:52,270
+processor so the important part is a bit
+
+47
+00:01:52,270 --> 00:01:54,729
+on the left which says 64-bit operating
+
+48
+00:01:54,729 --> 00:01:56,770
+system so that tells me that I'm running
+
+49
+00:01:56,770 --> 00:01:59,380
+a 64-bit version and therefore I can run
+
+50
+00:01:59,380 --> 00:02:01,869
+the later versions of the JDK but yours
+
+51
+00:02:01,869 --> 00:02:04,630
+is a 32-bit operating system then you'll
+
+52
+00:02:04,630 --> 00:02:06,909
+need to install the older version of the
+
+53
+00:02:06,909 --> 00:02:08,799
+JDK which I'll show you when we go back
+
+54
+00:02:08,799 --> 00:02:10,929
+to the browser how to get access to that.
+
+55
+00:02:10,929 --> 00:02:12,600
+Alright so let's close this down and
+
+56
+00:02:12,600 --> 00:02:15,070
+back in the browser so if yours said
+
+57
+00:02:15,070 --> 00:02:17,350
+64-bit version then you'd come down and
+
+58
+00:02:17,350 --> 00:02:19,450
+click on here download Java platform SDK
+
+59
+00:02:19,450 --> 00:02:24,100
+10 come down and click on accept license
+
+60
+00:02:24,100 --> 00:02:25,930
+agreement and select over here the
+
+61
+00:02:25,930 --> 00:02:29,380
+windows 64-bit version I'm going to save
+
+62
+00:02:29,380 --> 00:02:32,890
+that into my downloads folder so while
+
+63
+00:02:32,890 --> 00:02:34,570
+that's downloading if you found that
+
+64
+00:02:34,570 --> 00:02:36,040
+you're running a 32-bit version of
+
+65
+00:02:36,040 --> 00:02:37,989
+Windows then what you need to do is just
+
+66
+00:02:37,989 --> 00:02:40,650
+go back and not download this version 10
+
+67
+00:02:40,650 --> 00:02:43,450
+come back to this screen and scroll down
+
+68
+00:02:43,450 --> 00:02:44,440
+and you'll see that you'll have this
+
+69
+00:02:44,440 --> 00:02:46,209
+option is quite a little bit more for
+
+70
+00:02:46,209 --> 00:02:48,400
+version eight so come over to version
+
+71
+00:02:48,400 --> 00:02:53,319
+eight click on JDK download then you
+
+72
+00:02:53,319 --> 00:02:55,540
+have this option you can scroll down you
+
+73
+00:02:55,540 --> 00:02:58,930
+can accept license agreement and you can
+
+74
+00:02:58,930 --> 00:03:00,190
+come down here this time you select the
+
+75
+00:03:00,190 --> 00:03:03,400
+x86 version which is a 32-bit version
+
+76
+00:03:03,400 --> 00:03:05,020
+you'd select that version there and
+
+77
+00:03:05,020 --> 00:03:07,959
+download a that version check it out
+
+78
+00:03:07,959 --> 00:03:09,340
+working on your computer but again
+
+79
+00:03:09,340 --> 00:03:10,360
+that's only if you're running a 32-bit
+
+80
+00:03:10,360 --> 00:03:12,040
+version of Windows.
+
+81
+00:03:12,040 --> 00:03:13,780
+In my case you can see the download for
+
+82
+00:03:13,780 --> 00:03:15,700
+the 64-bit version has finished so I'm
+
+83
+00:03:15,700 --> 00:03:18,700
+going to click on that to open it so
+
+84
+00:03:18,700 --> 00:03:19,959
+basically just open the file you just
+
+85
+00:03:19,959 --> 00:03:24,310
+downloaded ok yes if you get the pop-up
+
+86
+00:03:24,310 --> 00:03:26,019
+to run the program I'm going to close a
+
+87
+00:03:26,019 --> 00:03:27,630
+browser down at this point
+
+88
+00:03:27,630 --> 00:03:30,340
+then we'll give the Java installation
+
+89
+00:03:30,340 --> 00:03:33,790
+process a chance to start ok so you can
+
+90
+00:03:33,790 --> 00:03:36,790
+see we got this wizard now so the first
+
+91
+00:03:36,790 --> 00:03:39,330
+steps is to go through and click on next
+
+92
+00:03:39,330 --> 00:03:41,650
+then like this folder you'll need to
+
+93
+00:03:41,650 --> 00:03:43,299
+possibly know this folders on my case
+
+94
+00:03:43,299 --> 00:03:45,700
+that's downloading to Program Files Java
+
+95
+00:03:45,700 --> 00:03:47,980
+JDK version 10 so I'm gonna click on
+
+96
+00:03:47,980 --> 00:03:50,980
+next then we'll let it go through and
+
+97
+00:03:50,980 --> 00:03:53,980
+install that version of Java and you do
+
+98
+00:03:53,980 --> 00:03:55,359
+a similar thing if you downloaded the
+
+99
+00:03:55,359 --> 00:03:57,780
+older version of the JDK the
+
+100
+00:03:57,780 --> 00:04:00,130
+installation steps are very much similar
+
+101
+00:04:00,130 --> 00:04:02,019
+to what you're seeing here you'd follow
+
+102
+00:04:02,019 --> 00:04:03,700
+those steps and you can see that it's
+
+103
+00:04:03,700 --> 00:04:06,480
+downloading and installing also the JRE
+
+104
+00:04:06,480 --> 00:04:09,160
+JRE stands for the Java Runtime edition
+
+105
+00:04:09,160 --> 00:04:11,200
+so installing Java and it's also
+
+106
+00:04:11,200 --> 00:04:13,030
+installing the JDK you need both on your
+
+107
+00:04:13,030 --> 00:04:15,790
+computer, click on next there again
+
+108
+00:04:15,790 --> 00:04:16,900
+these steps will be very similar
+
+109
+00:04:16,900 --> 00:04:18,400
+irrespective of whether you're running
+
+110
+00:04:18,400 --> 00:04:21,789
+the 32-bit or 64-bit version of the JDK,
+
+111
+00:04:21,789 --> 00:04:30,020
+in other words JDK 8 or JDK 10.
+
+112
+00:04:30,020 --> 00:04:31,490
+Alright so you'll see at this point
+
+113
+00:04:31,490 --> 00:04:34,039
+now the installation is now complete we
+
+114
+00:04:34,039 --> 00:04:36,860
+can click on close and that's the end of
+
+115
+00:04:36,860 --> 00:04:38,629
+the video in the next one we're going to
+
+116
+00:04:38,629 --> 00:04:41,270
+download install and configure the IDE
+
+117
+00:04:41,270 --> 00:04:43,220
+or integrated development environment
+
+118
+00:04:43,220 --> 00:04:44,629
+that we're going to be using to write
+
+119
+00:04:44,629 --> 00:04:47,000
+Java programs in this course,see you in
+
+120
+00:04:47,000 --> 00:04:49,509
+the next video.
+

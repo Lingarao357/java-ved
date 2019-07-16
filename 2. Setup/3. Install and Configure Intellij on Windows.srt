@@ -1,0 +1,1084 @@
+﻿1
+00:00:04,710 --> 00:00:06,330
+In this video we're going to download
+
+2
+00:00:06,330 --> 00:00:10,019
+and install and configure IntelliJ IDEA
+
+3
+00:00:10,019 --> 00:00:11,400
+which is the integrated development
+
+4
+00:00:11,400 --> 00:00:13,619
+environment or IDE then we're going to
+
+5
+00:00:13,619 --> 00:00:15,750
+be using to write our java programs.
+
+6
+00:00:15,750 --> 00:00:16,949
+In this video is for the Windows platform
+
+7
+00:00:16,949 --> 00:00:19,949
+there's also a version for a Mac or for
+
+8
+00:00:19,949 --> 00:00:21,900
+a Linux machine so I refer to those
+
+9
+00:00:21,900 --> 00:00:23,700
+videos as appropriate, if you're on
+
+10
+00:00:23,700 --> 00:00:26,190
+Windows start by going to JetBrains.com
+
+11
+00:00:26,190 --> 00:00:30,619
+in a browser
+
+12
+00:00:30,619 --> 00:00:33,000
+and once that take it still that pages
+
+13
+00:00:33,000 --> 00:00:36,690
+kept down here we click on tools I move
+
+14
+00:00:36,690 --> 00:00:40,320
+over here look look okay do that and we
+
+15
+00:00:40,320 --> 00:00:42,000
+want this IntelliJ IDEA I will click on
+
+16
+00:00:42,000 --> 00:00:45,930
+download on the IntelliJ IDEA image
+
+17
+00:00:45,930 --> 00:00:48,420
+there and then I'll bring up this page
+
+18
+00:00:48,420 --> 00:00:51,870
+and when you go to download IntelliJ
+
+19
+00:00:51,870 --> 00:00:54,210
+IDEA you've got two options here you can
+
+20
+00:00:54,210 --> 00:00:56,339
+choose the ultimate or the Community
+
+21
+00:00:56,339 --> 00:00:58,350
+Edition. Now firstly you can see the
+
+22
+00:00:58,350 --> 00:01:00,839
+difference is showing here I won't go
+
+23
+00:01:00,839 --> 00:01:02,220
+into those now because most of those
+
+24
+00:01:02,220 --> 00:01:03,839
+won't make any difference to you at this
+
+25
+00:01:03,839 --> 00:01:05,489
+point if you're just starting out with
+
+26
+00:01:05,489 --> 00:01:08,100
+Java, so the Community Edition over here
+
+27
+00:01:08,100 --> 00:01:09,689
+on the right-hand side well that's the
+
+28
+00:01:09,689 --> 00:01:11,610
+free open-source version so you will
+
+29
+00:01:11,610 --> 00:01:13,740
+never need to pay and that's the version
+
+30
+00:01:13,740 --> 00:01:15,299
+that time going to install down download
+
+31
+00:01:15,299 --> 00:01:17,070
+and install now I'm just going to click
+
+32
+00:01:17,070 --> 00:01:19,890
+on that and start the download then
+
+33
+00:01:19,890 --> 00:01:21,090
+we'll just talk briefly about the
+
+34
+00:01:21,090 --> 00:01:25,350
+Ultimate Edition I'm just going to click
+
+35
+00:01:25,350 --> 00:01:27,900
+back to go to that previous page.
+
+36
+00:01:27,900 --> 00:01:29,250
+Now the other thing you can do is you can
+
+37
+00:01:29,250 --> 00:01:31,290
+download the Ultimate Edition and that's
+
+38
+00:01:31,290 --> 00:01:33,810
+got extra tools and capabilities you get
+
+39
+00:01:33,810 --> 00:01:35,640
+a free trial however you will need to
+
+40
+00:01:35,640 --> 00:01:38,159
+pay for that after the trial finishes so
+
+41
+00:01:38,159 --> 00:01:39,540
+for most people you probably want to
+
+42
+00:01:39,540 --> 00:01:41,100
+download and use the Community Edition
+
+43
+00:01:41,100 --> 00:01:44,070
+but what JetBrains have done is that
+
+44
+00:01:44,070 --> 00:01:45,630
+given me the ability to extend your
+
+45
+00:01:45,630 --> 00:01:47,490
+trial, so if you want to try out this
+
+46
+00:01:47,490 --> 00:01:49,350
+Ultimate Edition normally you give a
+
+47
+00:01:49,350 --> 00:01:51,659
+30-day trial I can give you an extra 90
+
+48
+00:01:51,659 --> 00:01:53,850
+days bringing the total trial period to
+
+49
+00:01:53,850 --> 00:01:56,700
+120 days so if you want to do that
+
+50
+00:01:56,700 --> 00:01:59,070
+download the Ultimate Edition then look
+
+51
+00:01:59,070 --> 00:02:00,540
+for the information in this section of
+
+52
+00:02:00,540 --> 00:02:01,830
+the course where I could show you how to
+
+53
+00:02:01,830 --> 00:02:04,170
+go about getting a key to extend that to
+
+54
+00:02:04,170 --> 00:02:06,780
+120 days but that's optional and as I
+
+55
+00:02:06,780 --> 00:02:08,519
+said the Community Edition will work
+
+56
+00:02:08,519 --> 00:02:11,310
+just fine in this course. Alright so I'm
+
+57
+00:02:11,310 --> 00:02:13,140
+just going to fast forward now and let
+
+58
+00:02:13,140 --> 00:02:15,180
+the rest of the IntelliJ download
+
+59
+00:02:15,180 --> 00:02:16,950
+complete and then we'll go through the
+
+60
+00:02:16,950 --> 00:02:24,160
+installation and configuration.
+
+61
+00:02:24,160 --> 00:02:26,350
+Okay so you can see the download is now
+
+62
+00:02:26,350 --> 00:02:28,750
+complete, so if I start now the process
+
+63
+00:02:28,750 --> 00:02:30,030
+the program rather that I've downloaded
+
+64
+00:02:30,030 --> 00:02:32,700
+that's going to go ahead now and install
+
+65
+00:02:32,700 --> 00:02:35,050
+IntelliJ Community Edition onto my
+
+66
+00:02:35,050 --> 00:02:39,010
+computer I'm gonna close in the browser
+
+67
+00:02:39,010 --> 00:02:40,450
+now we'll just go through now this
+
+68
+00:02:40,450 --> 00:02:42,550
+wizard to set it up I'm gonna click on
+
+69
+00:02:42,550 --> 00:02:45,490
+next click on next to use the default
+
+70
+00:02:45,490 --> 00:02:48,910
+destination folder now this part this
+
+71
+00:02:48,910 --> 00:02:50,140
+screen that's popped up is very
+
+72
+00:02:50,140 --> 00:02:52,180
+important firstly if you're running a
+
+73
+00:02:52,180 --> 00:02:54,730
+32-bit version of Windows and if you
+
+74
+00:02:54,730 --> 00:02:55,660
+don't know whether you're running a
+
+75
+00:02:55,660 --> 00:02:57,880
+32-bit version refer to the JDK
+
+76
+00:02:57,880 --> 00:03:00,070
+installation video in this section of
+
+77
+00:03:00,070 --> 00:03:01,270
+the course because I show you how to get
+
+78
+00:03:01,270 --> 00:03:03,490
+access to that but if you are running a
+
+79
+00:03:03,490 --> 00:03:06,250
+32-bit version and most people probably
+
+80
+00:03:06,250 --> 00:03:08,710
+won't be doing that but if you are if
+
+81
+00:03:08,710 --> 00:03:11,470
+you can 32-bit launcher and then click
+
+82
+00:03:11,470 --> 00:03:14,920
+on download and install JRE x86 by JetBrains,
+
+83
+00:03:14,920 --> 00:03:16,630
+very important that you do that because
+
+84
+00:03:16,630 --> 00:03:18,670
+you'll find that IntelliJ won't work
+
+85
+00:03:18,670 --> 00:03:21,430
+unless you do that but that's if you're
+
+86
+00:03:21,430 --> 00:03:23,950
+running a 32-bit version most people
+
+87
+00:03:23,950 --> 00:03:25,540
+will be running a 64-bit version of
+
+88
+00:03:25,540 --> 00:03:28,000
+Windows so that's the case select 64-bit
+
+89
+00:03:28,000 --> 00:03:30,160
+launcher and that's all you'll need to
+
+90
+00:03:30,160 --> 00:03:31,920
+do if you are running a 64-bit version
+
+91
+00:03:31,920 --> 00:03:35,710
+in both cases whether you're running 32 or 64-bit
+
+92
+00:03:35,710 --> 00:03:37,870
+I suggest you click on these three
+
+93
+00:03:37,870 --> 00:03:39,790
+options here Java groovy Kotlin
+
+94
+00:03:39,790 --> 00:03:42,630
+kt that just gives you the ability to
+
+95
+00:03:42,630 --> 00:03:46,000
+open files of that type in IntelliJ so
+
+96
+00:03:46,000 --> 00:03:49,660
+click on next now you can't install so
+
+97
+00:03:49,660 --> 00:03:50,710
+obviously that's now going through the
+
+98
+00:03:50,710 --> 00:03:53,440
+process of installing IntelliJ on this
+
+99
+00:03:53,440 --> 00:03:55,600
+computer. Now once that installation is
+
+100
+00:03:55,600 --> 00:03:57,040
+finished there's a few other things we
+
+101
+00:03:57,040 --> 00:03:59,200
+need to do firstly we need to configure
+
+102
+00:03:59,200 --> 00:04:02,470
+the Java development kit so that it it
+
+103
+00:04:02,470 --> 00:04:04,030
+actually works with in IntelliJ so we
+
+104
+00:04:04,030 --> 00:04:06,040
+need to associate the jdk
+
+105
+00:04:06,040 --> 00:04:07,780
+downloaded previously, so that happens
+
+106
+00:04:07,780 --> 00:04:09,760
+then we need to configure and tweak a
+
+107
+00:04:09,760 --> 00:04:11,980
+few settings within IntelliJ just to
+
+108
+00:04:11,980 --> 00:04:13,360
+make things a little bit easy for you to
+
+109
+00:04:13,360 --> 00:04:15,820
+use the Java development and once we've
+
+110
+00:04:15,820 --> 00:04:17,380
+done that we can then move on and start
+
+111
+00:04:17,380 --> 00:04:20,350
+working in IntelliJ and creating Java
+
+112
+00:04:20,350 --> 00:04:22,510
+programs, so I'm going to pause the video
+
+113
+00:04:22,510 --> 00:04:23,800
+here now and we'll come back where this
+
+114
+00:04:23,800 --> 00:04:26,670
+installation process has completed.
+
+115
+00:04:26,670 --> 00:04:29,620
+Okay, so installation is now completed we
+
+116
+00:04:29,620 --> 00:04:31,150
+don't want to run IntelliJ IDEA
+
+117
+00:04:31,150 --> 00:04:32,350
+Community Edition so I'm gonna check
+
+118
+00:04:32,350 --> 00:04:36,430
+their box and click on finish once
+
+119
+00:04:36,430 --> 00:04:37,969
+you've started IntelliJ you get this
+
+120
+00:04:37,969 --> 00:04:39,709
+option you can either click on the
+
+121
+00:04:39,709 --> 00:04:42,289
+option custom location to install it to
+
+122
+00:04:42,289 --> 00:04:43,879
+import rather some settings from a
+
+123
+00:04:43,879 --> 00:04:45,709
+previous installation of IntelliJ IDEA
+
+124
+00:04:45,709 --> 00:04:47,629
+or you can click on do not import
+
+125
+00:04:47,629 --> 00:04:50,029
+settings, in most cases do not import
+
+126
+00:04:50,029 --> 00:04:51,799
+settings would be the right option and
+
+127
+00:04:51,799 --> 00:04:53,149
+you can see that's the default I'm just
+
+128
+00:04:53,149 --> 00:04:54,829
+going to click on ok because I don't
+
+129
+00:04:54,829 --> 00:04:56,360
+want to import any settings from a
+
+130
+00:04:56,360 --> 00:04:57,439
+previous installation
+
+131
+00:04:57,439 --> 00:04:59,719
+I think this option about data sharing
+
+132
+00:04:59,719 --> 00:05:01,729
+I'm going to click on don't send because
+
+133
+00:05:01,729 --> 00:05:03,439
+I don't want to send any data to JetBrains
+
+134
+00:05:03,439 --> 00:05:05,599
+but you can click on send usage
+
+135
+00:05:05,599 --> 00:05:08,929
+statistics if you like now depending
+
+136
+00:05:08,929 --> 00:05:10,459
+where you are if you're in the UK or one
+
+137
+00:05:10,459 --> 00:05:12,379
+of the European countries that are
+
+138
+00:05:12,379 --> 00:05:14,539
+affected or the recent changes to data
+
+139
+00:05:14,539 --> 00:05:16,339
+privacy you may also get a privacy
+
+140
+00:05:16,339 --> 00:05:17,769
+pop-up which you'll need to agree to
+
+141
+00:05:17,769 --> 00:05:19,879
+before continuing but because I'm in
+
+142
+00:05:19,879 --> 00:05:21,979
+Australia I'm not affected by that and I
+
+143
+00:05:21,979 --> 00:05:23,839
+didn't get that option next you'll get
+
+144
+00:05:23,839 --> 00:05:25,999
+access to this screen this is a series
+
+145
+00:05:25,999 --> 00:05:28,399
+of customizations now for IntelliJ now
+
+146
+00:05:28,399 --> 00:05:29,449
+keep in mind with all of these things
+
+147
+00:05:29,449 --> 00:05:31,610
+that you can configure these at a later
+
+148
+00:05:31,610 --> 00:05:32,869
+times you don't need to spend a lot of
+
+149
+00:05:32,869 --> 00:05:34,759
+time thinking about this and usually
+
+150
+00:05:34,759 --> 00:05:35,779
+you'll see on the screen there's an
+
+151
+00:05:35,779 --> 00:05:37,489
+option that tells you how to get access
+
+152
+00:05:37,489 --> 00:05:39,499
+to these things to change in the future
+
+153
+00:05:39,499 --> 00:05:41,419
+this one is the background I'm going to
+
+154
+00:05:41,419 --> 00:05:43,339
+click on IntelliJ this is white
+
+155
+00:05:43,339 --> 00:05:44,839
+background which tends to be better for
+
+156
+00:05:44,839 --> 00:05:47,209
+video you can choose either click on
+
+157
+00:05:47,209 --> 00:05:50,179
+next now this screen gives you a list of
+
+158
+00:05:50,179 --> 00:05:53,149
+default plugins for IntelliJ one thing
+
+159
+00:05:53,149 --> 00:05:54,469
+you'll find with IntelliJ it's very
+
+160
+00:05:54,469 --> 00:05:56,749
+versatile and there's lots of different
+
+161
+00:05:56,749 --> 00:05:58,550
+plugins that you can install to add
+
+162
+00:05:58,550 --> 00:05:59,749
+various functionality
+
+163
+00:05:59,749 --> 00:06:01,339
+what I suggest here is you just leave
+
+164
+00:06:01,339 --> 00:06:03,439
+everything as the default noting that
+
+165
+00:06:03,439 --> 00:06:05,059
+you can change this again in the future
+
+166
+00:06:05,059 --> 00:06:07,009
+and one other note to keep in mind here
+
+167
+00:06:07,009 --> 00:06:08,899
+is if you're installing the ultimate
+
+168
+00:06:08,899 --> 00:06:10,819
+edition of IntelliJ you'll find that
+
+169
+00:06:10,819 --> 00:06:13,009
+there's more options on this screen in
+
+170
+00:06:13,009 --> 00:06:15,639
+both cases I just recommend you click on next
+
+171
+00:06:15,639 --> 00:06:18,529
+same deal on this screen you can install
+
+172
+00:06:18,529 --> 00:06:20,479
+these things if you want to but I
+
+173
+00:06:20,479 --> 00:06:21,559
+suggest you leave them and you can
+
+174
+00:06:21,559 --> 00:06:23,299
+always come back later to do that I'm
+
+175
+00:06:23,299 --> 00:06:24,829
+going to click on start now using
+
+176
+00:06:24,829 --> 00:06:29,059
+IntelliJ IDEA so we've now loaded
+
+177
+00:06:29,059 --> 00:06:31,369
+IntelliJ for the first time next thing
+
+178
+00:06:31,369 --> 00:06:32,360
+we want to do now is we want to
+
+179
+00:06:32,360 --> 00:06:34,069
+associate the Java development kit that
+
+180
+00:06:34,069 --> 00:06:36,439
+we installed in the previous video so
+
+181
+00:06:36,439 --> 00:06:38,689
+come down here click on configure click
+
+182
+00:06:38,689 --> 00:06:41,119
+on project defaults and click on project
+
+183
+00:06:41,119 --> 00:06:44,839
+structure this gives us the screen here
+
+184
+00:06:44,839 --> 00:06:48,110
+and we need to now define or select the
+
+185
+00:06:48,110 --> 00:06:49,490
+software development kit that we want to
+
+186
+00:06:49,490 --> 00:06:51,810
+use, so you may need to click on SDKs
+
+187
+00:06:51,810 --> 00:06:54,389
+here but usually from project will be
+
+188
+00:06:54,389 --> 00:06:56,430
+have to do the same thing so we'll just
+
+189
+00:06:56,430 --> 00:06:57,570
+click on this little drop down we can
+
+190
+00:06:57,570 --> 00:06:59,190
+confirm that there's no SDK or software
+
+191
+00:06:59,190 --> 00:07:01,500
+development kit installed so I'm going
+
+192
+00:07:01,500 --> 00:07:04,320
+to click on new I'm going to select JDK
+
+193
+00:07:04,320 --> 00:07:05,669
+because we want to install a new Java
+
+194
+00:07:05,669 --> 00:07:08,669
+development kit all he set it up then we
+
+195
+00:07:08,669 --> 00:07:11,400
+need to navigate to the folder where the
+
+196
+00:07:11,400 --> 00:07:12,930
+JDK was installed you remember that
+
+197
+00:07:12,930 --> 00:07:14,700
+remember that I discussed that in the
+
+198
+00:07:14,700 --> 00:07:16,050
+last video and showed you where that was
+
+199
+00:07:16,050 --> 00:07:18,150
+in most cases that will be in the C
+
+200
+00:07:18,150 --> 00:07:20,790
+Drive Program Files noting that I'm not
+
+201
+00:07:20,790 --> 00:07:22,950
+selecting Program Files x86 that's a
+
+202
+00:07:22,950 --> 00:07:26,070
+different folder altogether Java and JDK
+
+203
+00:07:26,070 --> 00:07:28,440
+so I'm going to select a JDK now
+
+204
+00:07:28,440 --> 00:07:29,760
+depending on the version you've
+
+205
+00:07:29,760 --> 00:07:31,800
+downloaded the numbers will change you
+
+206
+00:07:31,800 --> 00:07:33,120
+can see here that I've got an older
+
+207
+00:07:33,120 --> 00:07:35,820
+version here Java 8 1.8 means Java
+
+208
+00:07:35,820 --> 00:07:38,310
+version 8 that would be situation yet
+
+209
+00:07:38,310 --> 00:07:39,780
+that's that would be the one you choose
+
+210
+00:07:39,780 --> 00:07:42,240
+if you have a 32-bit version of Windows
+
+211
+00:07:42,240 --> 00:07:44,820
+but in my case I had a 64-bit version of
+
+212
+00:07:44,820 --> 00:07:46,530
+Windows running and I'm gonna just click
+
+213
+00:07:46,530 --> 00:07:49,200
+on this first option here for JDK making
+
+214
+00:07:49,200 --> 00:07:50,520
+sure that it's the latest version that
+
+215
+00:07:50,520 --> 00:07:52,650
+is available in this in this folder
+
+216
+00:07:52,650 --> 00:07:54,720
+one other thing make sure you don't
+
+217
+00:07:54,720 --> 00:07:57,960
+click the JRE, JRE stands for Runtime
+
+218
+00:07:57,960 --> 00:08:00,990
+Edition, Java Runtime Edition JDK is Java
+
+219
+00:08:00,990 --> 00:08:02,669
+development kit, you need to click on the
+
+220
+00:08:02,669 --> 00:08:06,000
+Java development kit click on OK and you
+
+221
+00:08:06,000 --> 00:08:06,780
+can see now that we've got a
+
+222
+00:08:06,780 --> 00:08:08,850
+configuration here whereas before it
+
+223
+00:08:08,850 --> 00:08:11,039
+said no JDK we've got Java 10 showing
+
+224
+00:08:11,039 --> 00:08:12,780
+the other thing is just to make sure you
+
+225
+00:08:12,780 --> 00:08:14,310
+select the right version here the
+
+226
+00:08:14,310 --> 00:08:14,970
+project level
+
+227
+00:08:14,970 --> 00:08:17,340
+it's normally auto selected for you in
+
+228
+00:08:17,340 --> 00:08:19,860
+my case you can see it's set to 10 and
+
+229
+00:08:19,860 --> 00:08:21,240
+that means that we're going to be using
+
+230
+00:08:21,240 --> 00:08:23,400
+the features of Java 10 if you had to
+
+231
+00:08:23,400 --> 00:08:25,740
+install a JDK 8 you would select a
+
+232
+00:08:25,740 --> 00:08:27,750
+version 8, in my case version 10 is
+
+233
+00:08:27,750 --> 00:08:30,410
+correct so I'm gonna click on ok so
+
+234
+00:08:30,410 --> 00:08:32,640
+we've now configured to the Java
+
+235
+00:08:32,640 --> 00:08:34,349
+development kit there's just a few other
+
+236
+00:08:34,349 --> 00:08:36,900
+settings to configure that I recommend
+
+237
+00:08:36,900 --> 00:08:38,610
+you set and you get access to those I'm
+
+238
+00:08:38,610 --> 00:08:40,469
+going to click on configure and select
+
+239
+00:08:40,469 --> 00:08:44,490
+settings once that pops up we want to
+
+240
+00:08:44,490 --> 00:08:46,760
+come down to editor click on the little
+
+241
+00:08:46,760 --> 00:08:49,620
+triangle there to expand it then come
+
+242
+00:08:49,620 --> 00:08:51,029
+down to general and click that as well
+
+243
+00:08:51,029 --> 00:08:54,300
+and then click on auto import 2 very
+
+244
+00:08:54,300 --> 00:08:56,400
+useful checkboxes to check here would be
+
+245
+00:08:56,400 --> 00:08:58,920
+the add and an unambiguous imports on
+
+246
+00:08:58,920 --> 00:09:01,320
+the fly and optimize imports on the fly
+
+247
+00:09:01,320 --> 00:09:02,910
+at the current project or select you,
+
+248
+00:09:02,910 --> 00:09:04,980
+I suggest you configure both of those or
+
+249
+00:09:04,980 --> 00:09:05,649
+select both
+
+250
+00:09:05,649 --> 00:09:10,240
+those come down to appearance I suggest
+
+251
+00:09:10,240 --> 00:09:11,920
+you click on I might will make sure that
+
+252
+00:09:11,920 --> 00:09:13,660
+the show line numbers checkbox is
+
+253
+00:09:13,660 --> 00:09:15,759
+checked in this case you can see that it
+
+254
+00:09:15,759 --> 00:09:16,839
+is checked and I don't need to do
+
+255
+00:09:16,839 --> 00:09:18,879
+anything there and finally come down
+
+256
+00:09:18,879 --> 00:09:21,100
+here to code folding and what I
+
+257
+00:09:21,100 --> 00:09:23,170
+recommend you do here is I recommend you
+
+258
+00:09:23,170 --> 00:09:25,860
+take off the check boxes for closures
+
+259
+00:09:25,860 --> 00:09:29,259
+and for generic constructor and method
+
+260
+00:09:29,259 --> 00:09:31,600
+parameters and the reason will become
+
+261
+00:09:31,600 --> 00:09:32,889
+apparent is to go through the course it
+
+262
+00:09:32,889 --> 00:09:34,449
+just makes sure that tell the code that
+
+263
+00:09:34,449 --> 00:09:36,459
+we're writing isn't being hidden away by
+
+264
+00:09:36,459 --> 00:09:38,920
+IntelliJ, alright once I click on ok and that
+
+265
+00:09:38,920 --> 00:09:40,660
+will save those changes in your
+
+266
+00:09:40,660 --> 00:09:42,550
+configuration and it means that all
+
+267
+00:09:42,550 --> 00:09:44,949
+future projects that you create when the
+
+268
+00:09:44,949 --> 00:09:47,410
+IntelliJ will use those settings. Alright,
+
+269
+00:09:47,410 --> 00:09:48,759
+so this point we're done we've now
+
+270
+00:09:48,759 --> 00:09:50,769
+configured IntelliJ IDEA and you're
+
+271
+00:09:50,769 --> 00:09:54,360
+ready to move on now to the next video.
+

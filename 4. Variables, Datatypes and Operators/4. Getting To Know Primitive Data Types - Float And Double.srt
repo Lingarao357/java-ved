@@ -1,0 +1,1090 @@
+﻿1
+00:00:05,200 --> 00:00:08,030
+In the previous video we talked exclusively
+
+2
+00:00:08,030 --> 00:00:10,440
+about 'whole' numbers. Numbers that don't have
+
+3
+00:00:10,440 --> 00:00:11,840
+any decimal points.
+
+4
+00:00:11,840 --> 00:00:13,860
+But how do we actually deal with
+
+5
+00:00:13,860 --> 00:00:15,200
+floating point numbers?
+
+6
+00:00:15,200 --> 00:00:17,190
+So in other words, if we want to use one or more
+
+7
+00:00:17,190 --> 00:00:18,070
+decimal points.
+
+8
+00:00:18,070 --> 00:00:19,910
+Well in this video we're going to make a start
+
+9
+00:00:19,910 --> 00:00:22,030
+on figuring out how to do that in Java.
+
+10
+00:00:22,030 --> 00:00:24,720
+So I'm going to create a new project in 'IntelliJ'.
+
+11
+00:00:26,700 --> 00:00:28,690
+Select 'Java' as we normally do.
+
+12
+00:00:28,690 --> 00:00:30,690
+And I'm going to 'Create [my] project
+
+13
+00:00:30,690 --> 00:00:33,150
+from [a] template -> Command Line App,
+
+14
+00:00:33,150 --> 00:00:35,000
+and I'm going to call this one:
+
+15
+00:00:35,000 --> 00:00:38,620
+'FloatAndDouble'
+
+16
+00:00:38,620 --> 00:00:41,110
+I'm going to set the '[Base] package:' name again
+
+17
+00:00:41,110 --> 00:00:42,900
+We will be talking about the 'Base package:'
+
+18
+00:00:42,900 --> 00:00:44,740
+and what this means a little bit later.
+
+19
+00:00:44,740 --> 00:00:46,740
+For now you can set that to whatever you like.
+
+20
+00:00:46,740 --> 00:00:52,020
+I'm going to click 'Finish'.
+
+21
+00:00:52,020 --> 00:00:56,090
+Okay! So how do we go about dealing with
+
+22
+00:00:56,090 --> 00:00:58,090
+'floating point' numbers in Java?
+
+23
+00:00:58,090 --> 00:01:00,390
+So that is numbers that have got a decimal point (.).
+
+24
+00:01:00,390 --> 00:01:03,290
+So there's two data types in Java
+
+25
+00:01:03,290 --> 00:01:05,130
+to deal with 'floating point' numbers.
+
+26
+00:01:05,130 --> 00:01:08,220
+And they are called the 'float' and the 'double'.
+
+27
+00:01:08,220 --> 00:01:10,350
+And the 'float' is a 'single' precision,
+
+28
+00:01:10,350 --> 00:01:12,700
+and 'double' is 'double' precision
+
+29
+00:01:12,700 --> 00:01:14,540
+unsurprisingly, given the name.
+
+30
+00:01:14,540 --> 00:01:17,910
+So essentially, the 'double' data type has got
+
+31
+00:01:17,910 --> 00:01:19,910
+twice as much detail as the 'float'.
+
+32
+00:01:19,910 --> 00:01:21,590
+Let's start with an example.
+
+33
+00:01:21,590 --> 00:01:24,790
+I'm going to type some code in just so we can compare
+
+34
+00:01:24,790 --> 00:01:27,190
+what a 'floating point' number does compared
+
+35
+00:01:27,190 --> 00:01:29,200
+to a 'whole' number. So I'm going to create
+
+36
+00:01:29,200 --> 00:01:34,410
+an 'integer' variable type, call it 'myIntValue'
+
+37
+00:01:34,410 --> 00:01:37,550
+and I'm going to set that to the value of '5'.
+
+38
+00:01:37,550 --> 00:01:40,020
+Then I'm going to create a 'float'
+
+39
+00:01:40,020 --> 00:01:42,740
+And to do a 'float' you type in 'float'
+
+40
+00:01:42,740 --> 00:01:46,590
+and we'll call it 'myFloatValue = 5'.
+
+41
+00:01:46,590 --> 00:01:49,670
+Now you can do that, but the proper practice
+
+42
+00:01:49,670 --> 00:01:52,100
+for entering a 'float' is to enter an 'f'.
+
+43
+00:01:52,100 --> 00:01:53,650
+Put an 'f' after the number.
+
+44
+00:01:53,650 --> 00:01:55,270
+Whatever the number is, you put an 'f'
+
+45
+00:01:55,270 --> 00:01:57,540
+at the end to denote it is a 'float' value.
+
+46
+00:01:57,540 --> 00:02:00,210
+And because it is a 'single' precision number,
+
+47
+00:02:00,210 --> 00:02:01,950
+we can put a decimal point. So we could say
+
+48
+00:02:01,950 --> 00:02:04,430
+5.25 for arguments sake.
+
+49
+00:02:04,430 --> 00:02:07,270
+Because a 'float' actually handles that
+
+50
+00:02:07,270 --> 00:02:08,760
+prevision for us automatically.
+
+51
+00:02:08,760 --> 00:02:11,410
+But we're going to leave it as '5' for now.
+
+52
+00:02:11,430 --> 00:02:12,940
+And let's create a 'double'.
+
+53
+00:02:12,940 --> 00:02:18,870
+And we'll call the 'double', 'myDoubleValue = 5'.
+
+54
+00:02:18,870 --> 00:02:20,570
+So we'll do the same for that.
+
+55
+00:02:20,570 --> 00:02:22,570
+And we can put a 'd' which is the
+
+56
+00:02:22,570 --> 00:02:25,870
+proper way of defining a 'double'.
+
+57
+00:02:25,870 --> 00:02:28,030
+Putting a 'd' to signify
+
+58
+00:02:28,030 --> 00:02:30,040
+but the other thing we can do is we can put the
+
+59
+00:02:30,040 --> 00:02:31,750
+decimal point like so
+
+60
+00:02:31,750 --> 00:02:36,160
+5.25 and Java will automatically assume
+
+61
+00:02:36,160 --> 00:02:38,380
+that the number you entered with the decimal point
+
+62
+00:02:38,380 --> 00:02:40,430
+is a double. And this is
+
+63
+00:02:40,430 --> 00:02:42,400
+very similar to what I showed you in the previous
+
+64
+00:02:42,400 --> 00:02:45,020
+video where in an 'expression',
+
+65
+00:02:45,020 --> 00:02:46,660
+the right hand side of an 'expression'
+
+66
+00:02:46,660 --> 00:02:48,590
+Java would assume the number is an 'integer'.
+
+67
+00:02:48,590 --> 00:02:51,510
+In this case with a number with a decimal point,
+
+68
+00:02:51,510 --> 00:02:53,200
+Java will assume it's a 'double'.
+
+69
+00:02:53,200 --> 00:02:57,180
+So, we'll go back and set that to '5d' again.
+
+70
+00:02:57,180 --> 00:03:00,110
+So for example, I can't go back and do this,
+
+71
+00:03:00,110 --> 00:03:05,450
+'5.4', because Java's saying, required a float
+
+72
+00:03:05,450 --> 00:03:07,060
+and  [it's] found a double
+
+73
+00:03:07,060 --> 00:03:09,260
+Thinking back to the previous lesson,
+
+74
+00:03:09,260 --> 00:03:10,890
+so here's a quick challenge for you.
+
+75
+00:03:10,890 --> 00:03:13,570
+Thinking back to the previous lesson on how we used
+
+76
+00:03:13,570 --> 00:03:17,280
+the 'cast' to convert a 'byte' and a 'short',
+
+77
+00:03:17,280 --> 00:03:19,300
+How do you think you'd go about converting this
+
+78
+00:03:19,300 --> 00:03:22,510
+value here, '5.4' to a 'float'?
+
+79
+00:03:22,510 --> 00:03:25,050
+Go ahead and pause the video and see if you can figure it out.
+
+80
+00:03:25,050 --> 00:03:27,460
+and come back when you've finished and we'll go
+
+81
+00:03:27,460 --> 00:03:29,460
+and I'll show you what the answer is.
+PAUSE NOW - TRY TO SOLVE - THEN PRESS PLAY.
+
+82
+00:03:29,460 --> 00:03:32,210
+So how did it go with the challenge? Did you figure it out?
+
+83
+00:03:32,210 --> 00:03:35,180
+Well the 'cast' if you want to force the value
+
+84
+00:03:35,180 --> 00:03:37,560
+would be the word 'float' in brackets
+
+85
+00:03:37,560 --> 00:03:40,810
+much like we used 'byte' and 'short'
+
+86
+00:03:40,810 --> 00:03:43,020
+in the previous video. But I wouldn't generally
+
+87
+00:03:43,020 --> 00:03:44,960
+recommend that. It would be far better
+
+88
+00:03:44,960 --> 00:03:47,520
+normally, to put an 'f' on the end like so.
+
+89
+00:03:47,520 --> 00:03:49,640
+Because it's a little bit clearer in the code,
+
+90
+00:03:49,640 --> 00:03:50,600
+and that's what you want.
+
+91
+00:03:50,600 --> 00:03:52,600
+But that is how you do it if you wanted to do it.
+
+92
+00:03:52,600 --> 00:03:55,760
+But anyway, I'll change that back so that's also '5f'.
+
+93
+00:03:55,760 --> 00:03:58,360
+So we've got three values now, 'integer', a 'float'
+
+94
+00:03:58,360 --> 00:04:01,070
+and a 'double', and they are all equal to '5'.
+
+95
+00:04:01,070 --> 00:04:03,530
+So let's go ahead and write some code. I'm going to
+
+96
+00:04:03,530 --> 00:04:05,100
+print something out for each of them.
+
+97
+00:04:05,100 --> 00:04:08,870
+So I'm going to type the abbreviation 'sout' and press 'Tab'.
+
+98
+00:04:08,870 --> 00:04:12,160
+And that creates that for us. Saves us typing a bit.
+
+99
+00:04:12,160 --> 00:04:13,200
+And we're going to put:
+
+100
+00:04:13,200 --> 00:04:17,710
+' "myIntValue = " + myIntValue '
+
+101
+00:04:18,330 --> 00:04:21,380
+I need to type 'sout' again, and put:
+
+102
+00:04:21,380 --> 00:04:29,650
+' "myFloatValue = " + myFloatValue ' and
+
+103
+00:04:29,650 --> 00:04:33,570
+[enter 'sout' press 'Tab' again]
+
+104
+00:04:33,570 --> 00:04:39,290
+' "myDoubleValue = " + myDoubleValue '
+
+105
+00:04:39,290 --> 00:04:42,720
+So probably won't be surprised when we 'Run' this
+
+106
+00:04:42,720 --> 00:04:49,830
+to what the result we'll get.
+
+107
+00:04:49,830 --> 00:04:52,530
+Now just double click that.
+
+108
+00:04:52,530 --> 00:04:54,870
+And we'll 'Run' it again.
+
+109
+00:04:54,870 --> 00:04:56,880
+And you can see here to the right hand side
+
+110
+00:04:56,880 --> 00:04:59,350
+the values. The 'integer' value was '5',
+
+111
+00:04:59,350 --> 00:05:01,390
+but notice how the 'float' value and the 'double'
+
+112
+00:05:01,390 --> 00:05:03,370
+value have a '.0' on the end of it.
+
+113
+00:05:03,370 --> 00:05:05,570
+So it's actually stored it as '5.0'
+
+114
+00:05:05,570 --> 00:05:08,700
+and that's because it's a 'floating point' number.
+
+115
+00:05:08,700 --> 00:05:10,280
+So that's all well and good. But what
+
+116
+00:05:10,280 --> 00:05:12,790
+do you think would happen if we change this
+
+117
+00:05:12,790 --> 00:05:17,730
+and put '5 / 2'?
+
+118
+00:05:17,730 --> 00:05:19,830
+So let's just run the first one,
+
+119
+00:05:20,000 --> 00:05:23,250
+just to see what the 'integer' value will come back as,
+
+120
+00:05:23,250 --> 00:05:25,960
+bearing in mind that it is a 'whole' number.
+
+121
+00:05:25,960 --> 00:05:27,710
+So you can see what's happened there,
+
+122
+00:05:27,710 --> 00:05:29,770
+we've tried to divide a 'whole' number, '5'
+
+123
+00:05:29,770 --> 00:05:32,030
+by '2', and the answer is '2'.
+
+124
+00:05:32,030 --> 00:05:34,680
+And that's because it hasn't taken into account
+
+125
+00:05:34,680 --> 00:05:36,950
+the remainder. It literally just said,
+
+126
+00:05:36,950 --> 00:05:39,430
+'2' goes into '5' only '2' times.
+
+127
+00:05:39,430 --> 00:05:42,080
+So we're not handling any reminder in that case.
+
+128
+00:05:42,080 --> 00:05:44,400
+But let's go back and do the same thing,
+
+129
+00:05:44,400 --> 00:05:48,830
+and we'll divide the second value by '2f'.
+
+130
+00:05:48,830 --> 00:05:52,580
+So, divide the floating point value of '5'
+
+131
+00:05:52,580 --> 00:05:54,360
+by the floating point value of '2f'.
+
+132
+00:05:54,360 --> 00:05:56,030
+And likewise for the double,
+
+133
+00:05:56,030 --> 00:05:58,220
+we're going to divide that by '2d'.
+
+134
+00:05:58,220 --> 00:06:02,980
+So let's just see what gets returned when we do that.
+
+135
+00:06:02,980 --> 00:06:05,520
+So that should hopefully now clarify
+
+136
+00:06:05,520 --> 00:06:07,890
+the difference with the data types. You can see that
+
+137
+00:06:07,890 --> 00:06:10,250
+'float' and the 'double' both give you the exact
+
+138
+00:06:10,250 --> 00:06:12,590
+value. In this case '2.5'
+
+139
+00:06:12,590 --> 00:06:14,990
+And because the 'integer' value is a 'whole' number
+
+140
+00:06:14,990 --> 00:06:17,050
+it's not retaining any remainders
+
+141
+00:06:17,050 --> 00:06:19,100
+whereas the 'float' and the 'double' is giving us
+
+142
+00:06:19,100 --> 00:06:21,330
+the complete answer, the correct answer.
+
+143
+00:06:21,330 --> 00:06:23,380
+And just to be sure that that is working we could
+
+144
+00:06:23,380 --> 00:06:26,570
+divide that by, let's just divide that by '3'.
+
+145
+00:06:30,530 --> 00:06:33,060
+And 'Run' that again.
+
+146
+00:06:33,060 --> 00:06:35,920
+You can actually see, the first one, 'integer'
+
+147
+00:06:35,920 --> 00:06:39,320
+that was only '3' goes into '5' once, so it returned '1'.
+
+148
+00:06:41,230 --> 00:06:43,220
+So 'float' has seven decimal digits of precision.
+
+149
+00:06:43,220 --> 00:06:45,470
+So that's numbers after the decimal point.
+
+150
+00:06:45,470 --> 00:06:49,100
+And a 'double' in fact has sixteen digits of
+
+151
+00:06:49,100 --> 00:06:51,500
+precision after the decimal point.
+
+152
+00:06:51,500 --> 00:06:53,680
+So you can see that the 'double' value is far more
+
+153
+00:06:53,680 --> 00:06:56,150
+precise. It also has to show you
+
+154
+00:06:56,150 --> 00:06:59,220
+before the default value for a decimal point
+
+155
+00:06:59,220 --> 00:07:02,400
+specify the 'f' or the 'd' is actually a double.
+
+156
+00:07:02,400 --> 00:07:04,160
+And that's another hint from Java
+
+157
+00:07:04,160 --> 00:07:06,160
+that it recommends that we use doubles.
+
+158
+00:07:06,160 --> 00:07:09,240
+So in terms of space, a 'float', you remember we
+
+159
+00:07:09,240 --> 00:07:10,710
+talked about this in the previous video
+
+160
+00:07:10,710 --> 00:07:14,690
+the width of an 'integer' is '32'
+
+161
+00:07:14,690 --> 00:07:17,350
+which is effectively 4 bytes. A 'float'
+
+162
+00:07:17,350 --> 00:07:22,340
+has got a width of '32' as well.
+
+163
+00:07:22,340 --> 00:07:24,340
+Which is equivalent to 4 bytes.
+
+164
+00:07:24,340 --> 00:07:25,990
+Can you guess what the 'double' will be?
+
+165
+00:07:25,990 --> 00:07:29,180
+The width of a 'double' equals '64'
+
+166
+00:07:29,180 --> 00:07:31,180
+which takes up 8 bytes.
+
+167
+00:07:31,180 --> 00:07:34,110
+So a 'double' takes up twice the amount
+
+168
+00:07:34,110 --> 00:07:36,390
+of memory than a 'float' does
+
+169
+00:07:36,390 --> 00:07:38,440
+But with that said there's still
+
+170
+00:07:38,440 --> 00:07:40,630
+really compelling reasons to use a 'double'
+
+171
+00:07:40,630 --> 00:07:43,040
+whenever you're using a 'floating point' number in Java.
+
+172
+00:07:43,040 --> 00:07:45,490
+First reason is that double precision
+
+173
+00:07:45,490 --> 00:07:47,830
+which is the use of a 'double' data type
+
+174
+00:07:47,830 --> 00:07:51,090
+is actually faster on many modern computers.
+
+175
+00:07:51,090 --> 00:07:54,340
+And secondly, many in-built functions in Java
+
+176
+00:07:54,340 --> 00:07:57,500
+math functions like 'sin' and 'cos' and so forth
+
+177
+00:07:57,500 --> 00:08:01,540
+they actually use doubles as their calculations
+
+178
+00:08:01,540 --> 00:08:03,050
+and you can understand why they'd want to do that
+
+179
+00:08:03,050 --> 00:08:05,050
+because it's more precise there's more
+
+180
+00:08:05,050 --> 00:08:07,190
+digits of precision. So that's really three
+
+181
+00:08:07,190 --> 00:08:08,550
+reasons why you'd want to use it.
+
+182
+00:08:08,550 --> 00:08:10,300
+And the fact that the 'double' is
+
+183
+00:08:10,300 --> 00:08:12,570
+actually faster on modern computers
+
+184
+00:08:12,570 --> 00:08:15,370
+Also the in-built functions in Java
+
+185
+00:08:15,370 --> 00:08:18,210
+usually use a 'double' and thirdly,
+
+186
+00:08:18,210 --> 00:08:20,210
+the 'double' is far more precise
+
+187
+00:08:20,210 --> 00:08:21,980
+So it's actually as you can see there
+
+188
+00:08:21,980 --> 00:08:25,050
+sixteen units of precision compared to just seven.
+
+189
+00:08:25,050 --> 00:08:27,570
+For that reason I recommend using 'doubles'
+
+190
+00:08:27,570 --> 00:08:29,570
+and from this point on in the course, I'm only
+
+191
+00:08:29,570 --> 00:08:32,300
+going to be using 'doubles' for mathematical
+
+192
+00:08:32,300 --> 00:08:34,330
+calculations. So it's now time
+
+193
+00:08:34,330 --> 00:08:36,330
+for another challenge.
+
+194
+00:08:36,330 --> 00:08:48,410
+So the challenge is as follows:
+
+195
+00:08:48,410 --> 00:08:51,540
+So here's the challenge:
+
+196
+00:08:51,540 --> 00:08:54,680
+Convert a given number of pounds to kilograms.
+
+197
+00:08:54,680 --> 00:08:58,110
+So the steps to take will be to create a variable
+
+198
+00:08:58,110 --> 00:09:00,110
+to store the number of pounds.
+
+199
+00:09:00,110 --> 00:09:03,570
+Secondly you need to calculate the number of kilograms
+
+200
+00:09:03,570 --> 00:09:05,670
+for the number entered above [pounds].
+
+201
+00:09:05,670 --> 00:09:08,540
+And you need to store that in another variable.
+
+202
+00:09:08,540 --> 00:09:10,580
+Thirdly, then print out the result.
+
+203
+00:09:10,580 --> 00:09:12,700
+using the 'System.out.println()'.
+
+204
+00:09:12,700 --> 00:09:15,140
+And there's a note there that should help you a lot
+
+205
+00:09:15,140 --> 00:09:16,620
+to figure out the conversion.
+
+206
+00:09:16,620 --> 00:09:23,880
+1 pound is equal to 0.45359237 kilograms.
+
+207
+00:09:23,880 --> 00:09:26,790
+So go ahead and try that now. Pause the video
+
+208
+00:09:26,790 --> 00:09:28,110
+See if you can figure that out.
+
+209
+00:09:28,110 --> 00:09:29,200
+Come back when your finished, and
+
+210
+00:09:29,200 --> 00:09:32,480
+start the video again and I'll show you my solution.
+PAUSE NOW - TRY TO SOLVE - THEN PRESS PLAY.
+
+211
+00:09:32,480 --> 00:09:35,230
+So how did it go, did you figure it out?
+
+212
+00:09:35,230 --> 00:09:36,470
+Let's make a start on it.
+
+213
+00:09:36,470 --> 00:09:38,490
+So with Step 1, we need to create
+
+214
+00:09:38,490 --> 00:09:40,570
+a variable to store the number of pounds.
+
+215
+00:09:40,570 --> 00:09:41,490
+I'm going to call that:
+
+216
+00:09:41,490 --> 00:09:46,760
+' double numPounds '
+
+217
+00:09:47,550 --> 00:09:50,020
+And I'm going to make that ' = 200d '
+
+218
+00:09:50,020 --> 00:09:53,270
+' 200d ' So it's 200 pounds.
+
+219
+00:09:53,270 --> 00:09:55,280
+Next, we need to calculate the number of
+
+220
+00:09:55,280 --> 00:09:57,490
+kilograms for the number of pounds.
+
+221
+00:09:57,490 --> 00:10:00,580
+In this case '200' and store it in a variable.
+
+222
+00:10:00,580 --> 00:10:02,580
+So we're going to do another one, we're going to put:
+
+223
+00:10:02,580 --> 00:10:08,880
+' double (we'll call it) convertedKilograms = '
+
+224
+00:10:08,880 --> 00:10:17,230
+So our hint is that 1 pound = 0.45359237 kilogram.
+
+225
+00:10:17,230 --> 00:10:19,230
+So how do we go about that?
+
+226
+00:10:19,230 --> 00:10:20,740
+Well it's actually pretty straight forward,
+
+227
+00:10:20,740 --> 00:10:24,490
+all we need to do is multiply the number of pounds
+
+228
+00:10:24,490 --> 00:10:31,940
+by 0.45359237. Now you want to put a
+
+229
+00:10:31,940 --> 00:10:33,760
+'d' on the end there just again to tell Java that
+
+230
+00:10:33,760 --> 00:10:35,810
+this is a 'double' even though it would default
+
+231
+00:10:35,810 --> 00:10:37,620
+to it anyway, but just to be clear.
+
+232
+00:10:37,620 --> 00:10:40,130
+So we've now got our converted kilograms
+
+233
+00:10:40,130 --> 00:10:43,210
+then we do a sysout (sout)
+
+234
+00:10:43,210 --> 00:10:49,820
+' "Kilograms = " + convertedKilograms '
+
+235
+00:10:49,820 --> 00:10:53,880
+So now if we 'Run' that.
+
+236
+00:10:53,880 --> 00:10:59,890
+You can see that the kilograms is 90.718474
+
+237
+00:10:59,890 --> 00:11:01,800
+So let's check that now with Google.
+
+238
+00:11:01,800 --> 00:11:05,370
+So we can easily do that. So we can go to Google
+
+239
+00:11:06,090 --> 00:11:08,440
+And that will actually tell us the answer.
+
+240
+00:11:08,440 --> 00:11:14,670
+So 200 pounds is 90.7185. I'll just take a copy of that,
+
+241
+00:11:14,670 --> 00:11:17,250
+If you go back to 'IntelliJ',
+
+242
+00:11:17,250 --> 00:11:19,090
+And that was the result.
+
+243
+00:11:19,090 --> 00:11:24,600
+90.7185 and in our case it's 90.7184, but
+
+244
+00:11:24,600 --> 00:11:28,170
+847, so rounded up would be be 90.7185.
+
+245
+00:11:28,170 --> 00:11:30,170
+So therefore our calculation is correct.
+
+246
+00:11:30,170 --> 00:11:32,170
+So that's how you go about converting
+
+247
+00:11:32,170 --> 00:11:34,170
+pounds to kilograms.
+
+248
+00:11:34,170 --> 00:11:37,290
+And that in a nutshell is the 'float' and the 'double'
+
+249
+00:11:37,290 --> 00:11:39,640
+for dealing with single and double precision numbers
+
+250
+00:11:39,640 --> 00:11:42,050
+in Java. And just one last thing now just
+
+251
+00:11:42,050 --> 00:11:44,330
+to finish off. You remember in the previous
+
+252
+00:11:44,330 --> 00:11:46,500
+video we were able to use underscores
+
+253
+00:11:46,500 --> 00:11:48,380
+when defining a literal value.
+
+254
+00:11:48,380 --> 00:11:50,690
+So a literal value for a 'float' or a 'double' can be
+
+255
+00:11:50,690 --> 00:11:53,400
+done the same way. So we could for example put
+
+256
+00:11:53,400 --> 00:12:05,650
+' double pi = (now we could put) 3.1415927 ' (like so.)
+
+257
+00:12:05,650 --> 00:12:07,990
+Or with a 'd' to make it precise.
+
+258
+00:12:07,990 --> 00:12:10,590
+but we could also put, if we wanted too:
+
+259
+00:12:10,590 --> 00:12:15,390
+'141_' so you could put numbers
+
+260
+00:12:15,390 --> 00:12:17,150
+define numbers like that with underscores
+
+261
+00:12:17,150 --> 00:12:21,160
+if you wanted too to make it clearer or
+
+262
+00:12:21,160 --> 00:12:25,340
+you can of course also put them before the decimal point.
+
+263
+00:12:25,340 --> 00:12:29,530
+For example, 3_000_000.
+
+264
+00:12:29,530 --> 00:12:34,000
+So in that case the pi would be incorrectly
+
+265
+00:12:34,000 --> 00:12:38,590
+specified as 3000000.1415927d
+
+266
+00:12:38,590 --> 00:12:40,370
+So I just wanted to make the point that you can use
+
+267
+00:12:40,370 --> 00:12:43,600
+underscores to make your variables cleaner
+
+268
+00:12:43,600 --> 00:12:46,080
+when you are setting about it as a literal.
+
+269
+00:12:46,080 --> 00:12:49,990
+So that's it. We're now done with 'floats and 'doubles'.
+
+270
+00:12:49,990 --> 00:12:51,930
+In the next video we're going to have a look at
+
+271
+00:12:51,930 --> 00:12:54,390
+two other data types. Namely the 'char'
+
+272
+00:12:54,390 --> 00:12:57,470
+and the 'boolean. I'll see you in that video.
+

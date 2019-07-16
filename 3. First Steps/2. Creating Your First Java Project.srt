@@ -1,0 +1,1304 @@
+﻿1
+00:00:04,910 --> 00:00:07,990
+In this video, we're going to make our very first
+
+2
+00:00:07,990 --> 00:00:09,690
+Java Application.
+
+3
+00:00:09,690 --> 00:00:12,460
+We're going to make an application call 'Hello World'.
+
+4
+00:00:12,460 --> 00:00:14,880
+Now in computing terms, it's been
+
+5
+00:00:14,880 --> 00:00:16,670
+a tradition, that the very first
+
+6
+00:00:16,670 --> 00:00:18,900
+program you create in a new language,
+
+7
+00:00:18,900 --> 00:00:21,010
+to get the computer to print out a message
+
+8
+00:00:21,010 --> 00:00:22,760
+that simply says 'Hello World'.
+
+9
+00:00:22,760 --> 00:00:24,530
+Nothing more, nothing less.
+
+10
+00:00:24,530 --> 00:00:27,040
+So the idea is just to show you some ...
+
+11
+00:00:27,040 --> 00:00:29,050
+basics of that language.
+
+12
+00:00:29,050 --> 00:00:30,450
+So what I'm going to do, I'm going to click
+
+13
+00:00:30,450 --> 00:00:32,370
+on 'Create New Project'.
+
+14
+00:00:33,070 --> 00:00:35,540
+This brings up a rather intimidating
+
+15
+00:00:35,540 --> 00:00:38,180
+looking screen, but it isn't as bad as it looks.
+
+16
+00:00:38,180 --> 00:00:41,050
+Now depending on the 'Edition' of 'IntelliJ' that
+
+17
+00:00:41,050 --> 00:00:42,810
+you're running. Whether you're running the
+
+18
+00:00:42,810 --> 00:00:44,520
+'Ultimate Edition' like I am,
+
+19
+00:00:44,520 --> 00:00:46,520
+or whether you're running the 'Community Edition',
+
+20
+00:00:46,520 --> 00:00:48,720
+you will see there's different options
+
+21
+00:00:48,720 --> 00:00:50,610
+here to the left hand side.
+
+22
+00:00:50,610 --> 00:00:52,900
+Now because I'm running the 'Ultimate Edition',
+
+23
+00:00:52,900 --> 00:00:55,740
+and this is the paid version of 'IntelliJ';
+
+24
+00:00:55,740 --> 00:00:58,550
+the 'Jetbrains' people, the makers of 'IntelliJ'
+
+25
+00:00:58,550 --> 00:01:00,550
+give you a lot more options.
+
+26
+00:01:00,550 --> 00:01:02,210
+But you don't need to worry about this
+
+27
+00:01:02,210 --> 00:01:04,100
+whether you're running the 'Ultimate Edition',
+
+28
+00:01:04,100 --> 00:01:06,360
+or running the 'Community Edition',
+
+29
+00:01:06,360 --> 00:01:08,460
+just make sure you click on 'java'
+
+30
+00:01:08,460 --> 00:01:11,120
+to the top left hand corner, like so.
+
+31
+00:01:11,120 --> 00:01:13,930
+Now you should also have a 'Project SDK'
+
+32
+00:01:13,930 --> 00:01:16,540
+showing there, and it should say something like '1.8'.
+
+33
+00:01:16,540 --> 00:01:18,720
+May be the future, may be a different number
+
+34
+00:01:18,720 --> 00:01:20,600
+but that's okay, it'll still work.
+
+35
+00:01:20,600 --> 00:01:22,260
+Now if you haven't got one.
+
+36
+00:01:22,260 --> 00:01:24,550
+Refer back to the 'SDK'
+
+37
+00:01:24,550 --> 00:01:27,350
+the Java Development Kit installation video,
+
+38
+00:01:27,350 --> 00:01:29,430
+and I actually went through and showed you how to
+
+39
+00:01:29,430 --> 00:01:32,120
+install a Java Development Kit.
+
+40
+00:01:32,120 --> 00:01:33,990
+And if you're sure you've done that
+
+41
+00:01:33,990 --> 00:01:35,420
+and this is not showing,
+
+42
+00:01:35,420 --> 00:01:37,510
+go back and check out the 'IntelliJ'
+
+43
+00:01:37,510 --> 00:01:38,760
+installation video.
+
+44
+00:01:38,760 --> 00:01:40,760
+Because right at the end of that video,
+
+45
+00:01:40,760 --> 00:01:43,540
+I go through and show you how to finish off
+
+46
+00:01:43,540 --> 00:01:46,710
+the setup of the 'Project SDK', and that involves
+
+47
+00:01:46,710 --> 00:01:49,510
+telling 'IntelliJ' where to find the new
+
+48
+00:01:49,510 --> 00:01:51,310
+Java Development Kit.
+
+49
+00:01:51,310 --> 00:01:53,210
+Again, make sure java is selected
+
+50
+00:01:53,210 --> 00:01:54,920
+leave everything else there unselected
+
+51
+00:01:54,920 --> 00:01:56,560
+there, we don't need to click on anything.
+
+52
+00:01:56,560 --> 00:01:58,070
+Click on 'Next'.
+
+53
+00:01:58,070 --> 00:02:00,160
+And you'll see this option
+
+54
+00:02:00,160 --> 00:02:02,250
+'Create project from template',
+
+55
+00:02:02,250 --> 00:02:04,090
+I'm going to leave that unchecked
+
+56
+00:02:04,090 --> 00:02:06,090
+because we want to create a brand new project
+
+57
+00:02:06,090 --> 00:02:07,090
+from scratch.
+
+58
+00:02:07,090 --> 00:02:09,800
+I'm going to click on 'Next'.
+
+59
+00:02:09,800 --> 00:02:12,340
+Next, it's asking you for the
+
+60
+00:02:12,340 --> 00:02:15,490
+'Project name' and also the 'Project location'.
+
+61
+00:02:15,490 --> 00:02:17,820
+'Project name' is self-explanatory. We're going to
+
+62
+00:02:17,820 --> 00:02:21,770
+call that one 'Hello World'.
+
+63
+00:02:21,770 --> 00:02:24,100
+Now I've typed it on the screen with spaces.
+
+64
+00:02:24,100 --> 00:02:26,860
+But I don't actually recommend you type 'spaces'.
+
+65
+00:02:26,860 --> 00:02:30,360
+For a project name, you want to type in whatever it is,
+
+66
+00:02:30,360 --> 00:02:32,360
+and you can use upper and lowercase freely.
+
+67
+00:02:32,360 --> 00:02:35,930
+But don't put any 'spaces' in there, and that's because
+
+68
+00:02:35,930 --> 00:02:38,210
+often, depending on your operating system,
+
+69
+00:02:38,210 --> 00:02:40,850
+you can run into difficulties with spaces
+
+70
+00:02:40,850 --> 00:02:42,350
+in path names.
+
+71
+00:02:42,350 --> 00:02:44,830
+So I suggest you leave that like so, so I'm
+
+72
+00:02:44,830 --> 00:02:46,830
+calling this one 'HelloWorld'.
+
+73
+00:02:46,830 --> 00:02:48,590
+I typed it 'correctly' this time.
+
+74
+00:02:48,590 --> 00:02:50,770
+And if you click on 'More Settings' down at the bottom,
+
+75
+00:02:50,770 --> 00:02:52,850
+you get some other options; and it gives you things like
+
+76
+00:02:52,850 --> 00:02:55,290
+the 'Content root', the 'Project format'
+
+77
+00:02:55,290 --> 00:02:57,010
+and the 'Module file location'.
+
+78
+00:02:57,010 --> 00:02:59,770
+We don't need to worry about any of that at this stage.
+
+79
+00:03:00,120 --> 00:03:02,710
+We can just stick to the basics which was the
+
+80
+00:03:02,710 --> 00:03:05,420
+'Project name', 'HelloWorld' and the 'Project location'.
+
+81
+00:03:05,420 --> 00:03:07,300
+I'm going to change this location
+
+82
+00:03:07,300 --> 00:03:08,550
+to another location though.
+
+83
+00:03:08,550 --> 00:03:11,130
+And because this is my first java application,
+
+84
+00:03:11,130 --> 00:03:13,100
+on this computer, you can see
+
+85
+00:03:13,100 --> 00:03:15,300
+I've got a 'Project location' and that's because of
+
+86
+00:03:15,300 --> 00:03:17,100
+I've been creating a java application
+
+87
+00:03:17,100 --> 00:03:19,100
+for another one of my courses, I don't want
+
+88
+00:03:19,100 --> 00:03:20,580
+to put my source code in there.
+
+89
+00:03:20,580 --> 00:03:22,580
+What I want to do is I want to click on this
+
+90
+00:03:22,580 --> 00:03:24,580
+button over here to the right,
+
+91
+00:03:24,580 --> 00:03:26,990
+and I want to navigate to a new folder
+
+92
+00:03:26,990 --> 00:03:29,420
+and I want to create a new folder that's
+
+93
+00:03:29,420 --> 00:03:31,420
+going to contain all the java code
+
+94
+00:03:31,420 --> 00:03:33,510
+that we'll be using for this course.
+
+95
+00:03:33,510 --> 00:03:37,090
+So to make it simple I'm just going to click on 'Desktop'
+
+96
+00:03:37,090 --> 00:03:39,810
+and I'm going to click on 'New Folder'
+
+97
+00:03:39,810 --> 00:03:48,590
+and I'm going to type in 'JavaPrograms'.
+
+98
+00:03:48,590 --> 00:03:50,740
+And click on 'Create'.
+
+99
+00:03:50,740 --> 00:03:52,820
+And that's going to be the folder that I'm going to
+
+100
+00:03:52,820 --> 00:03:54,890
+store all my java code in.
+
+101
+00:03:55,110 --> 00:03:57,300
+Going to click on 'Choose', and you can see it's
+
+102
+00:03:57,300 --> 00:03:59,330
+now updated and it's actually updated
+
+103
+00:03:59,330 --> 00:04:00,810
+to point to that path
+
+104
+00:04:00,810 --> 00:04:02,720
+But what it's done at the moment is, it's only
+
+105
+00:04:02,720 --> 00:04:05,320
+given me the name of the main folder.
+
+106
+00:04:05,320 --> 00:04:07,220
+In fact what I want to do is create a
+
+107
+00:04:07,220 --> 00:04:09,960
+subfolder that contains each project.
+
+108
+00:04:09,960 --> 00:04:12,170
+So that if I've got two projects
+
+109
+00:04:12,170 --> 00:04:14,170
+they've each both their own folder
+
+110
+00:04:14,170 --> 00:04:16,170
+in 'JavaPrograms'.
+
+111
+00:04:16,170 --> 00:04:18,290
+So what I'm going to do is click on again
+
+112
+00:04:18,290 --> 00:04:21,650
+to the right here, and I'm going to click on 'New Folder',
+
+113
+00:04:21,650 --> 00:04:23,780
+and I'm going to type in 'HelloWorld'.
+
+114
+00:04:23,780 --> 00:04:25,840
+And that's going to be the folder that
+
+115
+00:04:25,840 --> 00:04:28,370
+contains our first application.
+
+116
+00:04:28,370 --> 00:04:30,160
+So you can see now that
+
+117
+00:04:30,160 --> 00:04:31,730
+'Project name' is 'HelloWorld'
+
+118
+00:04:31,730 --> 00:04:34,160
+the 'location' is now 'Users/' in my case
+
+119
+00:04:34,160 --> 00:04:37,040
+dev/Desktop/JavaPrograms/HelloWorld
+
+120
+00:04:37,040 --> 00:04:39,820
+So it's got it's own folder and the 'Project name' is
+
+121
+00:04:39,820 --> 00:04:42,270
+going to be 'HelloWorld' that's stored in that folder.
+
+122
+00:04:42,270 --> 00:04:44,410
+Now you may have, if you're running on Windows
+
+123
+00:04:44,410 --> 00:04:47,610
+you'll see that this folder location will be a little bit
+
+124
+00:04:47,610 --> 00:04:49,170
+different. You'll probably have something like
+
+125
+00:04:49,170 --> 00:04:53,600
+'C:\Users (you know whatever your user name is)\
+
+126
+00:04:53,600 --> 00:04:55,600
+perhaps a link to the 'Documents' folder
+
+127
+00:04:55,600 --> 00:04:57,540
+You'll just need to navigate to a folder that
+
+128
+00:04:57,540 --> 00:04:59,540
+you'll remember where these files will be,
+
+129
+00:04:59,540 --> 00:05:01,120
+depending on your operating system.
+
+130
+00:05:01,120 --> 00:05:02,420
+But that's where mine are going to be.
+
+131
+00:05:02,420 --> 00:05:04,420
+So now I'm going to click on 'Finish'.
+
+132
+00:05:04,420 --> 00:05:06,420
+So what's happening now is
+
+133
+00:05:06,420 --> 00:05:10,400
+the 'IntelliJ' editor is now creating a folder
+
+134
+00:05:10,400 --> 00:05:12,990
+in that directory and it's containing the base files
+
+135
+00:05:12,990 --> 00:05:15,260
+that we'll be using for our application.
+
+136
+00:05:15,260 --> 00:05:17,430
+Now before we get started, I just want to point out
+
+137
+00:05:17,430 --> 00:05:18,560
+the 'Tip of the Day'.
+
+138
+00:05:18,560 --> 00:05:20,200
+This is a little box that comes up
+
+139
+00:05:20,200 --> 00:05:22,560
+every time you first start up 'IntelliJ'.
+
+140
+00:05:22,560 --> 00:05:24,790
+And you can turn these 'tips' off, because that's what
+
+141
+00:05:24,790 --> 00:05:26,450
+they are, their 'tips for the day'.
+
+142
+00:05:26,450 --> 00:05:28,600
+And I suggest you leave it on,
+
+143
+00:05:28,600 --> 00:05:30,210
+and actually read some of these. Because it
+
+144
+00:05:30,210 --> 00:05:32,670
+gives you some really clever shortcuts
+
+145
+00:05:32,670 --> 00:05:34,500
+and it gives you an overview of some of the
+
+146
+00:05:34,500 --> 00:05:36,740
+features that included with 'IntelliJ'.
+
+147
+00:05:36,740 --> 00:05:39,850
+Definitely worth your time to read some of these.
+
+148
+00:05:39,850 --> 00:05:41,260
+and you can click on 'Next [Tip]'
+
+149
+00:05:41,260 --> 00:05:42,570
+to go through and read what some of the
+
+150
+00:05:42,570 --> 00:05:44,640
+other tips are. And again it's just
+
+151
+00:05:44,640 --> 00:05:46,330
+a great way for finding out some of the
+
+152
+00:05:46,330 --> 00:05:48,480
+capabilities that the 'IntelliJ IDEA'
+
+153
+00:05:48,480 --> 00:05:49,460
+product has got.
+
+154
+00:05:49,460 --> 00:05:51,460
+to really save you a lot of time
+
+155
+00:05:51,460 --> 00:05:53,090
+when it comes to development.
+
+156
+00:05:53,090 --> 00:05:54,370
+I'm going to click on 'Close',
+
+157
+00:05:54,370 --> 00:05:55,900
+and I'm going to leave the 'Tips' On.
+
+158
+00:05:55,900 --> 00:05:57,640
+But if for some reason you didn't want
+
+159
+00:05:57,640 --> 00:06:00,430
+the 'Tips' to show, just click on the checkbox.
+
+160
+00:06:00,430 --> 00:06:02,350
+So what we're going to do now is click
+
+161
+00:06:02,350 --> 00:06:04,500
+on this little button down here to the left
+
+162
+00:06:04,500 --> 00:06:06,580
+which is called on a Mac a disclosure
+
+163
+00:06:06,580 --> 00:06:07,910
+triangle. But in any event, you'll click
+
+164
+00:06:07,910 --> 00:06:10,180
+that and it just opens up as you can see.
+
+165
+00:06:10,180 --> 00:06:11,870
+And I'm going to click here where it says
+
+166
+00:06:11,870 --> 00:06:14,750
+'src' which is the abbreviation for 'source'.
+
+167
+00:06:14,750 --> 00:06:16,880
+And what that is, is the location
+
+168
+00:06:16,880 --> 00:06:19,240
+where we'll be putting our java source code.
+
+169
+00:06:19,240 --> 00:06:21,290
+So I'm going to right-click that now.
+
+170
+00:06:21,290 --> 00:06:22,480
+You notice that when I click
+
+171
+00:06:22,480 --> 00:06:23,910
+that I get what is a huge
+
+172
+00:06:23,910 --> 00:06:25,250
+menu of options, and
+
+173
+00:06:25,250 --> 00:06:26,720
+believe if I'm not down the track
+
+174
+00:06:26,720 --> 00:06:28,720
+once you've had a bit of experience with java
+
+175
+00:06:28,720 --> 00:06:30,530
+a lot of these will make a lot more sense to you.
+
+176
+00:06:30,530 --> 00:06:31,970
+Right now I can see tht's
+
+177
+00:06:31,970 --> 00:06:33,230
+probably overwhelming but you
+
+178
+00:06:33,230 --> 00:06:34,850
+don't need to memorize anything.
+
+179
+00:06:34,850 --> 00:06:36,850
+The only thing you need to do is click on 'New'.
+
+180
+00:06:36,850 --> 00:06:39,150
+and come over here where it says 'Java Class',
+
+181
+00:06:39,150 --> 00:06:41,150
+and click on 'Java Class'.
+
+182
+00:06:41,150 --> 00:06:43,350
+This brings up a little window and
+
+183
+00:06:43,350 --> 00:06:46,100
+'IntelliJ' is now saying, 'What is the name of the
+
+184
+00:06:46,100 --> 00:06:48,020
+Class that you want to create?'.
+
+185
+00:06:48,020 --> 00:06:50,300
+Now don't worry if you don't know what a 'Class' is.
+
+186
+00:06:50,300 --> 00:06:52,770
+In later lectures, we're going to be going through in
+
+187
+00:06:52,770 --> 00:06:55,200
+detail explaining what 'Classes' are.
+
+188
+00:06:55,200 --> 00:06:57,380
+For now, it's just good for you to follow along
+
+189
+00:06:57,380 --> 00:06:59,650
+and do what I'm doing and when we get
+
+190
+00:06:59,650 --> 00:07:00,990
+to the stage of you needing to know more
+
+191
+00:07:00,990 --> 00:07:03,550
+about 'class', I'm going to go into that in more detail.
+
+192
+00:07:03,550 --> 00:07:06,510
+Let's create one and we're just going to call it 'Hello'.
+
+193
+00:07:06,510 --> 00:07:09,440
+Okay, and I'm going to click on 'OK'.
+
+194
+00:07:09,440 --> 00:07:11,840
+Now don't be to concerned about
+
+195
+00:07:11,840 --> 00:07:14,180
+the contents that are on the screen
+
+196
+00:07:14,180 --> 00:07:16,790
+we're going to go through that in detail in ...
+
+197
+00:07:17,360 --> 00:07:19,770
+... future videos. For now let's just get a basic
+
+198
+00:07:19,770 --> 00:07:21,770
+program up and working.
+
+199
+00:07:21,770 --> 00:07:23,920
+in 'IntelliJ' so that we can actually tick the
+
+200
+00:07:23,920 --> 00:07:26,110
+box that says we've created our
+
+201
+00:07:26,110 --> 00:07:28,860
+first java application, and we've actually run it.
+
+202
+00:07:28,860 --> 00:07:32,060
+I'm going to press 'Enter' on the end of the first line,
+
+203
+00:07:32,060 --> 00:07:33,020
+and I'm going to type
+
+204
+00:07:33,020 --> 00:07:40,180
+'public static void (I'm putting spaces between them)
+
+205
+00:07:40,180 --> 00:07:42,050
+Now as your typing do make sure you
+
+206
+00:07:42,050 --> 00:07:45,310
+type in exactly the same 'case' with exactly the
+
+207
+00:07:45,310 --> 00:07:47,720
+same spelling as you can see me typing.
+
+208
+00:07:47,720 --> 00:07:51,180
+It's very common for new programmers or people
+
+209
+00:07:51,180 --> 00:07:52,910
+using another programming language
+
+210
+00:07:52,910 --> 00:07:55,610
+to type things in to make typing mistakes
+
+211
+00:07:55,610 --> 00:07:57,910
+or to type things in a different case.
+
+212
+00:07:57,910 --> 00:08:00,790
+For example, instead of a lowercase 'p'
+
+213
+00:08:00,790 --> 00:08:02,640
+for the style of the word 'public', if I typed it
+
+214
+00:08:02,640 --> 00:08:06,560
+an uppercase 'P', you'll get a completely different result.
+
+215
+00:08:06,560 --> 00:08:08,560
+In this case, it's highlighted in 'red'
+
+216
+00:08:08,560 --> 00:08:10,210
+which is saying 'there's an error'.
+
+217
+00:08:10,210 --> 00:08:12,280
+So do make sure you check your code carefully
+
+218
+00:08:12,280 --> 00:08:14,240
+that you're typing it in exactly as you see
+
+219
+00:08:14,240 --> 00:08:16,720
+me type it. And if you ... see anything like
+
+220
+00:08:16,720 --> 00:08:19,260
+this in 'red', you can just put your mouse over it
+
+221
+00:08:19,260 --> 00:08:21,700
+and 'IntelliJ' will normally tell you what the problem is.
+
+222
+00:08:21,700 --> 00:08:24,440
+In this case it's saying "Cannot resolve symbol 'Public'"
+
+223
+00:08:24,440 --> 00:08:26,330
+and that's because the first letter was typed
+
+224
+00:08:26,330 --> 00:08:27,640
+in uppercase 'P'.
+
+225
+00:08:27,640 --> 00:08:29,640
+So I'm going to make that lowercase 'p' again.
+
+226
+00:08:29,640 --> 00:08:32,190
+So let's finish off our first program. So,
+
+227
+00:08:32,190 --> 00:08:34,430
+'public static void main'
+
+228
+00:08:34,430 --> 00:08:35,990
+With spaces in between.
+
+229
+00:08:35,990 --> 00:08:37,650
+then a regular 'bracket' [parenthesis].
+
+230
+00:08:37,650 --> 00:08:40,030
+The word 'String' with a capital 'S'.
+
+231
+00:08:40,030 --> 00:08:43,100
+And I'm going to put two ... square [ ] brackets
+
+232
+00:08:43,100 --> 00:08:44,820
+Notice those brackets a little bit different
+
+233
+00:08:44,820 --> 00:08:46,820
+to the other bracket's (parentheses) we've used.
+
+234
+00:08:46,820 --> 00:08:48,820
+and the word 'args'
+
+235
+00:08:48,820 --> 00:08:50,820
+I'm going to put a brace ({) now.
+
+236
+00:08:50,820 --> 00:08:52,840
+The brace ({)  is the same character as
+
+237
+00:08:52,840 --> 00:08:54,670
+the one you see after the word 'Hello'
+
+238
+00:08:54,670 --> 00:08:56,750
+Okay, now we've done that. Now we're going to type
+
+239
+00:08:56,750 --> 00:08:59,090
+'System' with a capital 'S' dot (.)
+
+240
+00:08:59,090 --> 00:09:06,340
+'out.printl' (and as I type the 'l')
+
+241
+00:09:06,340 --> 00:09:08,510
+you notice that 'IntelliJ' came up and said
+
+242
+00:09:08,510 --> 00:09:10,870
+'Oh do you mean 'println'?' which is an
+
+243
+00:09:10,870 --> 00:09:12,760
+abbreviation for 'print line'.
+
+244
+00:09:12,760 --> 00:09:14,810
+So if you want that and you're happy with that,
+
+245
+00:09:14,810 --> 00:09:16,420
+you just double-click that if you want
+
+246
+00:09:16,420 --> 00:09:18,450
+and you'll notice how 'IntelliJ' filled out the rest
+
+247
+00:09:18,450 --> 00:09:19,980
+of the line for us, which is great.
+
+248
+00:09:19,980 --> 00:09:21,150
+Now what I'm going to do is go back here
+
+249
+00:09:21,150 --> 00:09:22,830
+to this little brackets (parentheses) [println()].
+
+250
+00:09:22,830 --> 00:09:25,310
+And I'm going to type in a double quote (")
+
+251
+00:09:25,310 --> 00:09:27,760
+And notice how I only typed one double quote ("),
+
+252
+00:09:27,760 --> 00:09:31,660
+but 'IntelliJ' added ... the second one automatically.
+
+253
+00:09:31,660 --> 00:09:33,210
+And that's because 'IntelliJ'
+
+254
+00:09:33,210 --> 00:09:36,090
+is saying, quite rightly, 'Well if you type one
+
+255
+00:09:36,090 --> 00:09:37,880
+double quote (") you need to have a second one
+
+256
+00:09:37,880 --> 00:09:39,570
+to make it valid in java.'
+
+257
+00:09:39,570 --> 00:09:42,030
+So it quite conveniently added that for you.
+
+258
+00:09:42,030 --> 00:09:44,740
+So in those double quotes, I'm going to type 'Hello'
+
+259
+00:09:44,740 --> 00:09:48,140
+', World' and I'm going to put an
+
+260
+00:09:48,140 --> 00:09:49,620
+exclamation mark (!) after it.
+
+261
+00:09:49,620 --> 00:09:51,620
+So at this point, we're now
+
+262
+00:09:51,620 --> 00:09:53,460
+done with our first java application. We've
+
+263
+00:09:53,460 --> 00:09:55,880
+created a valid java application.
+
+264
+00:09:55,880 --> 00:09:58,090
+We know that it's valid, because there are no 'red'
+
+265
+00:09:58,090 --> 00:09:59,370
+errors on the screen.
+
+266
+00:09:59,370 --> 00:10:02,070
+We can't see any errors showing up, so
+
+267
+00:10:02,070 --> 00:10:04,580
+the next thing to do is to actually run the
+
+268
+00:10:04,580 --> 00:10:06,510
+application. So how do we actually get it
+
+269
+00:10:06,510 --> 00:10:08,480
+to do something? Because this
+
+270
+00:10:08,480 --> 00:10:11,290
+'System.out.println' or print line
+
+271
+00:10:11,290 --> 00:10:13,680
+which it's an abbreviation for is meant to
+
+272
+00:10:13,680 --> 00:10:15,760
+display 'Hello, World!' the message
+
+273
+00:10:15,760 --> 00:10:17,760
+somewhere on the computer.
+
+274
+00:10:17,760 --> 00:10:19,860
+Well it turns out, that running it is quite easy,
+
+275
+00:10:19,860 --> 00:10:21,670
+you just literally need to right click.
+
+276
+00:10:21,670 --> 00:10:24,010
+That brings up a menu with a lot of options
+
+277
+00:10:24,010 --> 00:10:26,860
+but the one you want is 'Run 'Hello.main()'.
+
+278
+00:10:26,860 --> 00:10:29,210
+So I'm going to click on that.
+
+279
+00:10:29,780 --> 00:10:31,450
+You notice something happened.
+
+280
+00:10:31,450 --> 00:10:32,960
+Something happened down at the bottom briefly
+
+281
+00:10:32,960 --> 00:10:34,960
+and now a little window's appeared.
+
+282
+00:10:34,960 --> 00:10:37,120
+And you can now see, we've actually got a message
+
+283
+00:10:37,120 --> 00:10:39,120
+which says 'Hello, World!'.
+
+284
+00:10:39,120 --> 00:10:41,720
+And it's got 'Process finished with exit code 0'.
+
+285
+00:10:41,720 --> 00:10:43,510
+Now we'll be talking more about what that means
+
+286
+00:10:43,510 --> 00:10:45,530
+in a future video, but the bottom line
+
+287
+00:10:45,530 --> 00:10:48,610
+is you've now created and successfully run
+
+288
+00:10:48,610 --> 00:10:50,980
+your first 'HelloWorld' application.
+
+289
+00:10:50,980 --> 00:10:54,360
+Challenge time! How would you go about modifying
+
+290
+00:10:54,360 --> 00:10:57,360
+the output to instead of putting 'Hello, World!',
+
+291
+00:10:57,360 --> 00:10:59,050
+to put 'Hello' and your name?
+
+292
+00:10:59,050 --> 00:11:01,050
+For example, 'Hello Tim!'
+
+293
+00:11:01,050 --> 00:11:02,540
+I'm going to pause the video.
+
+294
+00:11:02,540 --> 00:11:03,980
+Go ahead and make that change so that
+
+295
+00:11:03,980 --> 00:11:05,980
+the outcome becomes 'Hello Tim!'
+
+296
+00:11:06,340 --> 00:11:08,400
+instead of 'Hello, World!', or substitute
+
+297
+00:11:08,400 --> 00:11:09,740
+the word 'Tim' for 'your name'.
+
+298
+00:11:09,740 --> 00:11:10,640
+Go for it now!
+
+299
+00:11:10,640 --> 00:11:11,710
+And we'll come back shortly and
+
+300
+00:11:11,710 --> 00:11:14,810
+show you how to do it.
+
+301
+00:11:14,810 --> 00:11:16,580
+Welcome back!
+
+302
+00:11:16,580 --> 00:11:18,360
+So did you get that going okay?
+
+303
+00:11:18,360 --> 00:11:20,780
+Well it turns out the change is pretty easy.
+
+304
+00:11:20,780 --> 00:11:23,480
+All we really need to do is we nee go into here,
+
+305
+00:11:23,740 --> 00:11:25,680
+and we can go back and just delete it
+
+306
+00:11:25,680 --> 00:11:27,900
+as we would using a normal word processor.
+
+307
+00:11:27,900 --> 00:11:29,600
+Delete those characters out.
+
+308
+00:11:29,600 --> 00:11:31,600
+and type in your name like so.
+
+309
+00:11:31,600 --> 00:11:33,900
+And if you want to put in an exclamation mark (!).
+
+310
+00:11:33,900 --> 00:11:36,370
+Doing that, we'll actually display the
+
+311
+00:11:36,370 --> 00:11:37,600
+message 'Hello Tim!'.
+
+312
+00:11:37,600 --> 00:11:39,470
+But to see that message on the screen
+
+313
+00:11:39,470 --> 00:11:41,130
+again we need to right click,
+
+314
+00:11:41,130 --> 00:11:43,770
+and click on 'Run...'.
+
+315
+00:11:44,090 --> 00:11:46,540
+And you can see down on the bottom of the screen,
+
+316
+00:11:46,540 --> 00:11:48,710
+we've now got 'Hello Tim!' So that's it!
+
+317
+00:11:48,710 --> 00:11:51,460
+That's our first very basic java application.
+
+318
+00:11:51,460 --> 00:11:53,770
+In the next video, I'm going to walk you through
+
+319
+00:11:53,770 --> 00:11:56,030
+some of the basic functions within
+
+320
+00:11:56,030 --> 00:11:58,330
+'IntelliJ' just so you understand the various
+
+321
+00:11:58,330 --> 00:12:00,670
+parts of the screen, and how to move some of the
+
+322
+00:12:00,670 --> 00:12:02,300
+windows around depending on the amount
+
+323
+00:12:02,300 --> 00:12:03,920
+of screen real estate you've got.
+
+324
+00:12:03,920 --> 00:12:06,240
+And just to help you become a little bit more familiar
+
+325
+00:12:06,240 --> 00:12:07,250
+with 'IntelliJ'.
+
+326
+00:12:07,250 --> 00:12:09,620
+So, I'll see you in that next video.
+

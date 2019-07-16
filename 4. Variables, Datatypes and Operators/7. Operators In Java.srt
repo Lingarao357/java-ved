@@ -1,0 +1,1388 @@
+﻿1
+00:00:05,300 --> 00:00:08,110
+In the previous video we had a discussion about
+
+2
+00:00:08,110 --> 00:00:11,840
+'primitive' types and also introduced the 'String' class.
+
+3
+00:00:11,840 --> 00:00:14,390
+In this video I want to start talking about what
+
+4
+00:00:14,390 --> 00:00:16,820
+'operators' are, so you can get a good understanding of
+
+5
+00:00:16,820 --> 00:00:19,380
+what they are and how to use them in your code.
+
+6
+00:00:19,590 --> 00:00:21,700
+For this video, I've created a new
+
+7
+00:00:21,700 --> 00:00:24,180
+project and I've called it 'Operators'.
+
+8
+00:00:24,180 --> 00:00:26,570
+So 'Operators' are actually special symbols that
+
+9
+00:00:26,570 --> 00:00:28,880
+perform specific operations on one,
+
+10
+00:00:28,880 --> 00:00:32,560
+two, or three operands, and then return a result.
+
+11
+00:00:32,560 --> 00:00:34,560
+Now you've actually seen this in use.
+
+12
+00:00:34,560 --> 00:00:37,540
+We've actually used a number of 'operators' already.
+
+13
+00:00:37,540 --> 00:00:39,770
+But now I just want to go through and clarify and
+
+14
+00:00:39,770 --> 00:00:42,120
+go through all the major 'operators' so you're very
+
+15
+00:00:42,120 --> 00:00:44,640
+familiar with them and know how to use them.
+
+16
+00:00:44,640 --> 00:00:46,840
+Now some 'operators' tend to appear in your
+
+17
+00:00:46,840 --> 00:00:48,910
+code a lot more frequently that others.
+
+18
+00:00:48,910 --> 00:00:51,020
+And as we start typing our code,
+
+19
+00:00:51,020 --> 00:00:53,210
+I'll show you the one that's probably the most
+
+20
+00:00:53,210 --> 00:00:54,860
+common one for you.
+
+21
+00:00:54,860 --> 00:00:56,930
+So you've seen this sort of code before:
+
+22
+00:00:56,930 --> 00:01:00,090
+'int result = 'something'.
+
+23
+00:01:00,090 --> 00:01:02,900
+We can do 'something' like '1 + 2'.
+
+24
+00:01:02,900 --> 00:01:06,740
+And that is using, there's two 'operators' there,
+
+25
+00:01:06,740 --> 00:01:08,740
+equal (=) and then also a plus (+).
+
+26
+00:01:08,740 --> 00:01:10,990
+That's an 'operator', and it's actually saying,
+
+27
+00:01:10,990 --> 00:01:13,560
+Whatever is evaluated on the right
+
+28
+00:01:13,560 --> 00:01:16,430
+hand side here, to place that 'value'
+
+29
+00:01:16,430 --> 00:01:18,500
+in 'result. So in this case,
+
+30
+00:01:18,500 --> 00:01:22,150
+'1 + 2 = 3' so therefore the value '3' would
+
+31
+00:01:22,150 --> 00:01:24,150
+be assigned by the 'equals' sign (=)
+
+32
+00:01:24,150 --> 00:01:26,550
+to the 'variable' called 'result'.
+
+33
+00:01:26,550 --> 00:01:29,270
+So you've seen something similar in the past
+
+34
+00:01:29,270 --> 00:01:30,920
+when I did something like this:
+
+35
+00:01:30,920 --> 00:01:32,400
+I'll just comment that out with the two
+
+36
+00:01:32,400 --> 00:01:34,070
+backslashes (\\) as we've seen before.
+
+37
+00:01:34,070 --> 00:01:36,920
+So that's using a 'literal' value there
+
+38
+00:01:36,920 --> 00:01:39,910
+of the number '1' to assign it to 'result'
+
+39
+00:01:39,910 --> 00:01:41,910
+So that's still using the equals (=) 'operator'.
+
+40
+00:01:41,910 --> 00:01:44,680
+But we're not using the plus (+) 'operator' in that case.
+
+41
+00:01:44,680 --> 00:01:46,080
+Okay, so I'm going to go back and put that back
+
+42
+00:01:46,080 --> 00:01:47,490
+as to what it was before.
+
+43
+00:01:47,490 --> 00:01:49,930
+So there's our first 'value' as number '3', so that's
+
+44
+00:01:49,930 --> 00:01:51,930
+two operators.
+
+45
+00:01:51,930 --> 00:01:53,690
+And just to confirm that, we can just do a
+
+46
+00:01:53,690 --> 00:01:58,340
+printout of that, and put "1 + 2 =" + result.
+
+47
+00:01:58,340 --> 00:02:00,380
+And probably not going to be any surprise,
+
+48
+00:02:00,380 --> 00:02:02,700
+any surprises to see what that comes back as,
+
+49
+00:02:02,700 --> 00:02:04,700
+the answer of course should be '3'.
+
+50
+00:02:04,700 --> 00:02:08,300
+As you can see there on the right hand side that it is.
+
+51
+00:02:08,300 --> 00:02:11,560
+So continuing on, another 'operator'.
+
+52
+00:02:11,560 --> 00:02:14,870
+What we'll do is we're going to save the result
+
+53
+00:02:14,870 --> 00:02:16,470
+of the previous operation.
+
+54
+00:02:16,470 --> 00:02:18,720
+We can use a function of 'IntelliJ' that is
+
+55
+00:02:18,720 --> 00:02:20,390
+to show you how to clean up if your code starts
+
+56
+00:02:20,390 --> 00:02:22,640
+getting disorganized or there's too many
+
+57
+00:02:22,640 --> 00:02:24,640
+spaces, you can come up here to [Menu bar] Code
+
+58
+00:02:24,640 --> 00:02:26,640
+and click on 'Reformat Code...'
+
+59
+00:02:26,640 --> 00:02:29,200
+and that will reformat it all for you nicely.
+
+60
+00:02:29,200 --> 00:02:31,970
+All right, so I'm going to create another variable called
+
+61
+00:02:31,970 --> 00:02:34,810
+'previousResult'.
+
+62
+00:02:34,810 --> 00:02:37,830
+I'm going to consign that to 'result'. So it's going to store
+
+63
+00:02:37,830 --> 00:02:39,770
+the current 'value' of 'result',
+
+64
+00:02:39,770 --> 00:02:41,770
+and then we're going to assign
+
+65
+00:02:41,770 --> 00:02:43,500
+the 'result' to something else. So I'm going to put
+
+66
+00:02:43,500 --> 00:02:49,020
+'result = result take [minus]  (-) 1.
+
+67
+00:02:49,020 --> 00:02:50,840
+And you've seen something similar to that
+
+68
+00:02:50,840 --> 00:02:53,560
+when we've taken off a value as we did in the past
+
+69
+00:02:53,560 --> 00:02:55,520
+So again that's using two 'operators'.
+
+70
+00:02:55,520 --> 00:02:57,370
+It's using equals (=) again, but it's also using
+
+71
+00:02:57,370 --> 00:02:59,330
+the minus sign (-), so it's subtracting.
+
+72
+00:02:59,330 --> 00:03:02,380
+So 'result' = whatever the count value of 'result'
+
+73
+00:03:02,380 --> 00:03:04,900
+which at this point in time in the code would be '3'
+
+74
+00:03:04,900 --> 00:03:06,900
+because that was defined up here
+
+75
+00:03:06,900 --> 00:03:09,430
+taking (minus) 1 from it is '2'. So we're saying 'result'
+
+76
+00:03:09,430 --> 00:03:11,430
+equals (=) '2' effectively.
+
+77
+00:03:11,430 --> 00:03:14,810
+And we can confirm that, we can put,
+
+78
+00:03:14,810 --> 00:03:15,850
+this time we'll put:
+
+79
+00:03:15,850 --> 00:03:20,520
+"result = " + result;'
+
+80
+00:03:20,520 --> 00:03:23,150
+so 'Run'ning that again to confirm.
+
+81
+00:03:23,620 --> 00:03:25,320
+Actually what we'll do just to make it a little bit more
+
+82
+00:03:25,320 --> 00:03:26,840
+clearer, let's put, we'll put:
+
+83
+00:03:26,840 --> 00:03:29,400
+previousResult [and then we're going to put]
+
+84
+00:03:29,400 --> 00:03:38,090
+" - 1 = " + result;
+
+85
+00:03:38,090 --> 00:03:42,900
+So we're just trying to...I need to put a plus (+) there as well.
+
+86
+00:03:42,900 --> 00:03:44,780
+So we're saying now, we're going to print out the
+
+87
+00:03:44,780 --> 00:03:48,400
+previousResult, take 1 = result. So it's just really
+
+88
+00:03:48,400 --> 00:03:52,400
+displaying on screen what we're doing in code.
+
+89
+00:03:52,400 --> 00:03:55,340
+So in our first one, it's 1 + 2 = 3
+
+90
+00:03:55,340 --> 00:03:58,150
+The next line is taking the 'previousResult' which is '3'
+
+91
+00:03:58,150 --> 00:03:59,790
+take 1 = 2
+
+92
+00:03:59,790 --> 00:04:02,520
+So that's another 'operator' the 'minus (-)'.
+
+93
+00:04:02,520 --> 00:04:04,760
+And if we do another one, we'll put
+
+94
+00:04:04,760 --> 00:04:07,390
+Well we'll need to assign 'previousResult' again, so,
+
+95
+00:04:07,390 --> 00:04:10,670
+'previousResult = result'.
+
+96
+00:04:10,670 --> 00:04:12,700
+And another one, let's do :
+
+97
+00:04:12,700 --> 00:04:17,810
+'result = result times [multiply] (*) by 10'
+
+98
+00:04:17,810 --> 00:04:20,230
+That'd be the multiplication sign (*) there,
+
+99
+00:04:20,230 --> 00:04:21,530
+and we can do:
+
+100
+00:04:21,530 --> 00:04:30,980
+'previousResult + " * 10 = " + result;'
+
+101
+00:04:30,980 --> 00:04:33,480
+So we'll 'Run' that.
+
+102
+00:04:33,480 --> 00:04:35,540
+And that's the multiplication. So we've now got
+
+103
+00:04:35,540 --> 00:04:37,360
+2 * 10 = 20
+
+104
+00:04:37,360 --> 00:04:38,880
+So that's multiplication.
+
+105
+00:04:38,880 --> 00:04:42,150
+Well save that value again, 'previousResult = result'.
+
+106
+00:04:42,150 --> 00:04:42,880
+And let's do:
+
+107
+00:04:42,880 --> 00:04:47,660
+'result = result [divided by (/)]  / 5;
+
+108
+00:04:47,660 --> 00:04:49,660
+Forward slash (/) is 'divided by'.
+
+109
+00:04:49,660 --> 00:04:52,530
+And again we can go and just start coping this out
+
+110
+00:04:52,530 --> 00:04:53,660
+here a bit. I think it'll be a bit easier then typing
+
+111
+00:04:53,660 --> 00:04:55,660
+it in each time.
+
+112
+00:04:56,160 --> 00:05:02,380
+And we'll just change this to 'divided by 5 = result'.
+
+113
+00:05:02,380 --> 00:05:05,190
+Let's 'Run' that.
+
+114
+00:05:05,190 --> 00:05:09,650
+So that's now 20 / 5 = 4.
+
+115
+00:05:09,650 --> 00:05:12,320
+So next, let's use another 'operator'.
+
+116
+00:05:12,320 --> 00:05:14,680
+This one's called the 'remainder' (%) operator.
+
+117
+00:05:14,680 --> 00:05:16,840
+So what we want to do with the operation is we want to
+
+118
+00:05:16,840 --> 00:05:20,250
+return what the 'remainder' is using two 'operands'.
+
+119
+00:05:20,250 --> 00:05:21,770
+And then just to be clear, the 'operands'
+
+120
+00:05:21,770 --> 00:05:23,070
+are these things here.
+
+121
+00:05:23,070 --> 00:05:25,030
+Whatever it is to the left or the right,
+
+122
+00:05:25,030 --> 00:05:26,560
+of an operator, that is the operand.
+
+123
+00:05:26,560 --> 00:05:29,050
+So in this particular case up here in the first
+
+124
+00:05:29,050 --> 00:05:31,350
+one we've got two 'operands', number '1'
+
+125
+00:05:31,350 --> 00:05:32,190
+and the number '2'. ...
+
+126
+00:05:32,960 --> 00:05:34,330
+They are the numbers if you like
+
+127
+00:05:34,330 --> 00:05:36,140
+or the parameters we are working on.
+
+128
+00:05:36,140 --> 00:05:37,500
+But, they are called 'operands'.
+
+129
+00:05:37,500 --> 00:05:38,780
+So let's do something like ...
+
+130
+00:05:39,210 --> 00:05:40,780
+we'll save 'previousResult' again.
+
+131
+00:05:42,030 --> 00:05:45,800
+And let's see if we divide the current result by 3
+
+132
+00:05:45,800 --> 00:05:47,410
+what are we going to be left with.
+
+133
+00:05:47,410 --> 00:05:48,470
+So to do that, we put:
+
+134
+00:05:48,470 --> 00:05:55,010
+'result = result [and we use this remainder operator] % 3'.
+
+135
+00:05:55,010 --> 00:05:57,240
+And what that's saying is: 'Return the result of what the
+
+136
+00:05:57,240 --> 00:06:00,680
+remainder is after dividing the result by '3'
+
+137
+00:06:00,680 --> 00:06:06,290
+So we can copy this and we'll have a look.
+
+138
+00:06:06,680 --> 00:06:10,150
+And we should in theory have the number '1' from that.
+
+139
+00:06:10,150 --> 00:06:11,970
+So if the current value is '4',
+
+140
+00:06:11,970 --> 00:06:13,620
+So what we're doing here is saying:
+
+141
+00:06:13,620 --> 00:06:17,580
+'Give me the remainder of 4 effectively less
+
+142
+00:06:17,580 --> 00:06:20,130
+3.' So it's taking those two off, what is the result,
+
+143
+00:06:20,130 --> 00:06:21,820
+what is left over after that operation.
+
+144
+00:06:21,820 --> 00:06:26,480
+So in this case, it should be '1'. So let's 'Run' that.
+
+145
+00:06:26,480 --> 00:06:29,800
+And you can see '4'. Give me the 'remainder' of 4 and 3
+
+146
+00:06:29,800 --> 00:06:30,740
+and the answer is '1'.
+
+147
+00:06:30,740 --> 00:06:32,740
+Now sometimes you might want to add a value.
+
+148
+00:06:32,740 --> 00:06:34,890
+I'll save the previous result again.
+
+149
+00:06:34,890 --> 00:06:36,070
+Something like:
+
+150
+00:06:36,070 --> 00:06:39,390
+'result = result + 1'
+
+151
+00:06:39,390 --> 00:06:45,800
+And we can just do a ... 'result'. So if we 'Run' that.
+
+152
+00:06:45,800 --> 00:06:49,160
+There'll be are no surprises, the 'result' is now '2'.
+
+153
+00:06:49,160 --> 00:06:51,390
+But there is a shortcut for that command
+
+154
+00:06:51,390 --> 00:06:53,310
+if you don't want to type that out, all out.
+
+155
+00:06:53,310 --> 00:06:55,580
+You can type 'result ++'.
+
+156
+00:06:55,580 --> 00:06:59,710
+So the '++' is saying 'increment the count result by one'.
+
+157
+00:06:59,710 --> 00:07:03,860
+And just to confirm that, we can actually print that out.
+
+158
+00:07:05,070 --> 00:07:06,860
+'Result is now 3', so it's adding ...
+
+159
+00:07:07,730 --> 00:07:09,390
+... one to whatever the count result is.
+
+160
+00:07:09,390 --> 00:07:11,450
+You can also use other similar 'operators'
+
+161
+00:07:11,450 --> 00:07:13,900
+which function probably the way you think they should.
+
+162
+00:07:13,900 --> 00:07:19,410
+'result --' which should deduct it.
+
+163
+00:07:19,410 --> 00:07:21,050
+The answer is now '2'.
+
+164
+00:07:21,050 --> 00:07:22,610
+So that's two examples.
+
+165
+00:07:22,610 --> 00:07:24,610
+The other thing we can do, we can also
+
+166
+00:07:24,610 --> 00:07:30,920
+abbreviate it, like so. We can put 'result += 2'.
+
+167
+00:07:30,920 --> 00:07:33,280
+That's saying 'result' is equivalent to putting:
+
+168
+00:07:33,280 --> 00:07:35,400
+'result = result + 2'
+
+169
+00:07:35,400 --> 00:07:39,100
+So we'll print just to confirm that.
+
+170
+00:07:39,100 --> 00:07:41,250
+'Result is now 4' and that's because
+
+171
+00:07:41,250 --> 00:07:43,010
+it was '2' in the previous print,
+
+172
+00:07:43,010 --> 00:07:45,360
+we've added '2' to it so the answer's '4'.
+
+173
+00:07:45,360 --> 00:07:48,620
+We can also do that as you would expect here:
+
+174
+00:07:48,620 --> 00:07:53,990
+'result *= 10'
+
+175
+00:07:53,990 --> 00:07:57,420
+So the count is already '4', multiplying '10' by
+
+176
+00:07:57,420 --> 00:08:00,300
+'4' should give us the answer '40'.
+
+177
+00:08:01,910 --> 00:08:03,850
+The answer is now '40'.
+
+178
+00:08:03,850 --> 00:08:09,060
+We can also use 'result -= 10'
+
+179
+00:08:09,060 --> 00:08:12,400
+Which is the abbreviation 'result = result - 10'.
+
+180
+00:08:12,400 --> 00:08:15,440
+And of course the answer should be '30' for that.
+
+181
+00:08:15,440 --> 00:08:17,870
+So the answer is '30'.
+
+182
+00:08:17,870 --> 00:08:20,070
+And no surprises for guessing, we can also put:
+
+183
+00:08:20,070 --> 00:08:24,380
+'result /= 10'
+
+184
+00:08:24,380 --> 00:08:26,680
+So that will be '30 / 10'.
+
+185
+00:08:26,680 --> 00:08:29,800
+So we should have the answer '3' if we do that.
+
+186
+00:08:29,800 --> 00:08:32,700
+And you can see we got the answer '3'.
+
+187
+00:08:32,700 --> 00:08:34,510
+So that's a lot of the common
+
+188
+00:08:34,510 --> 00:08:36,670
+'operators' you'll be using in your code
+
+189
+00:08:36,670 --> 00:08:40,630
+to perform simple mathematical functions.
+
+190
+00:08:40,630 --> 00:08:43,030
+What we're going to do now is start looking at
+
+191
+00:08:43,030 --> 00:08:45,080
+a way of expanding this and using other
+
+192
+00:08:45,080 --> 00:08:46,540
+types of 'operators'.
+
+193
+00:08:46,540 --> 00:08:50,030
+So to do that, we need to talk firstly about the
+
+194
+00:08:50,030 --> 00:08:51,670
+'if / then' statement.
+
+195
+00:08:51,670 --> 00:08:53,710
+And we'll be going into more detail
+
+196
+00:08:53,710 --> 00:08:56,110
+about the 'if / then' statement in future videos.
+
+197
+00:08:56,110 --> 00:08:58,860
+But this is a way to perform some conditional
+
+198
+00:08:58,860 --> 00:09:02,950
+code, depending on whether a value is 'true' or 'false'.
+
+199
+00:09:02,950 --> 00:09:06,070
+So the way to do that is we could start up by putting
+
+200
+00:09:06,070 --> 00:09:11,880
+'boolean isAlien = false'
+
+201
+00:09:11,880 --> 00:09:14,890
+Could be a boolean variable called 'isAlien',
+
+202
+00:09:14,890 --> 00:09:16,720
+and we're setting that to 'false' initially.
+
+203
+00:09:16,720 --> 00:09:18,630
+And we can use an 'if' statement to put:
+
+204
+00:09:18,630 --> 00:09:30,250
+'if [you need to use a bracket [parentheses] (isAlien == false)
+
+205
+00:09:30,250 --> 00:09:37,210
+then print something out, 'It is not an alien!'.
+
+206
+00:09:37,210 --> 00:09:40,630
+So notice something there, look at those two lines there.
+
+207
+00:09:40,630 --> 00:09:42,450
+Look at the 'operators'.
+
+208
+00:09:42,450 --> 00:09:45,230
+And you can see that one is a single equals (=),
+
+209
+00:09:45,230 --> 00:09:48,270
+and on the second line it's two equals (==) put together.
+
+210
+00:09:48,270 --> 00:09:50,720
+So the first one, the equals (=),
+
+211
+00:09:50,720 --> 00:09:53,720
+that is an 'assignment operator'. So we're actually saying
+
+212
+00:09:53,720 --> 00:09:58,520
+the value of 'false' to the 'isAlien' variable.
+
+213
+00:09:58,520 --> 00:10:01,290
+But the second line that's got two equals (==),
+
+214
+00:10:02,000 --> 00:10:03,740
+it does something completely different.
+
+215
+00:10:03,740 --> 00:10:06,870
+It's testing to see whether the particular value
+
+216
+00:10:06,870 --> 00:10:09,370
+is 'false' So in this line here,
+
+217
+00:10:09,370 --> 00:10:10,690
+what we're saying is:
+
+218
+00:10:10,690 --> 00:10:14,010
+'If the contents of the variable 'isAlien'
+
+219
+00:10:14,010 --> 00:10:17,310
+is false.' The two equals (==) means "it is false".
+
+220
+00:10:17,310 --> 00:10:20,740
+So in other words, that evaluates to 'true'.
+
+221
+00:10:20,740 --> 00:10:23,710
+So that statement within the brackets  [parentheses] is true.
+
+222
+00:10:23,710 --> 00:10:27,070
+So what we're saying is: 'Is the isAlien variable
+
+223
+00:10:27,070 --> 00:10:28,480
+equal to false?'
+
+224
+00:10:28,480 --> 00:10:31,060
+So that will evaluate to 'true' in this case
+
+225
+00:10:31,060 --> 00:10:34,490
+because we've set the 'false' variable to 'false'.
+
+226
+00:10:34,490 --> 00:10:36,780
+If it is, we're going to print out a message saying:
+
+227
+00:10:36,780 --> 00:10:38,080
+"It is not an alien!".
+
+228
+00:10:40,230 --> 00:10:42,280
+So now if we run that, we should see that will
+
+229
+00:10:42,280 --> 00:10:46,350
+come back and say 'It is not an alien!' on the screen.
+
+230
+00:10:46,350 --> 00:10:49,690
+And you can see it's come up and said 'It is not an alien!'.
+
+231
+00:10:49,690 --> 00:10:52,990
+However, if we change our 'if' statement,
+
+232
+00:10:52,990 --> 00:10:55,790
+and we change that to 'true'.
+
+233
+00:10:55,790 --> 00:10:58,000
+So now we're checking to see whether
+
+234
+00:10:58,000 --> 00:11:00,410
+the boolean 'isAlien' is set to 'true'.
+
+235
+00:11:00,410 --> 00:11:05,980
+So let's see what happens when we 'Run' that.
+
+236
+00:11:05,980 --> 00:11:08,400
+And suddenly, we've got no output.
+
+237
+00:11:08,400 --> 00:11:10,280
+So what's happened is the computer has
+
+238
+00:11:10,280 --> 00:11:13,940
+processed this line, and that has been evaluated
+
+239
+00:11:13,940 --> 00:11:15,940
+'isAlien' is not set to 'true'
+
+240
+00:11:15,940 --> 00:11:18,520
+because on the previous line we've set it to 'false'.
+
+241
+00:11:18,520 --> 00:11:22,000
+Because that value in the brackets [parentheses]
+
+242
+00:11:22,000 --> 00:11:25,560
+has evaluated has been returned as 'false',
+
+243
+00:11:25,560 --> 00:11:27,560
+the next line of code isn't executed.
+
+244
+00:11:27,560 --> 00:11:29,560
+That's conditional code. So we're only
+
+245
+00:11:29,560 --> 00:11:31,440
+executing that code on the next line
+
+246
+00:11:31,440 --> 00:11:35,640
+if the previous line was 'true', was evaluated as 'true'.
+
+247
+00:11:35,640 --> 00:11:38,310
+So we're using all sorts of code that sort of code
+
+248
+00:11:38,310 --> 00:11:39,990
+quite a bit in future videos.
+
+249
+00:11:39,990 --> 00:11:41,320
+So that's the effect.
+
+250
+00:11:41,320 --> 00:11:43,690
+And in a future video I'm going to go into more detail
+
+251
+00:11:43,690 --> 00:11:45,670
+and show you how you can do multiple
+
+252
+00:11:45,670 --> 00:11:49,130
+tests using an 'if', and you can put something called
+
+253
+00:11:49,130 --> 00:11:51,490
+'else' statement, so that we can evaluate
+
+254
+00:11:51,490 --> 00:11:53,410
+if that condition failed. So in other words, it
+
+255
+00:11:53,410 --> 00:11:56,080
+returned 'false'. But we won't be doing that right now.
+
+256
+00:11:56,080 --> 00:11:57,820
+What I'm doing now is trying to reinforce
+
+257
+00:11:57,820 --> 00:11:59,970
+the two equals (==) as opposed to the one equal (=).
+
+258
+00:11:59,970 --> 00:12:02,350
+Okay we've got some other operators to check here.
+
+259
+00:12:02,350 --> 00:12:04,290
+So let's create another variable.
+
+260
+00:12:04,290 --> 00:12:06,290
+We're going to call that: 'int topScore'
+
+261
+00:12:06,290 --> 00:12:08,680
+We're going to say equals 100.
+
+262
+00:12:08,680 --> 00:12:10,300
+So we can put a test here and put:
+
+263
+00:12:10,300 --> 00:12:15,110
+'if (topScore == 100);' so the two equals (==).
+
+264
+00:12:15,110 --> 00:12:20,980
+Then we can print out: 'You got the high score!'.
+
+265
+00:12:20,980 --> 00:12:24,060
+So if we 'Run' that, the moment has been evaluated
+
+266
+00:12:24,060 --> 00:12:25,680
+or should be evaluated to 'true'
+
+267
+00:12:25,680 --> 00:12:28,010
+because 'topScore' is equal to 100.
+
+268
+00:12:28,010 --> 00:12:30,490
+So if we 'Run' that we should see the message:
+
+269
+00:12:30,490 --> 00:12:32,120
+'You got the hi score!'.
+
+270
+00:12:32,120 --> 00:12:34,120
+But we can also do something like this, we can use
+
+271
+00:12:34,120 --> 00:12:36,600
+the 'not equal to' operator (!=),
+
+272
+00:12:36,600 --> 00:12:38,870
+that's the exclamation mark and the equal.
+
+273
+00:12:38,870 --> 00:12:41,600
+and that will only be displayed if 'topScore' is
+
+274
+00:12:41,600 --> 00:12:43,170
+'not equal to' 100.
+
+275
+00:12:43,170 --> 00:12:46,480
+So we can 'Run' that.
+
+276
+00:12:46,480 --> 00:12:49,080
+And we haven't got a result there, and the reason is
+
+277
+00:12:49,080 --> 00:12:50,550
+'topScore' = 100.
+
+278
+00:12:50,550 --> 00:12:52,810
+so that particular conditional check
+
+279
+00:12:52,810 --> 00:12:55,060
+there, that boolean expression if you will
+
+280
+00:12:55,060 --> 00:12:58,260
+evaluated to 'false'. So the next line wasn't executed.
+
+281
+00:12:58,260 --> 00:13:03,190
+So we can also use a 'greater than' (>) operator.
+
+282
+00:13:03,190 --> 00:13:06,780
+So we're testing 'is the 'topScore' greater than 100'?
+
+283
+00:13:06,780 --> 00:13:08,690
+So if we 'Run' that, we should finally get
+
+284
+00:13:08,690 --> 00:13:11,620
+no output. And the reason is the 'topScore'
+
+285
+00:13:11,620 --> 00:13:13,990
+is equal to 100. So the expression
+
+286
+00:13:13,990 --> 00:13:16,170
+'is topScore greater than 100; is 'false',
+
+287
+00:13:16,170 --> 00:13:17,440
+because it equals 100.
+
+288
+00:13:17,440 --> 00:13:20,330
+But what we can do is be all inclusive with yet
+
+289
+00:13:20,330 --> 00:13:24,080
+another operator, and put greater than equal (>=) to 100.
+
+290
+00:13:24,080 --> 00:13:25,570
+So what we're saying there is:
+
+291
+00:13:25,570 --> 00:13:27,740
+if the 'topScore' is greater than 100,
+
+292
+00:13:27,740 --> 00:13:30,090
+or it's equal to 100 print out the message.
+
+293
+00:13:30,090 --> 00:13:32,150
+So in that case we should see the message,
+
+294
+00:13:32,150 --> 00:13:35,980
+because of course 'topScore' is 100.
+
+295
+00:13:35,980 --> 00:13:38,350
+And now we've got the message, 'You got the topScore'.
+
+296
+00:13:38,350 --> 00:13:42,650
+And likewise we can put the less than sign (<).
+
+297
+00:13:42,650 --> 00:13:44,790
+That's another 'operator' to check to see whether
+
+298
+00:13:44,790 --> 00:13:47,420
+'topScore' is less than 100.
+
+299
+00:13:47,420 --> 00:13:49,420
+We shouldn't see the message.
+
+300
+00:13:49,420 --> 00:13:54,450
+But we can put less than equal (<=),
+
+301
+00:13:54,450 --> 00:13:56,120
+and we see the message because
+
+302
+00:13:56,120 --> 00:13:58,120
+'topScore' is set to 100.
+
+303
+00:13:58,120 --> 00:14:00,350
+And just to confirm that they both work
+
+304
+00:14:00,350 --> 00:14:01,060
+we can put:
+
+305
+00:14:01,060 --> 00:14:05,940
+'if (topScore < 100), but let's make the 'topScore' 80.
+
+306
+00:14:07,940 --> 00:14:09,410
+So we're doing a test now to see whether
+
+307
+00:14:09,410 --> 00:14:10,840
+topScore is less than 100.
+
+308
+00:14:10,840 --> 00:14:14,250
+So we should see that message now
+
+309
+00:14:14,250 --> 00:14:16,060
+because this will evaluate to 'true'.
+
+310
+00:14:16,060 --> 00:14:19,300
+because of course 'topScore' is less than 100.
+
+311
+00:14:19,300 --> 00:14:23,240
+So we 'Run' that. 'You got the high score!'
+
+312
+00:14:23,240 --> 00:14:24,260
+So moving on.
+
+313
+00:14:24,260 --> 00:14:25,480
+Let's try another one.
+
+314
+00:14:25,480 --> 00:14:31,410
+We'll put 'int secondTopScore = 60'.
+
+315
+00:14:31,410 --> 00:14:33,390
+What we can do we can put something like this.
+
+316
+00:14:33,390 --> 00:14:34,800
+We can put:
+
+317
+00:14:34,800 --> 00:14:45,540
+if (topScore > secondTopScore && topScore < 100),
+
+318
+00:14:48,910 --> 00:14:50,970
+print a message:
+
+319
+00:14:50,970 --> 00:14:59,390
+'Greater than top score and less than 100'.
+
+320
+00:14:59,390 --> 00:15:02,180
+So looking at that code, this is actually performing
+
+321
+00:15:02,180 --> 00:15:04,380
+two tests here. It's saying:
+
+322
+00:15:04,380 --> 00:15:07,250
+'If the topScore is greater than the secondTopScore,
+
+323
+00:15:07,250 --> 00:15:08,960
+[and we're also saying]
+
+324
+00:15:08,960 --> 00:15:11,080
+but also we want to check whether the topScore is
+
+325
+00:15:11,080 --> 00:15:12,290
+less than 100.'
+
+326
+00:15:12,290 --> 00:15:15,000
+So in this case we should find the message will be printed.
+
+327
+00:15:15,260 --> 00:15:18,770
+Because topScore firstly is greater than secondTopScore.
+
+328
+00:15:18,770 --> 00:15:20,880
+'secondTopScore' is 60 but we've assigned
+
+329
+00:15:20,880 --> 00:15:23,200
+80 to topScore, but we're also putting a
+
+330
+00:15:23,200 --> 00:15:26,680
+test 'And' (&&) if the topScore is less than 100.
+
+331
+00:15:26,680 --> 00:15:31,760
+and topScore is set to 80. So if we 'Run' that.
+
+332
+00:15:31,760 --> 00:15:33,540
+We got: ''Greater than topScore
+
+333
+00:15:33,540 --> 00:15:35,540
+and less than 100', We actually should have said,
+
+334
+00:15:35,540 --> 00:15:40,470
+'Greater than second top score', so we'll 'Run' that again.
+
+335
+00:15:40,470 --> 00:15:42,860
+'Greater than second top score and less than 100'
+
+336
+00:15:42,860 --> 00:15:44,840
+So that both of those conditions have
+
+337
+00:15:44,840 --> 00:15:47,610
+to be 'true' for that code to work.
+
+338
+00:15:47,610 --> 00:15:49,530
+And just to confirm that if we made the
+
+339
+00:15:49,530 --> 00:15:51,890
+the [second]TopScore 81.
+
+340
+00:15:51,890 --> 00:15:54,430
+We should find now that this won't show the message,
+
+341
+00:15:54,430 --> 00:15:58,530
+because now the topScore is not greater than
+
+342
+00:15:58,530 --> 00:16:01,970
+the secondTopScore.
+
+343
+00:16:01,970 --> 00:16:04,130
+And you can see that it hasn't been evaluated.
+
+344
+00:16:04,130 --> 00:16:05,980
+So that's using the ampersand (&).
+
+345
+00:16:05,980 --> 00:16:08,240
+So this video is getting a bit long so I'm going to stop
+
+346
+00:16:08,240 --> 00:16:10,100
+the video here but we'll continue on with
+
+347
+00:16:10,100 --> 00:16:12,100
+operators in the next video.
+

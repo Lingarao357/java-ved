@@ -1,0 +1,700 @@
+﻿1
+00:00:04,300 --> 00:00:06,510
+In the previous video, we had our first
+
+2
+00:00:06,510 --> 00:00:09,160
+real experience with 'IntelliJ IDEA'.
+
+3
+00:00:09,160 --> 00:00:11,750
+We managed to create our very first 'Hello
+
+4
+00:00:11,750 --> 00:00:14,070
+World' application, and even modified the
+
+5
+00:00:14,070 --> 00:00:16,070
+program to print our name.
+
+6
+00:00:16,070 --> 00:00:19,700
+It's now time to explore 'IntelliJ IDEA' a little bit more.
+
+7
+00:00:19,700 --> 00:00:22,290
+Just to understand the various windows, and start
+
+8
+00:00:22,290 --> 00:00:24,380
+to understand how things are put together.
+
+9
+00:00:24,380 --> 00:00:26,970
+And just to have a look, and see where 'IntelliJ IDEA'
+
+10
+00:00:26,970 --> 00:00:30,900
+stores our files as we creating our programs.
+
+11
+00:00:30,900 --> 00:00:33,090
+First things first. If you look in the top of the screen
+
+12
+00:00:33,090 --> 00:00:34,750
+you can see the location
+
+13
+00:00:34,750 --> 00:00:36,630
+where 'IntelliJ IDEA' has
+
+14
+00:00:36,630 --> 00:00:38,940
+placed our programs. And if you remember,
+
+15
+00:00:38,940 --> 00:00:41,730
+in the previous video, we defined the location
+
+16
+00:00:41,730 --> 00:00:43,460
+where that was going to be.
+
+17
+00:00:43,460 --> 00:00:45,870
+So I'm going to go into that folder,
+
+18
+00:00:45,870 --> 00:00:48,600
+just have a look, and see what files are in there.
+
+19
+00:00:48,690 --> 00:00:50,770
+So, I'm going to open up my 'Finder'.
+
+20
+00:00:50,770 --> 00:00:52,520
+And you would open up, if you are on a 'Windows'
+
+21
+00:00:52,520 --> 00:00:55,220
+machine, you'd open up 'Windows Explorer'.
+
+22
+00:00:55,220 --> 00:00:57,000
+And you can see I'm in my 'Desktop'.
+
+23
+00:00:57,000 --> 00:01:00,440
+My path is 'Desktop'->'JavaPrograms'
+
+24
+00:01:00,440 --> 00:01:01,550
+you can see at the top there.
+
+25
+00:01:01,550 --> 00:01:02,880
+So I'm in the right folder. I'm going to
+
+26
+00:01:02,880 --> 00:01:04,880
+go into the 'HelloWorld' folder.
+
+27
+00:01:04,880 --> 00:01:07,500
+And you can see that there's a number of files
+
+28
+00:01:07,500 --> 00:01:10,940
+there that have now been added by 'IntelliJ IDEA'.
+
+29
+00:01:10,940 --> 00:01:13,570
+Firstly, there's a 'HelloWorld.iml'.
+
+30
+00:01:13,570 --> 00:01:17,970
+Now that is a file that's created by 'IntelliJ IDEA'
+
+31
+00:01:17,970 --> 00:01:20,710
+And that's used to keep track of the state
+
+32
+00:01:20,710 --> 00:01:22,800
+of this project. So it's not something you would
+
+33
+00:01:22,800 --> 00:01:25,870
+ever need to edit or open, or use in any way.
+
+34
+00:01:25,870 --> 00:01:28,170
+But you certainly wouldn't want to delete it either.
+
+35
+00:01:28,170 --> 00:01:31,940
+But the interesting one is in the 'src' folder.
+
+36
+00:01:31,940 --> 00:01:34,460
+'src' is an abbreviation for 'source'.
+
+37
+00:01:34,460 --> 00:01:38,100
+There's a file, and you can see it's called 'Hello.java'.
+
+38
+00:01:38,100 --> 00:01:41,570
+So, and that equates exactly as you can see,
+
+39
+00:01:41,570 --> 00:01:45,090
+just above the 'Finder' window there, 'Hello.java'.
+
+40
+00:01:45,090 --> 00:01:47,680
+So when you create a new 'class'
+
+41
+00:01:47,680 --> 00:01:52,960
+in 'IntelliJ', it creates a file, and it ends in '.java'.
+
+42
+00:01:52,960 --> 00:01:58,430
+So all java files that you're creating end in '.java'.
+
+43
+00:01:58,430 --> 00:02:00,430
+Now if you have a look in the 'out' folder,
+
+44
+00:02:01,480 --> 00:02:03,400
+expand that
+
+45
+00:02:03,400 --> 00:02:06,630
+you can see there's a 'Hello.class' file.
+
+46
+00:02:06,630 --> 00:02:08,580
+And looking at the sizes, you notice that
+
+47
+00:02:08,580 --> 00:02:11,980
+'Hello.class' is larger than the 'Hello.java'.
+
+48
+00:02:11,980 --> 00:02:15,340
+Now the 'Hello.class' is the compiled version
+
+49
+00:02:15,340 --> 00:02:16,910
+of the 'class'.
+
+50
+00:02:16,910 --> 00:02:20,260
+Whereas the 'Hello.java' contains the code,
+
+51
+00:02:20,260 --> 00:02:22,260
+as you can see on the screen there.
+
+52
+00:02:22,260 --> 00:02:31,720
+The 'Hello.class', if I go to open that, contains what
+
+53
+00:02:31,720 --> 00:02:33,280
+looks a little bit like mumbo-jumbo.
+
+54
+00:02:33,280 --> 00:02:35,840
+It certainly hasn't got the same code, that we
+
+55
+00:02:35,840 --> 00:02:39,620
+typed into the 'IntelliJ IDEA' in previous video.
+
+56
+00:02:39,620 --> 00:02:43,780
+A '.class' file is the compiled version of the
+
+57
+00:02:43,780 --> 00:02:45,060
+program, and that would be the one that
+
+58
+00:02:45,060 --> 00:02:47,370
+you would use to distribute and send your
+
+59
+00:02:47,370 --> 00:02:48,930
+code out to other people.
+
+60
+00:02:48,930 --> 00:02:51,700
+But we'll be talking a lot more about 'class' files
+
+61
+00:02:51,700 --> 00:02:54,420
+in the future videos. For now all you really need
+
+62
+00:02:54,420 --> 00:02:59,860
+to know is that you create programs in 'IntelliJ'
+
+63
+00:02:59,860 --> 00:03:03,890
+that are saved off in a file format that ends in '.java'.
+
+64
+00:03:03,890 --> 00:03:06,880
+And 'IntelliJ' will automatically when you 'run' the
+
+65
+00:03:06,880 --> 00:03:10,030
+program, create these '.class' files.
+
+66
+00:03:10,030 --> 00:03:12,440
+So just keep in mind that you probably don't want
+
+67
+00:03:12,440 --> 00:03:14,340
+to delete anything in these files for now.
+
+68
+00:03:14,340 --> 00:03:17,310
+You do all your changes to your java code
+
+69
+00:03:17,310 --> 00:03:19,800
+normally would be done in the editor itself
+
+70
+00:03:19,800 --> 00:03:23,070
+within in 'IntelliJ IDEA' and not anywhere else.
+
+71
+00:03:23,070 --> 00:03:25,210
+So going back to 'IntelliJ' now.
+
+72
+00:03:25,210 --> 00:03:27,990
+So over here to the left is the 'Project View',
+
+73
+00:03:27,990 --> 00:03:30,110
+the 'Project Window', and you can see that
+
+74
+00:03:30,110 --> 00:03:32,530
+the project is showing on the screen there.
+
+75
+00:03:32,530 --> 00:03:34,800
+If by chance yours isn't showing projects,
+
+76
+00:03:34,800 --> 00:03:36,920
+you can click on this 'dropdown box'
+
+77
+00:03:36,920 --> 00:03:38,680
+and select 'Project' from that.
+
+78
+00:03:38,680 --> 00:03:42,560
+And if you recall, that mirrors pretty well exactly
+
+79
+00:03:42,560 --> 00:03:45,000
+what we saw a minute ago in the 'Finder Window'.
+
+80
+00:03:45,000 --> 00:03:47,700
+So 'IntelliJ' in the  standard 'project
+
+81
+00:03:47,700 --> 00:03:50,530
+view' is really mirroring the contents
+
+82
+00:03:50,530 --> 00:03:55,000
+in the 'IntelliJ IDEA' product with what's on file.
+
+83
+00:03:55,000 --> 00:03:57,000
+And that's all handled for you automatically.
+
+84
+00:03:57,000 --> 00:03:59,180
+The other thing I want to point out, is that
+
+85
+00:03:59,180 --> 00:04:01,810
+you don't need to worry about 'saving' files.
+
+86
+00:04:01,810 --> 00:04:03,350
+In some programming languages,
+
+87
+00:04:03,350 --> 00:04:06,090
+you may need to actually manually save your files.
+
+88
+00:04:06,090 --> 00:04:09,340
+'IntelliJ' product is automatically saving things for you.
+
+89
+00:04:09,340 --> 00:04:10,990
+It's rare that you'll ever need too.
+
+90
+00:04:10,990 --> 00:04:12,690
+If you want to try and do that
+
+91
+00:04:12,690 --> 00:04:14,620
+for some reason, you click up here into 'File'
+
+92
+00:04:14,620 --> 00:04:18,100
+and click on 'Save All', but generally speaking
+
+93
+00:04:18,100 --> 00:04:20,270
+'IntelliJ' is handling the saving of this
+
+94
+00:04:20,270 --> 00:04:23,090
+behind the scenes, and writing those files out
+
+95
+00:04:23,090 --> 00:04:24,810
+and writing any changes you make
+
+96
+00:04:24,810 --> 00:04:27,420
+to those files as I showed you in the 'Finder Window'.
+
+97
+00:04:27,420 --> 00:04:29,690
+Now one of the other things you can do,
+
+98
+00:04:29,690 --> 00:04:32,390
+you can change the location of some of these windows.
+
+99
+00:04:32,390 --> 00:04:34,630
+For example, you might decide that down here, this
+
+100
+00:04:34,630 --> 00:04:36,630
+little 'Run' window, you may want that on
+
+101
+00:04:36,630 --> 00:04:38,860
+the right hand side instead of down at the bottom.
+
+102
+00:04:38,860 --> 00:04:40,740
+So what you could do, you could come over here
+
+103
+00:04:40,740 --> 00:04:43,030
+and click on this little 'cog'.
+
+104
+00:04:43,030 --> 00:04:47,580
+And when you click on 'Move to->'Right'
+
+105
+00:04:47,580 --> 00:04:49,240
+And you can see now, we've now got that
+
+106
+00:04:49,240 --> 00:04:52,180
+file on the right hand side, and of course that frees up
+
+107
+00:04:52,180 --> 00:04:54,570
+more room down here that was being taken up in the
+
+108
+00:04:54,570 --> 00:04:57,210
+past when that 'Run' window was at
+
+109
+00:04:57,210 --> 00:04:58,480
+the bottom of the screen.
+
+110
+00:04:58,480 --> 00:05:00,610
+You can also make windows bigger.
+
+111
+00:05:00,610 --> 00:05:03,320
+or smaller to your taste. Whatever you need.
+
+112
+00:05:03,320 --> 00:05:05,090
+And you can open and close a particular
+
+113
+00:05:05,090 --> 00:05:06,930
+window by clicking the 'View' menu
+
+114
+00:05:06,930 --> 00:05:09,840
+Going to 'Tool Windows'. In this case
+
+115
+00:05:09,840 --> 00:05:11,840
+the 'Project', if I select that again
+
+116
+00:05:11,840 --> 00:05:14,870
+that actually 'removes' the window from the screen.
+
+117
+00:05:14,870 --> 00:05:17,060
+And if I want that window to come back again,
+
+118
+00:05:17,060 --> 00:05:19,810
+click on 'View'->'Tool Windows' and 'Project'.
+
+119
+00:05:19,810 --> 00:05:21,450
+And you can see I've got a shortcut
+
+120
+00:05:21,450 --> 00:05:22,860
+to the right hand side there.
+
+121
+00:05:22,860 --> 00:05:25,340
+On a 'Mac' its 'Cmd+1'.
+
+122
+00:05:25,340 --> 00:05:26,470
+But that will be different,
+
+123
+00:05:26,470 --> 00:05:29,190
+depending if you're running 'Windows' or 'Linux'.
+
+124
+00:05:29,190 --> 00:05:32,520
+Just go to the relevant option, 'View'->'Tool Windows'
+
+125
+00:05:32,520 --> 00:05:33,950
+and you'll see what the shortcut is.
+
+126
+00:05:33,950 --> 00:05:35,260
+You'll end up getting to know these
+
+127
+00:05:35,260 --> 00:05:37,360
+quite well as you use 'IntelliJ',
+
+128
+00:05:37,360 --> 00:05:39,820
+and start expanding your knowledge of Java.
+
+129
+00:05:39,820 --> 00:05:41,940
+I'll now open up the 'Project' window again.
+
+130
+00:05:41,940 --> 00:05:43,290
+And you'll see that's now open.
+
+131
+00:05:43,290 --> 00:05:45,400
+Another thing you can do is you can set
+
+132
+00:05:45,400 --> 00:05:47,400
+the windows to 'floating' mode.
+
+133
+00:05:47,400 --> 00:05:50,410
+And to do that, click on the 'cog' for the relevant window
+
+134
+00:05:50,410 --> 00:05:52,410
+go down and click 'Floating Mode'.
+
+135
+00:05:52,410 --> 00:05:55,220
+Once you do that, you've got a free-standing window,
+
+136
+00:05:55,220 --> 00:05:57,220
+that you can move anywhere on the screen.
+
+137
+00:05:57,220 --> 00:05:59,350
+And it's not actually fixed or docked
+
+138
+00:05:59,350 --> 00:06:01,300
+in with the rest of the windows that are
+
+139
+00:06:01,300 --> 00:06:02,850
+part of 'IntelliJ IDEA'.
+
+140
+00:06:02,850 --> 00:06:04,460
+That could be good for example, if you
+
+141
+00:06:04,460 --> 00:06:06,460
+had multiple monitors and you might want to put
+
+142
+00:06:06,460 --> 00:06:08,420
+part of your, some of your windows
+
+143
+00:06:08,420 --> 00:06:10,420
+on the one monitor, and the rest on another.
+
+144
+00:06:10,420 --> 00:06:13,650
+And to go back, click back and again just click on
+
+145
+00:06:13,650 --> 00:06:15,830
+'Floating Mode' again, and that will actually
+
+146
+00:06:15,830 --> 00:06:16,970
+put it back where it was.
+
+147
+00:06:16,970 --> 00:06:18,300
+And if you want to, you can come over
+
+148
+00:06:18,300 --> 00:06:20,720
+here to 'Window' menu, and you could
+
+149
+00:06:20,720 --> 00:06:22,430
+save the current layout, if you had
+
+150
+00:06:22,430 --> 00:06:24,980
+a particular way you wanted to save the
+
+151
+00:06:24,980 --> 00:06:27,460
+windows to always go back to that particular state.
+
+152
+00:06:27,460 --> 00:06:30,770
+You can click on 'Store Current Layout as Default',
+
+153
+00:06:30,770 --> 00:06:32,830
+and then, if I go ahead and make some changes,
+
+154
+00:06:32,830 --> 00:06:36,350
+for example, if I move that back to the bottom again
+
+155
+00:06:36,350 --> 00:06:41,360
+and let's say I closed the 'Project' window,
+
+156
+00:06:41,360 --> 00:06:44,020
+I can come back here to 'Window'->
+
+157
+00:06:44,020 --> 00:06:46,020
+'Restore Default Layout',
+
+158
+00:06:46,020 --> 00:06:48,040
+and it actually goes back to whatever the
+
+159
+00:06:48,040 --> 00:06:49,920
+state was when you actually saved it.
+
+160
+00:06:49,920 --> 00:06:51,340
+So that can be quite handy just
+
+161
+00:06:51,340 --> 00:06:52,940
+to size up the windows
+
+162
+00:06:52,940 --> 00:06:54,570
+and to choose a format
+
+163
+00:06:54,570 --> 00:06:56,460
+that makes sense for you and works
+
+164
+00:06:56,460 --> 00:06:57,970
+with your particular setup.
+
+165
+00:06:57,970 --> 00:07:00,430
+So you now know the basics of how to
+
+166
+00:07:00,430 --> 00:07:03,500
+manipulate 'IntelliJ IDEA' and to create a
+
+167
+00:07:03,500 --> 00:07:06,890
+custom layout that suits your machine.
+
+168
+00:07:06,890 --> 00:07:08,500
+In the next Section, I'm going to start
+
+169
+00:07:08,500 --> 00:07:10,220
+talking more about Java,
+
+170
+00:07:10,220 --> 00:07:12,250
+and we're going to start learning the actual
+
+171
+00:07:12,250 --> 00:07:13,950
+commands and what they mean.
+
+172
+00:07:13,950 --> 00:07:15,920
+And specifically, we're going to start on
+
+173
+00:07:15,920 --> 00:07:18,100
+data types and variables,
+
+174
+00:07:18,100 --> 00:07:20,100
+and build our understanding from there.
+
+175
+00:07:20,100 --> 00:07:26,330
+So I'll see you in that next Section.
+

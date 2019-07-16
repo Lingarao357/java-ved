@@ -1,0 +1,32 @@
+﻿1
+00:00:06,810 --> 00:00:10,090
+Welcome to Section 4. Tim Buchalka here again.
+
+2
+00:00:10,090 --> 00:00:12,010
+And in this section, we're going to further the
+
+3
+00:00:12,010 --> 00:00:14,010
+concepts we learnt in the previous section,
+
+4
+00:00:14,110 --> 00:00:16,510
+and we're going to start talking about variables,
+
+5
+00:00:16,510 --> 00:00:18,510
+data types, and operators.
+
+6
+00:00:18,510 --> 00:00:20,660
+Three very important features that you'll need
+
+7
+00:00:20,660 --> 00:00:24,140
+to understand in order to create Java applications.
+
+8
+00:00:24,140 --> 00:00:26,620
+So, let's make a start on that right now.
+

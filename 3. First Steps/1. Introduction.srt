@@ -1,0 +1,72 @@
+﻿1
+00:00:06,160 --> 00:00:08,290
+Welcome to Section 3.
+
+2
+00:00:08,290 --> 00:00:09,630
+Tim Buchalka here again,
+
+3
+00:00:09,630 --> 00:00:11,020
+and in this section were going to go
+
+4
+00:00:11,020 --> 00:00:13,540
+ahead and create our very first program.
+
+5
+00:00:13,590 --> 00:00:15,850
+That's right our very first Java program
+
+6
+00:00:15,850 --> 00:00:16,870
+'Hello World' program.
+
+7
+00:00:16,870 --> 00:00:18,120
+So you're going to get an overview
+
+8
+00:00:18,120 --> 00:00:19,560
+and an understanding of
+
+9
+00:00:19,560 --> 00:00:21,220
+about what it takes to create
+
+10
+00:00:21,220 --> 00:00:22,310
+a Java program.
+
+11
+00:00:22,310 --> 00:00:23,200
+And then we're going to go
+
+12
+00:00:23,200 --> 00:00:24,820
+through there and take a look at 'IntelliJ',
+
+13
+00:00:24,820 --> 00:00:27,200
+give it a... Go thorough an overview of it if you will
+
+14
+00:00:27,200 --> 00:00:29,210
+just to make sure that you understand
+
+15
+00:00:29,220 --> 00:00:30,650
+some of the basics about it.
+
+16
+00:00:30,650 --> 00:00:32,100
+Which will equip you very well
+
+17
+00:00:32,100 --> 00:00:33,970
+for the section after that. But, for now
+
+18
+00:00:33,970 --> 00:00:36,300
+let's make a start on our 'Hello World' program.
+
